@@ -52,7 +52,29 @@ python scripts/review_journal.py \
   --journal templates/journal_template.csv \
   --data-dir data/2026-08 \
   --output review_result.json
+
+# 每晚券商分點籌碼功課（優先 tw-broker-chip-data，否則 FinMind）
+python scripts/fetch_broker_chips.py \
+  --date 2026-09-04 \
+  --stocks 2324,3231,7828,3441,4979
+
+python scripts/review_broker_chips.py --date 2026-09-04
+# 輸出：data/YYYY-MM-DD/broker_chips_homework.md|.json
 ```
+
+## 券商分點功課（22:00）
+
+目標資料源：[cequ3108/tw-broker-chip-data](https://github.com/cequ3108/tw-broker-chip-data)  
+（若 Cloud Agent 尚無權限，會自動改用 FinMind `TaiwanStockTradingDailyReport`。）
+
+每檔會整理：
+
+1. **淨買／淨賣主力分點**
+2. **估計當日賺最多／賠最多**（賣出收入 − 買進成本 + 淨庫存 × 收盤）
+3. **操作邏輯標籤**（純鎖碼、純出貨、當沖對敲、追高／壓低等）
+4. **跨標的券商損益榜**
+
+Cloud Agent 已訂閱台北時間平日 **22:00** 自動跑上述流程。
 
 ## 檢討維度（你上傳資料後我會做）
 
