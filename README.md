@@ -65,7 +65,22 @@ python scripts/review_broker_chips.py --date 2026-09-04
 ## 券商分點功課（22:00）
 
 目標資料源：[cequ3108/tw-broker-chip-data](https://github.com/cequ3108/tw-broker-chip-data)  
-（若 Cloud Agent 尚無權限，會自動改用 FinMind `TaiwanStockTradingDailyReport`。）
+
+- **分支**：`cursor/broker-chip-fetch-pipeline-e43b`（資料還在 PR 分支，尚未全合 `main`）
+- **路徑**：`data/daily/YYYY-MM-DD.parquet`（Git LFS）
+- **欄位**：`date, stock_id, securities_trader_id, securities_trader, buy, sell, buy_amt, sell_amt`
+- 同步：`git lfs install && git lfs pull`（`fetch_broker_chips.py` 會自動做）
+- 有完整日檔時**不必再跟 FinMind 重抓分點**；FinMind 僅作後備／補收盤價
+
+```bash
+# 指定持股功課
+python scripts/fetch_broker_chips.py --date 2026-09-04 --stocks 2324,3231,7828
+python scripts/review_broker_chips.py --date 2026-09-04
+
+# 全市場高周轉極端損益掃描（直接讀 parquet）
+python scripts/fetch_broker_chips.py --date 2026-09-04
+python scripts/review_broker_chips.py --date 2026-09-04 --market-scan --min-turnover-lots 50
+```
 
 每檔會整理：
 
@@ -74,7 +89,8 @@ python scripts/review_broker_chips.py --date 2026-09-04
 3. **操作邏輯標籤**（純鎖碼、純出貨、當沖對敲、追高／壓低等）
 4. **跨標的券商損益榜**
 
-Cloud Agent 已訂閱台北時間平日 **22:00** 自動跑上述流程。
+Cloud Agent 已訂閱台北時間平日 **22:00** 自動跑上述流程。  
+目前日檔回補 newest-first；**最新完整日以 repo `state/latest.json` 為準**（撰寫時約到 `2026-09-04`，`2026-09-08/09` 尚無）。
 
 ## 檢討維度（你上傳資料後我會做）
 

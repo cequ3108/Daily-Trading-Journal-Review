@@ -12,8 +12,13 @@ import pandas as pd
 
 def _broker_stats(df: pd.DataFrame, close: float | None) -> pd.DataFrame:
     tmp = df.copy()
-    tmp["buy_amt"] = tmp["price"] * tmp["buy"]
-    tmp["sell_amt"] = tmp["price"] * tmp["sell"]
+    # tw-broker-chip-data 已有 buy_amt/sell_amt；FinMind 則用 price×股數
+    if "buy_amt" not in tmp.columns:
+        tmp["buy_amt"] = tmp["price"] * tmp["buy"]
+    if "sell_amt" not in tmp.columns:
+        tmp["sell_amt"] = tmp["price"] * tmp["sell"]
+    tmp["buy_amt"] = pd.to_numeric(tmp["buy_amt"], errors="coerce").fillna(0)
+    tmp["sell_amt"] = pd.to_numeric(tmp["sell_amt"], errors="coerce").fillna(0)
     g = tmp.groupby(["securities_trader_id", "securities_trader"], as_index=False).agg(
         buy_shares=("buy", "sum"),
         sell_shares=("sell", "sum"),
@@ -196,9 +201,115 @@ def build_homework(meta: dict, df: pd.DataFrame, top_n: int = 8) -> dict:
         "notes": [
             "est_pnl 為「賣出收入−買進成本+淨庫存×收盤」之當日估計，非真實帳戶損益。",
             "同公司多分點（如元大各分公司）未合併；解讀時可再按券商品牌加總。",
-            "優先資料源：tw-broker-chip-data；失敗時改用 FinMind 分點。",
+            "優先資料源：tw-broker-chip-data（分支 cursor/broker-chip-fetch-pipeline-e43b，路徑 data/daily/*.parquet + Git LFS）；失敗時改用 FinMind 分點。",
         ],
     }
+
+
+def market_extreme_scan(
+    df: pd.DataFrame,
+    *,
+    min_turnover_lots: float = 50.0,
+    top_n: int = 30,
+) -> dict:
+    """全市場：高周轉分點 × 極端估計損益（不必指定持股）。"""
+    tmp = df.copy()
+    if "buy_amt" not in tmp.columns:
+        tmp["buy_amt"] = tmp["price"] * tmp["buy"]
+    if "sell_amt" not in tmp.columns:
+        tmp["sell_amt"] = tmp["price"] * tmp["sell"]
+    tmp["buy_amt"] = pd.to_numeric(tmp["buy_amt"], errors="coerce").fillna(0)
+    tmp["sell_amt"] = pd.to_numeric(tmp["sell_amt"], errors="coerce").fillna(0)
+    tmp["buy"] = pd.to_numeric(tmp["buy"], errors="coerce").fillna(0)
+    tmp["sell"] = pd.to_numeric(tmp["sell"], errors="coerce").fillna(0)
+
+    # 用當日全市場 VWAP 近似收盤，補庫存評價（避免純賣超現金 PnL 虛胖）
+    by_stock = tmp.groupby("stock_id", as_index=False).agg(
+        tot_shares=("buy", "sum"),
+        tot_sell=("sell", "sum"),
+        tot_buy_amt=("buy_amt", "sum"),
+        tot_sell_amt=("sell_amt", "sum"),
+    )
+    by_stock["vol"] = by_stock["tot_shares"] + by_stock["tot_sell"]
+    by_stock["vwap"] = (by_stock["tot_buy_amt"] + by_stock["tot_sell_amt"]) / by_stock[
+        "vol"
+    ].replace(0, pd.NA)
+    vwap_map = by_stock.set_index("stock_id")["vwap"].to_dict()
+
+    g = tmp.groupby(
+        ["stock_id", "securities_trader_id", "securities_trader"], as_index=False
+    ).agg(
+        buy_shares=("buy", "sum"),
+        sell_shares=("sell", "sum"),
+        buy_notional=("buy_amt", "sum"),
+        sell_notional=("sell_amt", "sum"),
+    )
+    g["net_shares"] = g["buy_shares"] - g["sell_shares"]
+    g["turnover_lots"] = (g["buy_shares"] + g["sell_shares"]) / 1000.0
+    g["vwap"] = g["stock_id"].map(vwap_map)
+    g["est_pnl"] = g["sell_notional"] - g["buy_notional"] + g["net_shares"] * g["vwap"].fillna(0)
+    g["est_pnl_cash"] = g["sell_notional"] - g["buy_notional"]
+    g["avg_buy"] = g.apply(
+        lambda r: (r["buy_notional"] / r["buy_shares"]) if r["buy_shares"] else None, axis=1
+    )
+    g["avg_sell"] = g.apply(
+        lambda r: (r["sell_notional"] / r["sell_shares"]) if r["sell_shares"] else None, axis=1
+    )
+    active = g[g["turnover_lots"] >= min_turnover_lots].copy()
+    winners = active.nlargest(top_n, "est_pnl")
+    losers = active.nsmallest(top_n, "est_pnl")
+
+    def pack(frame: pd.DataFrame) -> list[dict]:
+        rows = []
+        for _, r in frame.iterrows():
+            rows.append(
+                {
+                    "stock_id": str(r["stock_id"]),
+                    "broker": r["securities_trader"],
+                    "broker_id": r["securities_trader_id"],
+                    "buy_lots": round(float(r["buy_shares"]) / 1000, 1),
+                    "sell_lots": round(float(r["sell_shares"]) / 1000, 1),
+                    "net_lots": round(float(r["net_shares"]) / 1000, 1),
+                    "turnover_lots": round(float(r["turnover_lots"]), 1),
+                    "avg_buy": None if pd.isna(r["avg_buy"]) else round(float(r["avg_buy"]), 2),
+                    "avg_sell": None if pd.isna(r["avg_sell"]) else round(float(r["avg_sell"]), 2),
+                    "vwap": None if pd.isna(r["vwap"]) else round(float(r["vwap"]), 2),
+                    "est_pnl": round(float(r["est_pnl"]), 0),
+                    "est_pnl_cash": round(float(r["est_pnl_cash"]), 0),
+                }
+            )
+        return rows
+
+    return {
+        "min_turnover_lots": min_turnover_lots,
+        "pairs": int(len(active)),
+        "top_winners": pack(winners),
+        "top_losers": pack(losers),
+        "note": "est_pnl = 賣出−買進+淨庫存×當日VWAP（近似收盤）；est_pnl_cash 為純現金腿。",
+    }
+
+
+def render_market_scan_md(date: str, scan: dict) -> str:
+    lines = [
+        f"# 全市場分點極端損益掃描 {date}",
+        "",
+        f"門檻：周轉 ≥ {scan['min_turnover_lots']} 張；有效分點對 {scan['pairs']}",
+        "",
+        "## 估計損益前賺（含 VWAP 庫存評價）",
+    ]
+    for r in scan.get("top_winners") or []:
+        lines.append(
+            f"- {r['stock_id']}｜{r['broker']} 估PnL {r['est_pnl']:,.0f}｜"
+            f"周轉 {r['turnover_lots']}張｜淨 {r['net_lots']}｜買均 {r['avg_buy']} 賣均 {r['avg_sell']}｜VWAP {r['vwap']}"
+        )
+    lines.extend(["", "## 估計損益前賠（含 VWAP 庫存評價）"])
+    for r in scan.get("top_losers") or []:
+        lines.append(
+            f"- {r['stock_id']}｜{r['broker']} 估PnL {r['est_pnl']:,.0f}｜"
+            f"周轉 {r['turnover_lots']}張｜淨 {r['net_lots']}｜買均 {r['avg_buy']} 賣均 {r['avg_sell']}｜VWAP {r['vwap']}"
+        )
+    lines.extend(["", "## 備註", f"- {scan.get('note')}"])
+    return "\n".join(lines) + "\n"
 
 
 def render_markdown(hw: dict) -> str:
@@ -266,12 +377,35 @@ def main() -> None:
     parser.add_argument("--top", type=int, default=8)
     parser.add_argument("--output", help="JSON 輸出路徑")
     parser.add_argument("--markdown", help="Markdown 輸出路徑")
+    parser.add_argument(
+        "--market-scan",
+        action="store_true",
+        help="全市場高周轉極端現金損益掃描（不限持股）",
+    )
+    parser.add_argument("--min-turnover-lots", type=float, default=50.0)
     args = parser.parse_args()
 
     day_dir = Path(args.data_dir) / args.date
     meta = json.loads((day_dir / "broker_chips_meta.json").read_text(encoding="utf-8"))
-    df = pd.read_csv(day_dir / "broker_chips_raw.csv")
+    raw_csv = day_dir / "broker_chips_raw.csv"
+    daily_pq = Path(meta.get("daily_parquet") or "")
+    if args.market_scan and daily_pq.is_file():
+        df = pd.read_parquet(daily_pq)
+    else:
+        df = pd.read_csv(raw_csv)
     df["stock_id"] = df["stock_id"].astype(str)
+
+    if args.market_scan:
+        scan = market_extreme_scan(
+            df, min_turnover_lots=args.min_turnover_lots, top_n=max(args.top, 20)
+        )
+        out_json = Path(args.output) if args.output else day_dir / "broker_market_extremes.json"
+        out_md = Path(args.markdown) if args.markdown else day_dir / "broker_market_extremes.md"
+        out_json.write_text(json.dumps(scan, ensure_ascii=False, indent=2), encoding="utf-8")
+        out_md.write_text(render_market_scan_md(args.date, scan), encoding="utf-8")
+        print(f"wrote {out_json}")
+        print(f"wrote {out_md}")
+        return
 
     hw = build_homework(meta, df, top_n=args.top)
     out_json = Path(args.output) if args.output else day_dir / "broker_chips_homework.json"

@@ -1,0 +1,12 @@
+{
+  "date": "2025-09-09",
+  "source": "tw-broker-chip-data",
+  "repo_dir": "vendor/tw-broker-chip-data",
+  "branch": "cursor/broker-chip-fetch-pipeline-e43b",
+  "daily_parquet": "vendor/tw-broker-chip-data/data/daily/2025-09-09.parquet",
+  "stock_ids": [],
+  "stock_count": 1951,
+  "rows": 477160,
+  "closes": {},
+  "raw_csv": null
+}

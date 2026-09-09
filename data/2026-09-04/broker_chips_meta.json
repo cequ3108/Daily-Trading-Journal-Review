@@ -1,33 +1,21 @@
 {
   "date": "2026-09-04",
-  "source": "finmind",
+  "source": "tw-broker-chip-data",
   "repo_dir": "vendor/tw-broker-chip-data",
+  "branch": "cursor/broker-chip-fetch-pipeline-e43b",
+  "daily_parquet": "vendor/tw-broker-chip-data/data/daily/2026-09-04.parquet",
   "stock_ids": [
-    "1303",
-    "1519",
-    "1815",
-    "2303",
-    "2408",
-    "2409",
+    "2324",
+    "3231",
+    "7828",
     "3441",
     "4979",
-    "6770",
-    "7828",
-    "8358"
+    "2303",
+    "2409",
+    "6770"
   ],
-  "rows": 109316,
-  "closes": {
-    "1303": 225.5,
-    "1519": 746.0,
-    "1815": 118.5,
-    "2303": 130.0,
-    "2408": 496.0,
-    "2409": 26.8,
-    "3441": 143.0,
-    "4979": 629.0,
-    "6770": 68.5,
-    "7828": 1930.0,
-    "8358": 500.0
-  },
+  "stock_count": 8,
+  "rows": 6210,
+  "closes": {},
   "raw_csv": "data/2026-09-04/broker_chips_raw.csv"
 }
