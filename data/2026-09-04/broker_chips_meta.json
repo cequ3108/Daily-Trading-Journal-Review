@@ -4,9 +4,27 @@
   "repo_dir": "vendor/tw-broker-chip-data",
   "branch": "main",
   "daily_parquet": "vendor/tw-broker-chip-data/data/daily/2026-09-04.parquet",
-  "stock_ids": [],
-  "stock_count": 1962,
-  "rows": 430849,
-  "closes": {},
-  "raw_csv": null
+  "stock_ids": [
+    "2324",
+    "3231",
+    "7828",
+    "3441",
+    "4979",
+    "2303",
+    "2409",
+    "6770"
+  ],
+  "stock_count": 8,
+  "rows": 6210,
+  "closes": {
+    "2324": 41.6,
+    "3231": 198.0,
+    "7828": 1930.0,
+    "3441": 143.0,
+    "4979": 629.0,
+    "2303": 130.0,
+    "2409": 26.8,
+    "6770": 68.5
+  },
+  "raw_csv": "data/2026-09-04/broker_chips_raw.csv"
 }
