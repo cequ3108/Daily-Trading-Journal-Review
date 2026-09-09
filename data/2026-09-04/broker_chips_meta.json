@@ -2,20 +2,11 @@
   "date": "2026-09-04",
   "source": "tw-broker-chip-data",
   "repo_dir": "vendor/tw-broker-chip-data",
-  "branch": "cursor/broker-chip-fetch-pipeline-e43b",
+  "branch": "main",
   "daily_parquet": "vendor/tw-broker-chip-data/data/daily/2026-09-04.parquet",
-  "stock_ids": [
-    "2324",
-    "3231",
-    "7828",
-    "3441",
-    "4979",
-    "2303",
-    "2409",
-    "6770"
-  ],
-  "stock_count": 8,
-  "rows": 6210,
+  "stock_ids": [],
+  "stock_count": 1962,
+  "rows": 430849,
   "closes": {},
-  "raw_csv": "data/2026-09-04/broker_chips_raw.csv"
+  "raw_csv": null
 }

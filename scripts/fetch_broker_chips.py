@@ -3,9 +3,9 @@
 
 優先順序：
 1. 本機／clone 的 tw-broker-chip-data（BROKER_CHIP_REPO 或 --repo-dir）
-   - 預設分支：cursor/broker-chip-fetch-pipeline-e43b（資料尚未全合進 main）
-   - 路徑：data/daily/YYYY-MM-DD.parquet（Git LFS）
-2. FinMind TaiwanStockTradingDailyReport（需 FINMIND_TOKEN；僅指定股票）
+   - 預設分支：main（已合併；勿再用舊 feature branch）
+   - 路徑：data/daily/YYYY-MM-DD.parquet（Git LFS，需 git lfs pull）
+2. FinMind TaiwanStockTradingDailyReport（需 FINMIND_TOKEN；僅指定股票／後備）
 """
 
 from __future__ import annotations
@@ -31,7 +31,7 @@ REQUIRED_COLS = {
 }
 
 DEFAULT_REPO = "https://github.com/cequ3108/tw-broker-chip-data.git"
-DEFAULT_BRANCH = "cursor/broker-chip-fetch-pipeline-e43b"
+DEFAULT_BRANCH = "main"
 
 
 def _run(cmd: list[str], cwd: Path | None = None) -> subprocess.CompletedProcess[str]:
@@ -113,6 +113,10 @@ def try_sync_repo(repo_url: str, dest: Path, branch: str) -> Path | None:
             _run(["git", "remote", "set-url", "origin", repo_url], cwd=dest)
             _run(["git", "fetch", "origin", branch], cwd=dest)
             _run(["git", "checkout", "-B", branch, f"origin/{branch}"], cwd=dest)
+            try:
+                _run(["git", "pull", "origin", branch], cwd=dest)
+            except subprocess.CalledProcessError as e:
+                print(f"[warn] git pull origin {branch}: {(e.stderr or e.stdout or '').strip()}")
             _ensure_lfs(dest)
             return dest
 
@@ -252,7 +256,7 @@ def main() -> None:
     parser.add_argument(
         "--branch",
         default=os.environ.get("BROKER_CHIP_BRANCH", DEFAULT_BRANCH),
-        help="籌碼資料所在分支（目前資料在 PR 分支，尚未全合 main）",
+        help="籌碼資料所在分支（預設 main）",
     )
     parser.add_argument("--skip-clone", action="store_true", help="不要嘗試 git sync/LFS")
     parser.add_argument("--output-dir", default="data", help="輸出根目錄")

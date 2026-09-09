@@ -201,7 +201,7 @@ def build_homework(meta: dict, df: pd.DataFrame, top_n: int = 8) -> dict:
         "notes": [
             "est_pnl 為「賣出收入−買進成本+淨庫存×收盤」之當日估計，非真實帳戶損益。",
             "同公司多分點（如元大各分公司）未合併；解讀時可再按券商品牌加總。",
-            "優先資料源：tw-broker-chip-data（分支 cursor/broker-chip-fetch-pipeline-e43b，路徑 data/daily/*.parquet + Git LFS）；失敗時改用 FinMind 分點。",
+            "優先資料源：tw-broker-chip-data（main／data/daily/*.parquet + Git LFS）；失敗時改用 FinMind 分點。",
         ],
     }
 
