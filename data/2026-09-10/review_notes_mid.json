@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-10",
+  "asof": "~13:30 snapshot",
+  "realized_pnl": -4229,
+  "open_mtm_est": [
+    {
+      "stock_id": "2409",
+      "lots": 20,
+      "avg": 31.2929,
+      "close": 31.2,
+      "mtm": -1858,
+      "chg_pct": -0.3
+    },
+    {
+      "stock_id": "6770",
+      "lots": 16,
+      "avg": 73.3462,
+      "close": 73.5,
+      "mtm": 2461,
+      "chg_pct": 0.21
+    },
+    {
+      "stock_id": "1303",
+      "lots": 2,
+      "avg": 242.25,
+      "close": 244.0,
+      "mtm": 3500,
+      "chg_pct": 0.72
+    },
+    {
+      "stock_id": "3006",
+      "lots": 1,
+      "avg": 313.0,
+      "close": 312.0,
+      "mtm": -1000,
+      "chg_pct": -0.32
+    },
+    {
+      "stock_id": "3026",
+      "lots": 1,
+      "avg": 800.0,
+      "close": 803.0,
+      "mtm": 3000,
+      "chg_pct": 0.37
+    },
+    {
+      "stock_id": "2303",
+      "lots": 3,
+      "avg": 144.0,
+      "close": 142.5,
+      "mtm": -4500,
+      "chg_pct": -1.04
+    },
+    {
+      "stock_id": "3711",
+      "lots": 1,
+      "avg": 644.0,
+      "close": 650.0,
+      "mtm": 6000,
+      "chg_pct": 0.93
+    }
+  ],
+  "open_mtm_sum": 7603,
+  "pending": [
+    {
+      "6173": "2@292"
+    },
+    {
+      "6770": "1@73.6"
+    }
+  ]
+}
