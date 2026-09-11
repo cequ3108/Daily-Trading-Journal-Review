@@ -1,0 +1,1068 @@
+{
+  "date": "2026-09-09",
+  "min_turnover_lots": 100,
+  "own_excluded": [
+    "1303",
+    "2303",
+    "2382",
+    "3081",
+    "3374",
+    "3711",
+    "7828"
+  ],
+  "top_winners_other": [
+    {
+      "stock_id": "6515",
+      "broker": "凱基台北",
+      "turn_lots": 247.2,
+      "net_lots": -85.0,
+      "avg_buy": 7608.49,
+      "avg_sell": 7822.46,
+      "vwap": 7749.68,
+      "est_pnl": 23539940.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2344",
+      "broker": "元大",
+      "turn_lots": 29580.5,
+      "net_lots": -8131.2,
+      "avg_buy": 183.31,
+      "avg_sell": 184.36,
+      "vwap": 184.13,
+      "est_pnl": 13050393.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6223",
+      "broker": "摩根大通",
+      "turn_lots": 351.3,
+      "net_lots": 57.6,
+      "avg_buy": 5774.64,
+      "avg_sell": 5835.59,
+      "vwap": 5823.46,
+      "est_pnl": 11764534.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "元大",
+      "turn_lots": 747.9,
+      "net_lots": 193.6,
+      "avg_buy": 2369.3,
+      "avg_sell": 2397.87,
+      "vwap": 2388.93,
+      "est_pnl": 11720267.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6515",
+      "broker": "台灣摩根",
+      "turn_lots": 185.5,
+      "net_lots": -94.5,
+      "avg_buy": 7765.37,
+      "avg_sell": 7827.39,
+      "vwap": 7749.68,
+      "est_pnl": 10165537.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6223",
+      "broker": "美商高盛亞",
+      "turn_lots": 213.6,
+      "net_lots": -80.4,
+      "avg_buy": 5845.5,
+      "avg_sell": 5896.73,
+      "vwap": 5823.46,
+      "est_pnl": 9303832.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "7769",
+      "broker": "瑞銀",
+      "turn_lots": 149.2,
+      "net_lots": -60.8,
+      "avg_buy": 6883.31,
+      "avg_sell": 6985.71,
+      "vwap": 6910.33,
+      "est_pnl": 9110905.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2383",
+      "broker": "大和國泰",
+      "turn_lots": 100.0,
+      "net_lots": 100.0,
+      "avg_buy": 5400.0,
+      "avg_sell": null,
+      "vwap": 5486.6,
+      "est_pnl": 8659936.0,
+      "tactics": "偏低價鎖碼"
+    },
+    {
+      "stock_id": "8064",
+      "broker": "凱基城中",
+      "turn_lots": 1736.4,
+      "net_lots": -1570.6,
+      "avg_buy": 138.75,
+      "avg_sell": 137.75,
+      "vwap": 132.6,
+      "est_pnl": 7991889.0,
+      "tactics": "假對敲偏單邊"
+    },
+    {
+      "stock_id": "4979",
+      "broker": "兆豐大同",
+      "turn_lots": 403.1,
+      "net_lots": 316.9,
+      "avg_buy": 606.48,
+      "avg_sell": 640.35,
+      "vwap": 625.5,
+      "est_pnl": 7487331.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "8046",
+      "broker": "台灣摩根",
+      "turn_lots": 1999.0,
+      "net_lots": 41.0,
+      "avg_buy": 1099.67,
+      "avg_sell": 1106.72,
+      "vwap": 1101.41,
+      "est_pnl": 6977685.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "3167",
+      "broker": "凱基台北",
+      "turn_lots": 1153.5,
+      "net_lots": 83.4,
+      "avg_buy": 911.46,
+      "avg_sell": 923.05,
+      "vwap": 915.52,
+      "est_pnl": 6544304.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2454",
+      "broker": "摩根大通",
+      "turn_lots": 537.3,
+      "net_lots": 19.0,
+      "avg_buy": 4679.2,
+      "avg_sell": 4704.18,
+      "vwap": 4677.18,
+      "est_pnl": 6434587.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6669",
+      "broker": "台灣摩根",
+      "turn_lots": 409.4,
+      "net_lots": 151.4,
+      "avg_buy": 2342.81,
+      "avg_sell": 2373.02,
+      "vwap": 2358.94,
+      "est_pnl": 6338500.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6223",
+      "broker": "星洲瑞銀",
+      "turn_lots": 131.5,
+      "net_lots": -48.5,
+      "avg_buy": 5793.52,
+      "avg_sell": 5878.11,
+      "vwap": 5823.46,
+      "est_pnl": 6160609.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2344",
+      "broker": "美商高盛",
+      "turn_lots": 21692.9,
+      "net_lots": -16881.2,
+      "avg_buy": 183.99,
+      "avg_sell": 184.43,
+      "vwap": 184.13,
+      "est_pnl": 6094283.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "6515",
+      "broker": "美商高盛",
+      "turn_lots": 271.0,
+      "net_lots": -125.0,
+      "avg_buy": 7778.49,
+      "avg_sell": 7790.51,
+      "vwap": 7749.68,
+      "est_pnl": 5979480.0,
+      "tactics": "高賣低買當沖／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "2308",
+      "broker": "花旗環球",
+      "turn_lots": 439.9,
+      "net_lots": 389.9,
+      "avg_buy": 1801.15,
+      "avg_sell": 1809.0,
+      "vwap": 1815.24,
+      "est_pnl": 5687370.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "8046",
+      "broker": "美商高盛",
+      "turn_lots": 2623.8,
+      "net_lots": 2199.8,
+      "avg_buy": 1099.16,
+      "avg_sell": 1102.05,
+      "vwap": 1101.41,
+      "est_pnl": 5557131.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "台灣摩根",
+      "turn_lots": 718.1,
+      "net_lots": -506.1,
+      "avg_buy": 2371.37,
+      "avg_sell": 2394.96,
+      "vwap": 2388.93,
+      "est_pnl": 5552877.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "元大",
+      "turn_lots": 985.5,
+      "net_lots": -80.9,
+      "avg_buy": 1041.99,
+      "avg_sell": 1055.2,
+      "vwap": 1060.8,
+      "est_pnl": 5520990.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "3026",
+      "broker": "元大",
+      "turn_lots": 2334.6,
+      "net_lots": -518.7,
+      "avg_buy": 768.76,
+      "avg_sell": 773.01,
+      "vwap": 770.02,
+      "est_pnl": 5402548.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "6446",
+      "broker": "元大",
+      "turn_lots": 935.4,
+      "net_lots": -260.7,
+      "avg_buy": 1375.95,
+      "avg_sell": 1385.57,
+      "vwap": 1377.92,
+      "est_pnl": 5238265.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "1815",
+      "broker": "凱基台北",
+      "turn_lots": 10909.2,
+      "net_lots": -4095.3,
+      "avg_buy": 128.04,
+      "avg_sell": 129.21,
+      "vwap": 128.96,
+      "est_pnl": 4984768.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2454",
+      "broker": "台灣摩根",
+      "turn_lots": 746.4,
+      "net_lots": -127.2,
+      "avg_buy": 4675.26,
+      "avg_sell": 4687.15,
+      "vwap": 4677.18,
+      "est_pnl": 4947200.0,
+      "tactics": "高賣低買當沖"
+    }
+  ],
+  "top_losers_other": [
+    {
+      "stock_id": "6515",
+      "broker": "花旗環球",
+      "turn_lots": 138.5,
+      "net_lots": 134.5,
+      "avg_buy": 7984.37,
+      "avg_sell": 7262.5,
+      "vwap": 7749.68,
+      "est_pnl": -33020756.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "6274",
+      "broker": "永豐金",
+      "turn_lots": 2564.7,
+      "net_lots": -2371.4,
+      "avg_buy": 1344.23,
+      "avg_sell": 1339.6,
+      "vwap": 1347.22,
+      "est_pnl": -18505806.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "台灣摩根",
+      "turn_lots": 52248.0,
+      "net_lots": 22156.0,
+      "avg_buy": 31.6,
+      "avg_sell": 30.91,
+      "vwap": 31.23,
+      "est_pnl": -18469116.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "富邦",
+      "turn_lots": 429.5,
+      "net_lots": 375.2,
+      "avg_buy": 1100.49,
+      "avg_sell": 1030.36,
+      "vwap": 1060.8,
+      "est_pnl": -16794527.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2308",
+      "broker": "台灣摩根",
+      "turn_lots": 1256.8,
+      "net_lots": 242.4,
+      "avg_buy": 1827.4,
+      "avg_sell": 1804.55,
+      "vwap": 1815.24,
+      "est_pnl": -14540667.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "美商高盛",
+      "turn_lots": 601.1,
+      "net_lots": -111.5,
+      "avg_buy": 2407.74,
+      "avg_sell": 2361.73,
+      "vwap": 2388.93,
+      "est_pnl": -14297245.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "國票敦北",
+      "turn_lots": 626.0,
+      "net_lots": 624.0,
+      "avg_buy": 1082.76,
+      "avg_sell": 1060.74,
+      "vwap": 1060.8,
+      "est_pnl": -13723078.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "華南永昌",
+      "turn_lots": 217.4,
+      "net_lots": 216.9,
+      "avg_buy": 2450.42,
+      "avg_sell": 2419.86,
+      "vwap": 2388.93,
+      "est_pnl": -13345196.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "3481",
+      "broker": "台灣摩根",
+      "turn_lots": 37747.4,
+      "net_lots": 31935.4,
+      "avg_buy": 51.05,
+      "avg_sell": 50.55,
+      "vwap": 50.71,
+      "est_pnl": -12345007.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "4979",
+      "broker": "國票敦北",
+      "turn_lots": 582.1,
+      "net_lots": 574.1,
+      "avg_buy": 645.54,
+      "avg_sell": 629.5,
+      "vwap": 625.5,
+      "est_pnl": -11567568.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2383",
+      "broker": "瑞銀",
+      "turn_lots": 236.1,
+      "net_lots": 85.2,
+      "avg_buy": 5541.42,
+      "avg_sell": 5451.78,
+      "vwap": 5486.6,
+      "est_pnl": -11435763.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2426",
+      "broker": "美商高盛",
+      "turn_lots": 8973.4,
+      "net_lots": 1276.7,
+      "avg_buy": 104.27,
+      "avg_sell": 101.71,
+      "vwap": 103.29,
+      "est_pnl": -11089252.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3105",
+      "broker": "摩根大通",
+      "turn_lots": 3319.0,
+      "net_lots": 1365.0,
+      "avg_buy": 471.66,
+      "avg_sell": 465.94,
+      "vwap": 468.4,
+      "est_pnl": -10052247.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "凱基城中",
+      "turn_lots": 216.7,
+      "net_lots": 186.4,
+      "avg_buy": 1109.7,
+      "avg_sell": 1049.34,
+      "vwap": 1060.8,
+      "est_pnl": -10027922.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "瑞銀",
+      "turn_lots": 43730.1,
+      "net_lots": 88.1,
+      "avg_buy": 31.28,
+      "avg_sell": 30.83,
+      "vwap": 31.23,
+      "est_pnl": -9760849.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "8996",
+      "broker": "富邦",
+      "turn_lots": 555.0,
+      "net_lots": 356.8,
+      "avg_buy": 1334.46,
+      "avg_sell": 1315.21,
+      "vwap": 1312.66,
+      "est_pnl": -9684186.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "美商高盛",
+      "turn_lots": 39929.9,
+      "net_lots": 12007.1,
+      "avg_buy": 31.48,
+      "avg_sell": 31.04,
+      "vwap": 31.23,
+      "est_pnl": -9039001.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "6510",
+      "broker": "星洲瑞銀",
+      "turn_lots": 240.2,
+      "net_lots": 130.2,
+      "avg_buy": 3846.93,
+      "avg_sell": 3813.45,
+      "vwap": 3795.24,
+      "est_pnl": -8568573.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3042",
+      "broker": "康和",
+      "turn_lots": 2920.0,
+      "net_lots": 2896.0,
+      "avg_buy": 186.49,
+      "avg_sell": 184.5,
+      "vwap": 183.61,
+      "est_pnl": -8342034.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "港商野村",
+      "turn_lots": 14615.0,
+      "net_lots": 10351.0,
+      "avg_buy": 31.81,
+      "avg_sell": 30.9,
+      "vwap": 31.23,
+      "est_pnl": -7868416.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "4979",
+      "broker": "美林證券",
+      "turn_lots": 550.0,
+      "net_lots": -428.0,
+      "avg_buy": 643.59,
+      "avg_sell": 611.84,
+      "vwap": 625.5,
+      "est_pnl": -7782002.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "5274",
+      "broker": "美商高盛亞",
+      "turn_lots": 113.4,
+      "net_lots": 33.3,
+      "avg_buy": 18886.54,
+      "avg_sell": 18845.02,
+      "vwap": 18706.37,
+      "est_pnl": -7666886.0,
+      "tactics": "追高殺低當沖／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "2308",
+      "broker": "摩根大通",
+      "turn_lots": 1286.1,
+      "net_lots": 426.5,
+      "avg_buy": 1821.33,
+      "avg_sell": 1809.6,
+      "vwap": 1815.24,
+      "est_pnl": -7640526.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "6446",
+      "broker": "兆豐復興",
+      "turn_lots": 490.7,
+      "net_lots": -7.4,
+      "avg_buy": 1390.62,
+      "avg_sell": 1359.86,
+      "vwap": 1377.92,
+      "est_pnl": -7565750.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "6442",
+      "broker": "富邦",
+      "turn_lots": 224.8,
+      "net_lots": -12.7,
+      "avg_buy": 1857.83,
+      "avg_sell": 1785.83,
+      "vwap": 1780.07,
+      "est_pnl": -7561986.0,
+      "tactics": "追高殺低當沖"
+    }
+  ],
+  "hot_stocks_other": [
+    {
+      "stock_id": "2409",
+      "pairs": 785,
+      "max_pnl": 3910055.0,
+      "min_pnl": -18469116.0,
+      "max_turn": 85281.1,
+      "close": 30.5,
+      "chg": 0.9,
+      "amount": 18430033459.0
+    },
+    {
+      "stock_id": "2344",
+      "pairs": 525,
+      "max_pnl": 13050393.0,
+      "min_pnl": -4580577.0,
+      "max_turn": 29580.5,
+      "close": 183.0,
+      "chg": -5.0,
+      "amount": 25852422381.0
+    },
+    {
+      "stock_id": "3406",
+      "pairs": 19,
+      "max_pnl": 5520990.0,
+      "min_pnl": -16794527.0,
+      "max_turn": 985.5
+    },
+    {
+      "stock_id": "2360",
+      "pairs": 19,
+      "max_pnl": 11720267.0,
+      "min_pnl": -14297245.0,
+      "max_turn": 897.3,
+      "close": 2335.0,
+      "chg": 70.0,
+      "amount": 11646362600.0
+    },
+    {
+      "stock_id": "4979",
+      "pairs": 46,
+      "max_pnl": 7487331.0,
+      "min_pnl": -11567568.0,
+      "max_turn": 2744.3
+    },
+    {
+      "stock_id": "6515",
+      "pairs": 7,
+      "max_pnl": 23539940.0,
+      "min_pnl": -33020756.0,
+      "max_turn": 271.0,
+      "close": 7280.0,
+      "chg": -420.0,
+      "amount": 11719676860.0
+    },
+    {
+      "stock_id": "3481",
+      "pairs": 734,
+      "max_pnl": 1965335.0,
+      "min_pnl": -12345007.0,
+      "max_turn": 57303.4
+    },
+    {
+      "stock_id": "2426",
+      "pairs": 195,
+      "max_pnl": 3630861.0,
+      "min_pnl": -11089252.0,
+      "max_turn": 9962.9,
+      "close": 99.5,
+      "chg": 2.0,
+      "amount": 5801672777.0
+    },
+    {
+      "stock_id": "3105",
+      "pairs": 103,
+      "max_pnl": 2573131.0,
+      "min_pnl": -10052247.0,
+      "max_turn": 7031.0
+    },
+    {
+      "stock_id": "8996",
+      "pairs": 24,
+      "max_pnl": 4479581.0,
+      "min_pnl": -9684186.0,
+      "max_turn": 832.7
+    },
+    {
+      "stock_id": "2308",
+      "pairs": 19,
+      "max_pnl": 5687370.0,
+      "min_pnl": -14540667.0,
+      "max_turn": 1406.2,
+      "close": 1795.0,
+      "chg": -10.0,
+      "amount": 15080787786.0
+    },
+    {
+      "stock_id": "8064",
+      "pairs": 108,
+      "max_pnl": 7991889.0,
+      "min_pnl": -4128435.0,
+      "max_turn": 7328.3
+    },
+    {
+      "stock_id": "1815",
+      "pairs": 245,
+      "max_pnl": 4984768.0,
+      "min_pnl": -2048890.0,
+      "max_turn": 12476.3
+    },
+    {
+      "stock_id": "2454",
+      "pairs": 15,
+      "max_pnl": 6434587.0,
+      "min_pnl": -7022586.0,
+      "max_turn": 787.8,
+      "close": 4625.0,
+      "chg": -85.0,
+      "amount": 25260516946.0
+    },
+    {
+      "stock_id": "2383",
+      "pairs": 8,
+      "max_pnl": 8659936.0,
+      "min_pnl": -11435763.0,
+      "max_turn": 314.6,
+      "close": 5375.0,
+      "chg": 35.0,
+      "amount": 9612616445.0
+    },
+    {
+      "stock_id": "6770",
+      "pairs": 485,
+      "max_pnl": 793306.0,
+      "min_pnl": -5950773.0,
+      "max_turn": 21169.6,
+      "close": 72.4,
+      "chg": 0.0,
+      "amount": 8311717636.0
+    },
+    {
+      "stock_id": "6274",
+      "pairs": 18,
+      "max_pnl": 2331265.0,
+      "min_pnl": -18505806.0,
+      "max_turn": 2564.7
+    },
+    {
+      "stock_id": "8039",
+      "pairs": 110,
+      "max_pnl": 4333228.0,
+      "min_pnl": -3290269.0,
+      "max_turn": 5488.7
+    },
+    {
+      "stock_id": "8046",
+      "pairs": 27,
+      "max_pnl": 6977685.0,
+      "min_pnl": -3739939.0,
+      "max_turn": 2623.8
+    },
+    {
+      "stock_id": "3231",
+      "pairs": 99,
+      "max_pnl": 1733554.0,
+      "min_pnl": -6678841.0,
+      "max_turn": 16242.5
+    }
+  ],
+  "notable_tactics": [
+    {
+      "stock_id": "2409",
+      "broker": "台灣摩根",
+      "turn_lots": 52248.0,
+      "net_lots": 22156.0,
+      "avg_buy": 31.6,
+      "avg_sell": 30.91,
+      "vwap": 31.23,
+      "est_pnl": -18469116.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "6515",
+      "broker": "花旗環球",
+      "turn_lots": 138.5,
+      "net_lots": 134.5,
+      "avg_buy": 7984.37,
+      "avg_sell": 7262.5,
+      "vwap": 7749.68,
+      "est_pnl": -33020756.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "6274",
+      "broker": "永豐金",
+      "turn_lots": 2564.7,
+      "net_lots": -2371.4,
+      "avg_buy": 1344.23,
+      "avg_sell": 1339.6,
+      "vwap": 1347.22,
+      "est_pnl": -18505806.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2344",
+      "broker": "元大",
+      "turn_lots": 29580.5,
+      "net_lots": -8131.2,
+      "avg_buy": 183.31,
+      "avg_sell": 184.36,
+      "vwap": 184.13,
+      "est_pnl": 13050393.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "3481",
+      "broker": "台灣摩根",
+      "turn_lots": 37747.4,
+      "net_lots": 31935.4,
+      "avg_buy": 51.05,
+      "avg_sell": 50.55,
+      "vwap": 50.71,
+      "est_pnl": -12345007.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "6515",
+      "broker": "凱基台北",
+      "turn_lots": 247.2,
+      "net_lots": -85.0,
+      "avg_buy": 7608.49,
+      "avg_sell": 7822.46,
+      "vwap": 7749.68,
+      "est_pnl": 23539940.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "瑞銀",
+      "turn_lots": 43730.1,
+      "net_lots": 88.1,
+      "avg_buy": 31.28,
+      "avg_sell": 30.83,
+      "vwap": 31.23,
+      "est_pnl": -9760849.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2308",
+      "broker": "台灣摩根",
+      "turn_lots": 1256.8,
+      "net_lots": 242.4,
+      "avg_buy": 1827.4,
+      "avg_sell": 1804.55,
+      "vwap": 1815.24,
+      "est_pnl": -14540667.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "富邦",
+      "turn_lots": 429.5,
+      "net_lots": 375.2,
+      "avg_buy": 1100.49,
+      "avg_sell": 1030.36,
+      "vwap": 1060.8,
+      "est_pnl": -16794527.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2426",
+      "broker": "美商高盛",
+      "turn_lots": 8973.4,
+      "net_lots": 1276.7,
+      "avg_buy": 104.27,
+      "avg_sell": 101.71,
+      "vwap": 103.29,
+      "est_pnl": -11089252.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "美商高盛",
+      "turn_lots": 39929.9,
+      "net_lots": 12007.1,
+      "avg_buy": 31.48,
+      "avg_sell": 31.04,
+      "vwap": 31.23,
+      "est_pnl": -9039001.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "美商高盛",
+      "turn_lots": 601.1,
+      "net_lots": -111.5,
+      "avg_buy": 2407.74,
+      "avg_sell": 2361.73,
+      "vwap": 2388.93,
+      "est_pnl": -14297245.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3406",
+      "broker": "國票敦北",
+      "turn_lots": 626.0,
+      "net_lots": 624.0,
+      "avg_buy": 1082.76,
+      "avg_sell": 1060.74,
+      "vwap": 1060.8,
+      "est_pnl": -13723078.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "3105",
+      "broker": "摩根大通",
+      "turn_lots": 3319.0,
+      "net_lots": 1365.0,
+      "avg_buy": 471.66,
+      "avg_sell": 465.94,
+      "vwap": 468.4,
+      "est_pnl": -10052247.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "元大",
+      "turn_lots": 747.9,
+      "net_lots": 193.6,
+      "avg_buy": 2369.3,
+      "avg_sell": 2397.87,
+      "vwap": 2388.93,
+      "est_pnl": 11720267.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "2409",
+      "broker": "港商野村",
+      "turn_lots": 14615.0,
+      "net_lots": 10351.0,
+      "avg_buy": 31.81,
+      "avg_sell": 30.9,
+      "vwap": 31.23,
+      "est_pnl": -7868416.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "4979",
+      "broker": "國票敦北",
+      "turn_lots": 582.1,
+      "net_lots": 574.1,
+      "avg_buy": 645.54,
+      "avg_sell": 629.5,
+      "vwap": 625.5,
+      "est_pnl": -11567568.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2360",
+      "broker": "華南永昌",
+      "turn_lots": 217.4,
+      "net_lots": 216.9,
+      "avg_buy": 2450.42,
+      "avg_sell": 2419.86,
+      "vwap": 2388.93,
+      "est_pnl": -13345196.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "6223",
+      "broker": "摩根大通",
+      "turn_lots": 351.3,
+      "net_lots": 57.6,
+      "avg_buy": 5774.64,
+      "avg_sell": 5835.59,
+      "vwap": 5823.46,
+      "est_pnl": 11764534.0,
+      "tactics": "高賣低買當沖"
+    },
+    {
+      "stock_id": "3042",
+      "broker": "康和",
+      "turn_lots": 2920.0,
+      "net_lots": 2896.0,
+      "avg_buy": 186.49,
+      "avg_sell": 184.5,
+      "vwap": 183.61,
+      "est_pnl": -8342034.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "3231",
+      "broker": "元大",
+      "turn_lots": 16242.5,
+      "net_lots": 4776.5,
+      "avg_buy": 189.08,
+      "avg_sell": 188.32,
+      "vwap": 188.6,
+      "est_pnl": -6678841.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2383",
+      "broker": "瑞銀",
+      "turn_lots": 236.1,
+      "net_lots": 85.2,
+      "avg_buy": 5541.42,
+      "avg_sell": 5451.78,
+      "vwap": 5486.6,
+      "est_pnl": -11435763.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "8996",
+      "broker": "富邦",
+      "turn_lots": 555.0,
+      "net_lots": 356.8,
+      "avg_buy": 1334.46,
+      "avg_sell": 1315.21,
+      "vwap": 1312.66,
+      "est_pnl": -9684186.0,
+      "tactics": "追高殺低當沖／假對敲偏單邊"
+    },
+    {
+      "stock_id": "2344",
+      "broker": "美商高盛",
+      "turn_lots": 21692.9,
+      "net_lots": -16881.2,
+      "avg_buy": 183.99,
+      "avg_sell": 184.43,
+      "vwap": 184.13,
+      "est_pnl": 6094283.0,
+      "tactics": "高賣低買當沖／假對敲偏單邊／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "8064",
+      "broker": "凱基城中",
+      "turn_lots": 1736.4,
+      "net_lots": -1570.6,
+      "avg_buy": 138.75,
+      "avg_sell": 137.75,
+      "vwap": 132.6,
+      "est_pnl": 7991889.0,
+      "tactics": "假對敲偏單邊"
+    },
+    {
+      "stock_id": "6770",
+      "broker": "美商高盛",
+      "turn_lots": 16032.8,
+      "net_lots": 1120.8,
+      "avg_buy": 73.02,
+      "avg_sell": 72.26,
+      "vwap": 72.74,
+      "est_pnl": -5950773.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "3037",
+      "broker": "美商高盛",
+      "turn_lots": 4639.1,
+      "net_lots": 1616.7,
+      "avg_buy": 994.24,
+      "avg_sell": 991.79,
+      "vwap": 992.31,
+      "est_pnl": -6801548.0,
+      "tactics": "追高殺低當沖／窄價差大量翻倉"
+    },
+    {
+      "stock_id": "6213",
+      "broker": "凱基台北",
+      "turn_lots": 3699.3,
+      "net_lots": 300.9,
+      "avg_buy": 529.37,
+      "avg_sell": 525.81,
+      "vwap": 526.44,
+      "est_pnl": -6932968.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2426",
+      "broker": "瑞銀",
+      "turn_lots": 4964.0,
+      "net_lots": 1154.0,
+      "avg_buy": 104.93,
+      "avg_sell": 102.52,
+      "vwap": 103.29,
+      "est_pnl": -6468228.0,
+      "tactics": "追高殺低當沖"
+    },
+    {
+      "stock_id": "2308",
+      "broker": "摩根大通",
+      "turn_lots": 1286.1,
+      "net_lots": 426.5,
+      "avg_buy": 1821.33,
+      "avg_sell": 1809.6,
+      "vwap": 1815.24,
+      "est_pnl": -7640526.0,
+      "tactics": "追高殺低當沖"
+    }
+  ]
+}
