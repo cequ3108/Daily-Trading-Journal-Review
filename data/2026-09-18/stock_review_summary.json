@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-18",
+  "asof": "~13:30",
+  "realized": 24693.0,
+  "overnight_realized": 29996.0,
+  "intraday_realized": -5303.0,
+  "open_cost_notional": 3563000,
+  "open_pct_capital": 118.8,
+  "open_names": 5,
+  "opens": [
+    {
+      "sid": "2327",
+      "name": "國巨*(2327)",
+      "lots": 2.0,
+      "avg": 543.5,
+      "cost": 1087000
+    },
+    {
+      "sid": "3026",
+      "name": "禾伸堂(3026)",
+      "lots": 1.0,
+      "avg": 784.0,
+      "cost": 784000
+    },
+    {
+      "sid": "6147",
+      "name": "頎邦(6147)",
+      "lots": 3.0,
+      "avg": 224.16666666666666,
+      "cost": 672500
+    },
+    {
+      "sid": "2408",
+      "name": "南亞科(2408)",
+      "lots": 1.0,
+      "avg": 522.0,
+      "cost": 522000
+    },
+    {
+      "sid": "3105",
+      "name": "穩懋(3105)",
+      "lots": 1.0,
+      "avg": 497.5,
+      "cost": 497500
+    }
+  ],
+  "live_buy_order_risk": {
+    "5314_ladder_lots": 50,
+    "5314_notional_approx": 1270000,
+    "other_buys_notional": 583000
+  },
+  "flags": [
+    "overnight_exit_good",
+    "new_book_oversize_119pct",
+    "all_names_over_30万_single_cap",
+    "6147_same_name_rebuy_after_exit",
+    "5314_50lot_ladder_buy_risk"
+  ]
+}

@@ -1,0 +1,7 @@
+# 忽略大型籌碼原始檔與 vendor clone
+vendor/
+data/**/broker_chips_raw.csv
+*.pyc
+__pycache__/
+.venv/
+.env

@@ -1,0 +1,313 @@
+{
+  "date": "2026-09-09",
+  "market": {
+    "date": "2026-09-09",
+    "source": "snapshot",
+    "open": 47142.74,
+    "high": 47548.26,
+    "low": 47060.78,
+    "close": 47133.14,
+    "prev_close": 47105.78,
+    "spread": 27.36,
+    "ret_pct": 0.06,
+    "range_pct": 1.03,
+    "amt_yi": 7245.2,
+    "ma20_amt_yi": 9530.2,
+    "vs_ma20": 0.76,
+    "green_115": 10959.8,
+    "yellow_low_085": 8100.7,
+    "yellow_high_110": 10483.2,
+    "light": "紅",
+    "volume_ratio": 0.94,
+    "otc_change_rate": 0.09,
+    "otc_close": 407.58
+  },
+  "orders": {
+    "total": 42,
+    "by_status": {
+      "完全成交": 15,
+      "委託成功": 14,
+      "已刪除": 13
+    },
+    "by_type": {
+      "現股賣出": 21,
+      "現股買進": 20,
+      "融資買進": 1
+    },
+    "unique_stocks": 7,
+    "by_hour": {
+      "08": 5,
+      "09": 7,
+      "10": 19,
+      "11": 11
+    },
+    "special_price_orders": 0,
+    "cancel_rate": 0.31
+  },
+  "fills": {
+    "n": 18,
+    "by_type": {
+      "現股買進": 15,
+      "現股賣出": 3
+    },
+    "by_hour": {
+      "09": 3,
+      "10": 8,
+      "11": 7
+    },
+    "unique_stocks": 5,
+    "notional_m": 5.93
+  },
+  "realized_pnl": {
+    "total": 113697.0,
+    "items": [
+      {
+        "stock_id": "7828",
+        "name": "創新服務(7828)",
+        "type": "現股賣出",
+        "shares": 1000,
+        "pnl": 117635.0,
+        "ret": "5.72%"
+      },
+      {
+        "stock_id": "1303",
+        "name": "南亞(1303)",
+        "type": "現股賣出",
+        "shares": 1000,
+        "pnl": -1797.0,
+        "ret": "-0.76%"
+      },
+      {
+        "stock_id": "2382",
+        "name": "廣達(2382)",
+        "type": "現股互抵賣出",
+        "shares": 1000,
+        "pnl": -2141.0,
+        "ret": "-0.63%"
+      }
+    ],
+    "winner_sum": 117635.0,
+    "loser_sum": -3938.0
+  },
+  "positions_from_fills": [
+    {
+      "stock_id": "1303",
+      "name": "南亞(1303)",
+      "buy_lots": 0.0,
+      "sell_lots": 1.0,
+      "net_lots": -1.0,
+      "avg_buy": null,
+      "avg_sell": 235.5,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": -1000.0,
+      "market_chg_pct": 0.64,
+      "close": 236.5,
+      "types": {
+        "現股賣出": 1
+      }
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電(2303)",
+      "buy_lots": 13.0,
+      "sell_lots": 0.0,
+      "net_lots": 13.0,
+      "avg_buy": 142.5,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": -13000.0,
+      "market_chg_pct": 3.28,
+      "close": 141.5,
+      "types": {
+        "現股買進": 12
+      }
+    },
+    {
+      "stock_id": "2382",
+      "name": "廣達(2382)",
+      "buy_lots": 2.0,
+      "sell_lots": 1.0,
+      "net_lots": 1.0,
+      "avg_buy": 341.0,
+      "avg_sell": 339.5,
+      "matched_day_pnl_est": -1500.0,
+      "mtm_leftover_est": 1000.0,
+      "market_chg_pct": 4.27,
+      "close": 342.0,
+      "types": {
+        "現股買進": 2,
+        "現股賣出": 1
+      }
+    },
+    {
+      "stock_id": "3711",
+      "name": "日月光投控(3711)",
+      "buy_lots": 1.0,
+      "sell_lots": 0.0,
+      "net_lots": 1.0,
+      "avg_buy": 637.0,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 3000.0,
+      "market_chg_pct": 3.56,
+      "close": 640.0,
+      "types": {
+        "現股買進": 1
+      }
+    },
+    {
+      "stock_id": "7828",
+      "name": "創新服務(7828)",
+      "buy_lots": 0.0,
+      "sell_lots": 1.0,
+      "net_lots": -1.0,
+      "avg_buy": null,
+      "avg_sell": 2180.0,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 100000.0,
+      "market_chg_pct": 2.21,
+      "close": 2080.0,
+      "types": {
+        "現股賣出": 1
+      }
+    }
+  ],
+  "stock_day": {
+    "1303": {
+      "open": 234.5,
+      "high": 244.5,
+      "low": 231.0,
+      "close": 236.5,
+      "prev_close": 235.0,
+      "chg_pct": 0.64,
+      "amt_yi": 159.61,
+      "source": "snapshot"
+    },
+    "2303": {
+      "open": 141.0,
+      "high": 144.5,
+      "low": 137.0,
+      "close": 141.5,
+      "prev_close": 137.0,
+      "chg_pct": 3.28,
+      "amt_yi": 378.03,
+      "source": "snapshot"
+    },
+    "2382": {
+      "open": 336.5,
+      "high": 344.0,
+      "low": 335.0,
+      "close": 342.0,
+      "prev_close": 328.0,
+      "chg_pct": 4.27,
+      "amt_yi": 87.99,
+      "source": "snapshot"
+    },
+    "3081": {
+      "open": 3085.0,
+      "high": 3150.0,
+      "low": 2820.0,
+      "close": 2850.0,
+      "prev_close": 2865.0,
+      "chg_pct": -0.52,
+      "amt_yi": 141.29,
+      "source": "snapshot"
+    },
+    "3374": {
+      "open": 471.0,
+      "high": 487.0,
+      "low": 471.0,
+      "close": 478.5,
+      "prev_close": 475.0,
+      "chg_pct": 0.74,
+      "amt_yi": 11.24,
+      "source": "snapshot"
+    },
+    "3711": {
+      "open": 621.0,
+      "high": 645.0,
+      "low": 621.0,
+      "close": 640.0,
+      "prev_close": 618.0,
+      "chg_pct": 3.56,
+      "amt_yi": 136.49,
+      "source": "snapshot"
+    },
+    "7828": {
+      "open": 2130.0,
+      "high": 2230.0,
+      "low": 2035.0,
+      "close": 2080.0,
+      "prev_close": 2035.0,
+      "chg_pct": 2.21,
+      "amt_yi": 14.5,
+      "source": "snapshot"
+    }
+  },
+  "verdict": {
+    "market_one_liner": "價平、量偏弱【紅偏黃】：加權 47133（+0.06%）；收盤即時成交約 7245 億≈0.76×MA20（量比 0.94，金額或仍在結算）；櫃買 +0.09%。",
+    "score_one_liner": "已實現損益約 113,697 元（賺 117,635／賠 -3,938）；委託 42／成交 18。",
+    "good": [
+      "創新服務(7828) 賣出停利 +117,635（+5.72%），把昨日高價追價單成功翻成大賺——執行面這筆對。",
+      "南亞(1303) 依計畫減碼出場（-1,797），小虧控風險。",
+      "相對昨日規則：7828 高價買進的補救是「有計畫停利」，今日做到了。",
+      "聯電掛出 145～150 階梯賣單，有停利結構，比無計畫抱單好。"
+    ],
+    "bad": [
+      "聯電(2303) 淨+13.0張 均買142.5 收141.5（3.28%）浮盈虧估 -13,000——買近高檔，留意是否追價。",
+      "黃／紅燈下仍觸及多檔（委託標的 7），注意控檔數。",
+      "聯亞(3081) 尚有委託 現股買進 @2680.0——高價股留意部位與是否追價；未成交先當觀察。"
+    ],
+    "funding_note": "賣出 7828/1303 變現後轉做 2303（與先前外資鎖碼抬轎劇本同向）；部位單純是好事。",
+    "vs_yesterday_rules": {
+      "7828_risk": "停利出場，優於續追",
+      "no_chase_high": "7828 今日是賣不是追；2303 進場位置需自檢",
+      "limit_up_mode": "若有鎖漲停意圖，須符合大盤強+尾盤真封"
+    },
+    "hold_next": [
+      "聯電(2303)（風控）",
+      "廣達(2382)（風控）",
+      "日月光投控(3711)（風控）"
+    ],
+    "daytrade_ok": [
+      "2303 聯電（隔日沖／半倉隔夜）",
+      "2408 南亞科（觀察）"
+    ],
+    "avoid": [
+      "再追 7828 高價",
+      "高價股 3081 情緒單",
+      "出清後同日回補同一檔"
+    ],
+    "watchlist_tomorrow": [
+      {
+        "id": "2303",
+        "name": "聯電",
+        "action": "隔日沖／減碼管理",
+        "trigger": "開盤守買價區可續；破今低或開盤弱→減半"
+      },
+      {
+        "id": "7828",
+        "name": "創新服務",
+        "action": "觀望",
+        "trigger": "大盤強+尾盤真封才考慮鎖；半路不追"
+      },
+      {
+        "id": "2408",
+        "name": "南亞科",
+        "action": "隔日沖觀察",
+        "trigger": "開盤續強可短"
+      },
+      {
+        "id": "3081",
+        "name": "聯亞",
+        "action": "高價謹慎",
+        "trigger": "無明確結構不追；委託未成先撤或降價"
+      }
+    ],
+    "rules_reminder": [
+      "量能偏弱日：新開≤3檔，2303以減碼／隔日沖為主勿加碼",
+      "7828 停利後不回頭追",
+      "2303 屬策略A觀察：開盤弱不做信念隔夜"
+    ]
+  }
+}
