@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-21",
+  "asof": "~13:32",
+  "statement_note": "uploaded statement was 2026-09-18 duplicate; opens reconstructed from 9/18 book + 9/21 fills",
+  "realized": 68933.0,
+  "overnight_realized": 71920.0,
+  "intraday_realized": -2987.0,
+  "open_cost_notional": 4000500,
+  "open_pct_capital": 133.4,
+  "open_names": 5,
+  "opens": [
+    {"sid": "2409", "name": "友達(2409)", "lots": 60.0, "avg": 32.8, "cost": 1968000},
+    {"sid": "2455", "name": "全新(2455)", "lots": 2.0, "avg": 573.0, "cost": 1146000},
+    {"sid": "2303", "name": "聯電(2303)", "lots": 4.0, "avg": 157.25, "cost": 629000, "note": "margin rebuy after morning exit"},
+    {"sid": "3624", "name": "光頡(3624)", "lots": 1.0, "avg": 136.0, "cost": 136000},
+    {"sid": "3016", "name": "嘉晶(3016)", "lots": 1.0, "avg": 121.5, "cost": 121500}
+  ],
+  "live_buy_order_risk": {
+    "2409_extra_lots": 20,
+    "2409_extra_notional": 667000
+  },
+  "flags": [
+    "weekend_book_exit_good",
+    "new_book_oversize_133pct",
+    "2409_chase_60_lots",
+    "2303_same_name_margin_rebuy",
+    "2455_over_single_cap",
+    "statement_file_was_0918"
+  ]
+}
