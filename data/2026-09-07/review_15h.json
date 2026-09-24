@@ -1,0 +1,523 @@
+{
+  "date": "2026-09-07",
+  "market": {
+    "date": "2026-09-07",
+    "open": 46724.0,
+    "high": 47429.58,
+    "low": 46724.0,
+    "close": 47326.27,
+    "prev_close": 46551.13,
+    "spread": 775.14,
+    "ret_pct": 1.67,
+    "range_pct": 1.52,
+    "amt_yi": 9950.1,
+    "ma20_amt_yi": 9518.5,
+    "vs_ma20": 1.05,
+    "green_115": 10946.2,
+    "yellow_low_085": 8090.7,
+    "yellow_high_110": 10470.3,
+    "light": "黃",
+    "volume_ratio": 1.19,
+    "otc_change_rate": 1.7,
+    "otc_close": 409.33
+  },
+  "orders": {
+    "total": 71,
+    "by_status": {
+      "完全成交": 37,
+      "已刪除": 34
+    },
+    "by_type": {
+      "現股賣出": 30,
+      "現股買進": 28,
+      "融資賣出": 11,
+      "融券賣出": 1,
+      "融資買進": 1
+    },
+    "unique_stocks": 11,
+    "by_hour": {
+      "08": 10,
+      "09": 24,
+      "10": 24,
+      "11": 3,
+      "12": 6,
+      "13": 4
+    },
+    "limit_up_price_orders_est": 4,
+    "cancel_rate": 0.479
+  },
+  "fills": {
+    "n": 44,
+    "by_type": {
+      "現股買進": 29,
+      "現股賣出": 10,
+      "融資賣出": 3,
+      "融券賣出": 1,
+      "融資買進": 1
+    },
+    "by_hour": {
+      "09": 14,
+      "10": 16,
+      "11": 3,
+      "12": 7,
+      "13": 4
+    },
+    "unique_stocks": 11,
+    "notional_m": 12.66
+  },
+  "realized_pnl": {
+    "total": -26047.0,
+    "winner_sum": 16796.0,
+    "loser_sum": -42843.0,
+    "items": [
+      {
+        "stock_id": "7828",
+        "name": "創新服務(7828)",
+        "type": "現股賣出",
+        "shares": 1000,
+        "pnl": 13564.0,
+        "ret": "0.72%",
+        "income": 1893930.0,
+        "cost": 1880366.0
+      },
+      {
+        "stock_id": "3441",
+        "name": "聯一光(3441)",
+        "type": "融資賣出",
+        "shares": 2000,
+        "pnl": -15432.0,
+        "ret": "-10.83%",
+        "income": 127122.0,
+        "cost": 142554.0
+      },
+      {
+        "stock_id": "4979",
+        "name": "華星光(4979)",
+        "type": "融資賣出",
+        "shares": 1000,
+        "pnl": -6152.0,
+        "ret": "-1.95%",
+        "income": 308970.0,
+        "cost": 315122.0
+      },
+      {
+        "stock_id": "1519",
+        "name": "華城(1519)",
+        "type": "現股互抵賣出",
+        "shares": 1000,
+        "pnl": -12436.0,
+        "ret": "-1.61%",
+        "income": 757714.0,
+        "cost": 770150.0
+      },
+      {
+        "stock_id": "2408",
+        "name": "南亞科(2408)",
+        "type": "現股互抵賣出",
+        "shares": 1000,
+        "pnl": 2021.0,
+        "ret": "0.39%",
+        "income": 518121.0,
+        "cost": 516100.0
+      },
+      {
+        "stock_id": "1303",
+        "name": "南亞(1303)",
+        "type": "現股互抵賣出",
+        "shares": 3000,
+        "pnl": -8823.0,
+        "ret": "-1.25%",
+        "income": 698814.0,
+        "cost": 707637.0
+      },
+      {
+        "stock_id": "2303",
+        "name": "聯電(2303)",
+        "type": "現股互抵賣出",
+        "shares": 4000,
+        "pnl": 922.0,
+        "ret": "0.16%",
+        "income": 571033.0,
+        "cost": 570111.0
+      },
+      {
+        "stock_id": "1815",
+        "name": "富喬(1815)",
+        "type": "現股互抵賣出",
+        "shares": 4000,
+        "pnl": 20.0,
+        "ret": "0.00%",
+        "income": 518121.0,
+        "cost": 518101.0
+      },
+      {
+        "stock_id": "8358",
+        "name": "金居(8358)",
+        "type": "資券互抵賣出",
+        "shares": 1000,
+        "pnl": 269.0,
+        "ret": "0.05%",
+        "income": 509368.0,
+        "cost": 509099.0
+      }
+    ]
+  },
+  "positions_from_fills": [
+    {
+      "stock_id": "1303",
+      "name": "南亞(1303)",
+      "buy_lots": 3.0,
+      "sell_lots": 3.0,
+      "net_lots": 0.0,
+      "avg_buy": 235.83,
+      "avg_sell": 233.33,
+      "matched_day_pnl_est": -7500.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": 2.22,
+      "close": 230.5,
+      "types": {
+        "現股賣出": 3,
+        "現股買進": 3
+      }
+    },
+    {
+      "stock_id": "1519",
+      "name": "華城(1519)",
+      "buy_lots": 1.0,
+      "sell_lots": 1.0,
+      "net_lots": 0.0,
+      "avg_buy": 770.0,
+      "avg_sell": 759.0,
+      "matched_day_pnl_est": -11000.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": -0.94,
+      "close": 739.0,
+      "types": {
+        "現股賣出": 1,
+        "現股買進": 1
+      }
+    },
+    {
+      "stock_id": "1815",
+      "name": "富喬(1815)",
+      "buy_lots": 4.0,
+      "sell_lots": 4.0,
+      "net_lots": 0.0,
+      "avg_buy": 129.5,
+      "avg_sell": 129.75,
+      "matched_day_pnl_est": 1000.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": null,
+      "close": null,
+      "types": {
+        "現股賣出": 2,
+        "現股買進": 3
+      }
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電(2303)",
+      "buy_lots": 4.0,
+      "sell_lots": 4.0,
+      "net_lots": 0.0,
+      "avg_buy": 142.5,
+      "avg_sell": 143.0,
+      "matched_day_pnl_est": 2000.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": 10.0,
+      "close": 143.0,
+      "types": {
+        "現股賣出": 2,
+        "現股買進": 2
+      }
+    },
+    {
+      "stock_id": "2408",
+      "name": "南亞科(2408)",
+      "buy_lots": 2.0,
+      "sell_lots": 1.0,
+      "net_lots": 1.0,
+      "avg_buy": 518.0,
+      "avg_sell": 519.0,
+      "matched_day_pnl_est": 1000.0,
+      "mtm_leftover_est": -1000.0,
+      "market_chg_pct": 4.23,
+      "close": 517.0,
+      "types": {
+        "現股買進": 2,
+        "現股賣出": 1
+      }
+    },
+    {
+      "stock_id": "2409",
+      "name": "友達(2409)",
+      "buy_lots": 50.0,
+      "sell_lots": 0.0,
+      "net_lots": 50.0,
+      "avg_buy": 29.02,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": -15750.0,
+      "market_chg_pct": 7.09,
+      "close": 28.7,
+      "types": {
+        "現股買進": 9
+      }
+    },
+    {
+      "stock_id": "3441",
+      "name": "聯一光(3441)",
+      "buy_lots": 0.0,
+      "sell_lots": 2.0,
+      "net_lots": -2.0,
+      "avg_buy": null,
+      "avg_sell": 135.0,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": null,
+      "close": null,
+      "types": {
+        "融資賣出": 2
+      }
+    },
+    {
+      "stock_id": "4979",
+      "name": "華星光(4979)",
+      "buy_lots": 0.0,
+      "sell_lots": 1.0,
+      "net_lots": -1.0,
+      "avg_buy": null,
+      "avg_sell": 625.0,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": null,
+      "close": null,
+      "types": {
+        "融資賣出": 1
+      }
+    },
+    {
+      "stock_id": "6770",
+      "name": "力積電(6770)",
+      "buy_lots": 10.0,
+      "sell_lots": 0.0,
+      "net_lots": 10.0,
+      "avg_buy": 72.74,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 1600.0,
+      "market_chg_pct": 6.42,
+      "close": 72.9,
+      "types": {
+        "現股買進": 9
+      }
+    },
+    {
+      "stock_id": "7828",
+      "name": "創新服務(7828)",
+      "buy_lots": 0.0,
+      "sell_lots": 1.0,
+      "net_lots": -1.0,
+      "avg_buy": null,
+      "avg_sell": 1900.0,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": null,
+      "close": null,
+      "types": {
+        "現股賣出": 1
+      }
+    },
+    {
+      "stock_id": "8358",
+      "name": "金居(8358)",
+      "buy_lots": 1.0,
+      "sell_lots": 1.0,
+      "net_lots": 0.0,
+      "avg_buy": 509.0,
+      "avg_sell": 511.0,
+      "matched_day_pnl_est": 2000.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": null,
+      "close": null,
+      "types": {
+        "融券賣出": 1,
+        "融資買進": 1
+      }
+    }
+  ],
+  "stock_day": {
+    "1303": {
+      "open": 232.0,
+      "high": 240.0,
+      "low": 229.5,
+      "close": 230.5,
+      "prev_close": 225.5,
+      "chg_pct": 2.22,
+      "amt_yi": 178.05,
+      "ret_intraday_pct": -0.65
+    },
+    "1519": {
+      "open": 767.0,
+      "high": 786.0,
+      "low": 739.0,
+      "close": 739.0,
+      "prev_close": 746.0,
+      "chg_pct": -0.94,
+      "amt_yi": 33.61,
+      "ret_intraday_pct": -3.65
+    },
+    "2303": {
+      "open": 134.5,
+      "high": 143.0,
+      "low": 134.0,
+      "close": 143.0,
+      "prev_close": 130.0,
+      "chg_pct": 10.0,
+      "amt_yi": 474.98,
+      "ret_intraday_pct": 6.32
+    },
+    "2408": {
+      "open": 519.0,
+      "high": 525.0,
+      "low": 508.0,
+      "close": 517.0,
+      "prev_close": 496.0,
+      "chg_pct": 4.23,
+      "amt_yi": 295.18,
+      "ret_intraday_pct": -0.39
+    },
+    "2409": {
+      "open": 26.95,
+      "high": 29.45,
+      "low": 26.7,
+      "close": 28.7,
+      "prev_close": 26.8,
+      "chg_pct": 7.09,
+      "amt_yi": 149.05,
+      "ret_intraday_pct": 6.49
+    },
+    "6770": {
+      "open": 70.0,
+      "high": 73.5,
+      "low": 69.3,
+      "close": 72.9,
+      "prev_close": 68.5,
+      "chg_pct": 6.42,
+      "amt_yi": 175.17,
+      "ret_intraday_pct": 4.14
+    }
+  },
+  "alignments": [
+    {
+      "stock_id": "1303",
+      "name": "南亞(1303)",
+      "net_lots": 0.0,
+      "chg_pct": 2.22,
+      "alignment": "當沖/互抵平倉"
+    },
+    {
+      "stock_id": "1519",
+      "name": "華城(1519)",
+      "net_lots": 0.0,
+      "chg_pct": -0.94,
+      "alignment": "當沖/互抵平倉"
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電(2303)",
+      "net_lots": 0.0,
+      "chg_pct": 10.0,
+      "alignment": "當沖/互抵平倉"
+    },
+    {
+      "stock_id": "2408",
+      "name": "南亞科(2408)",
+      "net_lots": 1.0,
+      "chg_pct": 4.23,
+      "alignment": "同向偏多持倉"
+    },
+    {
+      "stock_id": "2409",
+      "name": "友達(2409)",
+      "net_lots": 50.0,
+      "chg_pct": 7.09,
+      "alignment": "同向偏多持倉"
+    },
+    {
+      "stock_id": "6770",
+      "name": "力積電(6770)",
+      "net_lots": 10.0,
+      "chg_pct": 6.42,
+      "alignment": "同向偏多持倉"
+    }
+  ],
+  "verdict": {
+    "market_one_liner": "價強、量約均（黃燈）：加權 47326（+1.67%），成交 9950 億≈1.05×MA20；櫃買 +1.70%。",
+    "score_one_liner": "已實現損益約 -26,047 元（賺 16,796／賠 -42,843）；委託 71／成交 44／刪單 34。",
+    "good": [
+      "大盤價量俱揚下，聯電等互抵／短打仍小賺，沒有全面逆勢硬做。",
+      "創新服務(7828)隔夜停利 +13,564（+0.72%），把 9/4 抱股兌現。",
+      "聯一光(3441)早盤融資賣出認賠 -15,432（-10.8%），弱勢隔夜快砍。",
+      "聯電(2303)漲停日有互抵小賺後空手，沒把漲停股硬抱成隔夜主角，保留彈性。"
+    ],
+    "bad": [
+      "華星光(4979)隔夜後賣出 -6,152；大盤強、個股弱，隔夜選股需再篩。",
+      "華城(1519)+南亞(1303)互抵賣出合計約 -21,259，佔今日虧損主體；多頭日邊緣股互抵摩擦大。",
+      "午後至收盤買友達(2409)淨多 50.0 張（均 29.02／收 28.7、7.09%），浮盈虧估 -15,750；強勢日尾盤追落後股，隔日風控優先。"
+    ],
+    "funding_note": "賣出 7828／3441／4979 等隔夜並大量互抵，資金轉向 2409／2408／6770；換股可以，但 2409 偏尾盤建倉風險高於早盤強勢股。",
+    "hold_next": [
+      "2409 友達（風控管理）",
+      "2408 南亞科（若隔夜）",
+      "6770 力積電（小倉）"
+    ],
+    "daytrade_ok": [
+      "2303 聯電",
+      "2408 南亞科",
+      "6770 力積電"
+    ],
+    "avoid": [
+      "追高回補 7828",
+      "再擴 1519/1303 類互抵",
+      "黃燈日尾盤大額加碼落後股"
+    ],
+    "watchlist_tomorrow": [
+      {
+        "id": "2409",
+        "name": "友達",
+        "action": "減碼／隔日沖",
+        "trigger": "開盤破今低或不翻紅→減半；守買價上緣只短打不加 overnight"
+      },
+      {
+        "id": "2408",
+        "name": "南亞科",
+        "action": "隔日沖",
+        "trigger": "開盤守買價／不破今低→短多；弱則快出"
+      },
+      {
+        "id": "6770",
+        "name": "力積電",
+        "action": "觀察短打",
+        "trigger": "開盤量價續強可做；失守今開不做"
+      },
+      {
+        "id": "2303",
+        "name": "聯電",
+        "action": "隔日沖優先",
+        "trigger": "大盤續強且站上今日收盤區可短多；破開盤觀望"
+      },
+      {
+        "id": "7828",
+        "name": "創新服務",
+        "action": "回補觀察",
+        "trigger": "僅拉回量縮不破支撐再考慮，不追高"
+      }
+    ],
+    "rules_reminder": [
+      "今日燈號黃：可做，新開仍控 3–5 檔核心",
+      "隔夜弱勢隔日要快砍（3441）",
+      "先賣出變現再買；尾盤新建倉門檻更高"
+    ]
+  }
+}
