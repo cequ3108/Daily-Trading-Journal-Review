@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-30",
+  "asof": "~13:30",
+  "realized": 41105.0,
+  "overnight_margin_exit": 24735.0,
+  "intraday_realized": 16370.0,
+  "open_cost_notional": 6649800,
+  "open_pct_capital": 221.7,
+  "open_names": 6,
+  "opens": [
+    {"sid": "6770", "name": "力積電(6770)", "lots": 30.0, "avg": 74.74333333333334, "cost": 2242300},
+    {"sid": "2303", "name": "聯電(2303)", "lots": 10.0, "avg": 157.2, "cost": 1572000},
+    {"sid": "3189", "name": "景碩(3189)", "lots": 1.0, "avg": 969.0, "cost": 969000},
+    {"sid": "1303", "name": "南亞(1303)", "lots": 3.0, "avg": 261.6666666666667, "cost": 785000},
+    {"sid": "3105", "name": "穩懋(3105)", "lots": 1.0, "avg": 537.0, "cost": 537000},
+    {"sid": "3481", "name": "群創(3481)", "lots": 10.0, "avg": 54.45, "cost": 544500}
+  ],
+  "live_buy_order_risk": {
+    "2409_lots": 20,
+    "2409_notional": 752000,
+    "3481_lots": 5,
+    "3481_notional": 273000,
+    "6182_notional": 260500
+  },
+  "flags": [
+    "overnight_basket_exit_good",
+    "rebuilt_book_222pct",
+    "6770_chase_to_30_lots",
+    "1303_same_name_rebuy",
+    "2409_20lot_buy_order_must_cancel"
+  ]
+}
