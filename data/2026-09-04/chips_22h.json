@@ -1,0 +1,1231 @@
+{
+  "date": "2026-09-04",
+  "market_light_from_review": {
+    "open": 45991.28,
+    "close": 46551.13,
+    "high": 46620.96,
+    "low": 45966.86,
+    "ret_pct": 1.22,
+    "range_pct": 1.42,
+    "amt_yi": 8557.6,
+    "vol_yi": 92.6,
+    "ma20_amt_yi": 9457.5,
+    "green_115": 10876.0,
+    "yellow_low_085": 8039.0,
+    "yellow_high_110": 10403.0,
+    "light": "黃",
+    "vs_ma20": 0.9
+  },
+  "stocks": {
+    "2303": {
+      "stock_id": "2303",
+      "price": {
+        "close": 130.0,
+        "open": 128.5,
+        "high": 131.0,
+        "low": 126.5,
+        "ret_pct": 1.17,
+        "amt_yi": 184.7,
+        "prev_close": 125.0,
+        "chg_pct": 4.0
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 761000.0,
+          "sell": 1554079.0,
+          "net": -793079.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 898473.0,
+          "sell": 943433.0,
+          "net": -44960.0
+        },
+        {
+          "name": "Foreign_Investor",
+          "buy": 69149376.0,
+          "sell": 42598677.0,
+          "net": 26550699.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 2588000.0,
+          "sell": 114000.0,
+          "net": 2474000.0
+        }
+      ],
+      "institutional_net_total": 28186660.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 1987699.0,
+        "Dealer_self": 2114337.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": -30484894.0,
+        "Investment_Trust": 2076458.0
+      },
+      "institutional_5d_total": -24306400.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 13263.0,
+        "MarginPurchaseCashRepayment": 31.0,
+        "MarginPurchaseLimit": 3142523.0,
+        "MarginPurchaseSell": 10340.0,
+        "MarginPurchaseTodayBalance": 170213.0,
+        "MarginPurchaseYesterdayBalance": 167321.0,
+        "Note": "",
+        "OffsetLoanAndShort": 69.0,
+        "ShortSaleBuy": 37.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 3142523.0,
+        "ShortSaleSell": 966.0,
+        "ShortSaleTodayBalance": 4944.0,
+        "ShortSaleYesterdayBalance": 4015.0
+      }
+    },
+    "2324": {
+      "stock_id": "2324",
+      "price": {
+        "close": 41.6,
+        "open": 39.0,
+        "high": 42.1,
+        "low": 39.0,
+        "ret_pct": 6.67,
+        "amt_yi": 57.8,
+        "prev_close": 38.75,
+        "chg_pct": 7.35
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 91160046.0,
+          "sell": 21793762.0,
+          "net": 69366284.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 0.0,
+          "sell": 21000.0,
+          "net": -21000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 559115.0,
+          "sell": 359000.0,
+          "net": 200115.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 2071402.0,
+          "sell": 600470.0,
+          "net": 1470932.0
+        }
+      ],
+      "institutional_net_total": 71016331.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 850254.0,
+        "Dealer_self": 593894.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 33847277.0,
+        "Investment_Trust": -1302911.0
+      },
+      "institutional_5d_total": 33988514.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 6005.0,
+        "MarginPurchaseCashRepayment": 5.0,
+        "MarginPurchaseLimit": 1101786.0,
+        "MarginPurchaseSell": 9080.0,
+        "MarginPurchaseTodayBalance": 51295.0,
+        "MarginPurchaseYesterdayBalance": 54375.0,
+        "Note": "",
+        "OffsetLoanAndShort": 97.0,
+        "ShortSaleBuy": 18.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 1101786.0,
+        "ShortSaleSell": 364.0,
+        "ShortSaleTodayBalance": 1430.0,
+        "ShortSaleYesterdayBalance": 1084.0
+      }
+    },
+    "2382": {
+      "stock_id": "2382",
+      "price": {
+        "close": 345.0,
+        "open": 340.5,
+        "high": 347.0,
+        "low": 340.5,
+        "ret_pct": 1.32,
+        "amt_yi": 71.0,
+        "prev_close": 335.0,
+        "chg_pct": 2.99
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 16033172.0,
+          "sell": 3196388.0,
+          "net": 12836784.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 259000.0,
+          "sell": 17000.0,
+          "net": 242000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 200127.0,
+          "sell": 87600.0,
+          "net": 112527.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 29000.0,
+          "sell": 56130.0,
+          "net": -27130.0
+        }
+      ],
+      "institutional_net_total": 13164181.0,
+      "institutional_5d": {
+        "Dealer_Hedging": -27118.0,
+        "Dealer_self": 81631.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 17943224.0,
+        "Investment_Trust": 3230086.0
+      },
+      "institutional_5d_total": 21227823.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 766.0,
+        "MarginPurchaseCashRepayment": 1.0,
+        "MarginPurchaseLimit": 1026906.0,
+        "MarginPurchaseSell": 525.0,
+        "MarginPurchaseTodayBalance": 14834.0,
+        "MarginPurchaseYesterdayBalance": 14594.0,
+        "Note": "",
+        "OffsetLoanAndShort": 8.0,
+        "ShortSaleBuy": 2.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 1026906.0,
+        "ShortSaleSell": 28.0,
+        "ShortSaleTodayBalance": 86.0,
+        "ShortSaleYesterdayBalance": 60.0
+      }
+    },
+    "2454": {
+      "stock_id": "2454",
+      "price": {
+        "close": 4415.0,
+        "open": 4435.0,
+        "high": 4490.0,
+        "low": 4340.0,
+        "ret_pct": -0.45,
+        "amt_yi": 399.0,
+        "prev_close": 4340.0,
+        "chg_pct": 1.73
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 4917028.0,
+          "sell": 4382524.0,
+          "net": 534504.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 113296.0,
+          "sell": 36048.0,
+          "net": 77248.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 166303.0,
+          "sell": 140259.0,
+          "net": 26044.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 357561.0,
+          "sell": 18200.0,
+          "net": 339361.0
+        }
+      ],
+      "institutional_net_total": 977157.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 114734.0,
+        "Dealer_self": 358724.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 145661.0,
+        "Investment_Trust": 1642601.0
+      },
+      "institutional_5d_total": 2261720.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 361.0,
+        "MarginPurchaseCashRepayment": 5.0,
+        "MarginPurchaseLimit": 400973.0,
+        "MarginPurchaseSell": 372.0,
+        "MarginPurchaseTodayBalance": 10520.0,
+        "MarginPurchaseYesterdayBalance": 10536.0,
+        "Note": "",
+        "OffsetLoanAndShort": 3.0,
+        "ShortSaleBuy": 3.0,
+        "ShortSaleCashRepayment": 6.0,
+        "ShortSaleLimit": 400973.0,
+        "ShortSaleSell": 4.0,
+        "ShortSaleTodayBalance": 42.0,
+        "ShortSaleYesterdayBalance": 47.0
+      }
+    },
+    "2881": {
+      "stock_id": "2881",
+      "price": {
+        "close": 150.5,
+        "open": 147.5,
+        "high": 151.5,
+        "low": 147.0,
+        "ret_pct": 2.03,
+        "amt_yi": 28.7,
+        "prev_close": 147.0,
+        "chg_pct": 2.38
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 13523513.0,
+          "sell": 10228920.0,
+          "net": 3294593.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 15000.0,
+          "sell": 51000.0,
+          "net": -36000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 399000.0,
+          "sell": 220000.0,
+          "net": 179000.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 113140.0,
+          "sell": 142321.0,
+          "net": -29181.0
+        }
+      ],
+      "institutional_net_total": 3408412.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 351472.0,
+        "Dealer_self": 594241.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 2100452.0,
+        "Investment_Trust": 1531939.0
+      },
+      "institutional_5d_total": 4578104.0,
+      "margin_err": "could not convert string to float: ' '"
+    },
+    "3026": {
+      "stock_id": "3026",
+      "price": {
+        "close": 701.0,
+        "open": 692.0,
+        "high": 701.0,
+        "low": 683.0,
+        "ret_pct": 1.3,
+        "amt_yi": 50.9,
+        "prev_close": 638.0,
+        "chg_pct": 9.87
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 2472056.0,
+          "sell": 1042574.0,
+          "net": 1429482.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 99000.0,
+          "sell": 1000.0,
+          "net": 98000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 15000.0,
+          "sell": 91000.0,
+          "net": -76000.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 133958.0,
+          "sell": 114058.0,
+          "net": 19900.0
+        }
+      ],
+      "institutional_net_total": 1471382.0,
+      "institutional_5d": {
+        "Dealer_Hedging": -2653.0,
+        "Dealer_self": -282712.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": -472414.0,
+        "Investment_Trust": 538250.0
+      },
+      "institutional_5d_total": -219529.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 1002.0,
+        "MarginPurchaseCashRepayment": 0.0,
+        "MarginPurchaseLimit": 41472.0,
+        "MarginPurchaseSell": 638.0,
+        "MarginPurchaseTodayBalance": 10291.0,
+        "MarginPurchaseYesterdayBalance": 9927.0,
+        "Note": "",
+        "OffsetLoanAndShort": 4.0,
+        "ShortSaleBuy": 6.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 41472.0,
+        "ShortSaleSell": 112.0,
+        "ShortSaleTodayBalance": 349.0,
+        "ShortSaleYesterdayBalance": 243.0
+      }
+    },
+    "3231": {
+      "stock_id": "3231",
+      "price": {
+        "close": 198.0,
+        "open": 195.5,
+        "high": 200.0,
+        "low": 193.0,
+        "ret_pct": 1.28,
+        "amt_yi": 162.9,
+        "prev_close": 188.5,
+        "chg_pct": 5.04
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 44669998.0,
+          "sell": 20744693.0,
+          "net": 23925305.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 1516000.0,
+          "sell": 1242232.0,
+          "net": 273768.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 623131.0,
+          "sell": 530200.0,
+          "net": 92931.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 3449000.0,
+          "sell": 14000.0,
+          "net": 3435000.0
+        }
+      ],
+      "institutional_net_total": 27727004.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 527648.0,
+        "Dealer_self": 792656.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 35043596.0,
+        "Investment_Trust": 25706578.0
+      },
+      "institutional_5d_total": 62070478.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 4278.0,
+        "MarginPurchaseCashRepayment": 106.0,
+        "MarginPurchaseLimit": 795013.0,
+        "MarginPurchaseSell": 4918.0,
+        "MarginPurchaseTodayBalance": 47315.0,
+        "MarginPurchaseYesterdayBalance": 48061.0,
+        "Note": "",
+        "OffsetLoanAndShort": 42.0,
+        "ShortSaleBuy": 22.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 795013.0,
+        "ShortSaleSell": 469.0,
+        "ShortSaleTodayBalance": 971.0,
+        "ShortSaleYesterdayBalance": 524.0
+      }
+    },
+    "3406": {
+      "stock_id": "3406",
+      "price": {
+        "close": 1055.0,
+        "open": 1020.0,
+        "high": 1070.0,
+        "low": 962.0,
+        "ret_pct": 3.43,
+        "amt_yi": 26.7,
+        "prev_close": 991.0,
+        "chg_pct": 6.46
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 849724.0,
+          "sell": 584945.0,
+          "net": 264779.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 1000.0,
+          "sell": 18000.0,
+          "net": -17000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 70704.0,
+          "sell": 48931.0,
+          "net": 21773.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 41660.0,
+          "sell": 19899.0,
+          "net": 21761.0
+        }
+      ],
+      "institutional_net_total": 291313.0,
+      "institutional_5d": {
+        "Dealer_Hedging": -21994.0,
+        "Dealer_self": -146321.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 1174397.0,
+        "Investment_Trust": 2382500.0
+      },
+      "institutional_5d_total": 3388582.0,
+      "margin_err": "could not convert string to float: ' '",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 601.0,
+        "MarginPurchaseCashRepayment": 0.0,
+        "MarginPurchaseLimit": 28185.0,
+        "MarginPurchaseSell": 442.0,
+        "MarginPurchaseTodayBalance": 3702.0,
+        "MarginPurchaseYesterdayBalance": 3543.0,
+        "Note": "",
+        "OffsetLoanAndShort": 518.0,
+        "ShortSaleBuy": 53.0,
+        "ShortSaleCashRepayment": 3.0,
+        "ShortSaleLimit": 28185.0,
+        "ShortSaleSell": 31.0,
+        "ShortSaleTodayBalance": 420.0,
+        "ShortSaleYesterdayBalance": 445.0
+      }
+    },
+    "3441": {
+      "stock_id": "3441",
+      "price": {
+        "close": 143.0,
+        "open": 134.0,
+        "high": 143.0,
+        "low": 129.5,
+        "ret_pct": 6.72,
+        "amt_yi": 6.7,
+        "prev_close": 130.0,
+        "chg_pct": 10.0
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 120974.0,
+          "sell": 32100.0,
+          "net": 88874.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        }
+      ],
+      "institutional_net_total": 88874.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 625.0,
+        "Dealer_self": 0.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 417792.0,
+        "Investment_Trust": 0.0
+      },
+      "institutional_5d_total": 418417.0,
+      "margin_err": "could not convert string to float: '11   A C'",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 1480.0,
+        "MarginPurchaseCashRepayment": 0.0,
+        "MarginPurchaseLimit": 10009.0,
+        "MarginPurchaseSell": 595.0,
+        "MarginPurchaseTodayBalance": 5044.0,
+        "MarginPurchaseYesterdayBalance": 4159.0,
+        "Note": "11   A C",
+        "OffsetLoanAndShort": 753.0,
+        "ShortSaleBuy": 30.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 10009.0,
+        "ShortSaleSell": 87.0,
+        "ShortSaleTodayBalance": 1264.0,
+        "ShortSaleYesterdayBalance": 1207.0
+      }
+    },
+    "4979": {
+      "stock_id": "4979",
+      "price": {
+        "close": 629.0,
+        "open": 615.0,
+        "high": 629.0,
+        "low": 590.0,
+        "ret_pct": 2.28,
+        "amt_yi": 117.6,
+        "prev_close": 572.0,
+        "chg_pct": 9.97
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 3962108.0,
+          "sell": 2843678.0,
+          "net": 1118430.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 671000.0,
+          "sell": 0.0,
+          "net": 671000.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 9500.0,
+          "sell": 18830.0,
+          "net": -9330.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 226935.0,
+          "sell": 425582.0,
+          "net": -198647.0
+        }
+      ],
+      "institutional_net_total": 1581453.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 262077.0,
+        "Dealer_self": -38830.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 2020060.0,
+        "Investment_Trust": -1731000.0
+      },
+      "institutional_5d_total": 512307.0,
+      "margin_err": "could not convert string to float: '11   A C'",
+      "margin_today_clean": {
+        "MarginPurchaseBuy": 2221.0,
+        "MarginPurchaseCashRepayment": 0.0,
+        "MarginPurchaseLimit": 35705.0,
+        "MarginPurchaseSell": 1389.0,
+        "MarginPurchaseTodayBalance": 11078.0,
+        "MarginPurchaseYesterdayBalance": 10246.0,
+        "Note": "11   A C",
+        "OffsetLoanAndShort": 74.0,
+        "ShortSaleBuy": 4.0,
+        "ShortSaleCashRepayment": 0.0,
+        "ShortSaleLimit": 35705.0,
+        "ShortSaleSell": 80.0,
+        "ShortSaleTodayBalance": 458.0,
+        "ShortSaleYesterdayBalance": 382.0
+      }
+    },
+    "5314": {
+      "stock_id": "5314",
+      "price": {
+        "close": 32.0,
+        "open": 32.0,
+        "high": 32.25,
+        "low": 31.05,
+        "ret_pct": 0.0,
+        "amt_yi": 1.1,
+        "prev_close": 31.0,
+        "chg_pct": 3.23
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 1592005.0,
+          "sell": 417925.0,
+          "net": 1174080.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 2000.0,
+          "sell": 574287.0,
+          "net": -572287.0
+        }
+      ],
+      "institutional_net_total": 601793.0,
+      "institutional_5d": {
+        "Dealer_Hedging": -3384552.0,
+        "Dealer_self": 0.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 2856907.0,
+        "Investment_Trust": 27000.0
+      },
+      "institutional_5d_total": -500645.0,
+      "margin_err": "could not convert string to float: '62  *A  D'"
+    },
+    "7828": {
+      "stock_id": "7828",
+      "price": {
+        "close": 1930.0,
+        "open": 1810.0,
+        "high": 1930.0,
+        "low": 1775.0,
+        "ret_pct": 6.63,
+        "amt_yi": 10.3,
+        "prev_close": 1755.0,
+        "chg_pct": 9.97
+      },
+      "institutional_today": [
+        {
+          "name": "Foreign_Investor",
+          "buy": 148923.0,
+          "sell": 70000.0,
+          "net": 78923.0
+        },
+        {
+          "name": "Foreign_Dealer_Self",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Dealer_self",
+          "buy": 38645.0,
+          "sell": 1000.0,
+          "net": 37645.0
+        },
+        {
+          "name": "Dealer_Hedging",
+          "buy": 0.0,
+          "sell": 0.0,
+          "net": 0.0
+        },
+        {
+          "name": "Investment_Trust",
+          "buy": 17000.0,
+          "sell": 0.0,
+          "net": 17000.0
+        }
+      ],
+      "institutional_net_total": 133568.0,
+      "institutional_5d": {
+        "Dealer_Hedging": 4000.0,
+        "Dealer_self": 48593.0,
+        "Foreign_Dealer_Self": 0.0,
+        "Foreign_Investor": 133729.0,
+        "Investment_Trust": 18000.0
+      },
+      "institutional_5d_total": 204322.0,
+      "margin_today": {},
+      "margin_today_clean": {
+        "note": "無資券資料"
+      }
+    }
+  },
+  "user_actions": {
+    "2303": {
+      "name": "聯電(2303)",
+      "buy_lots": 5,
+      "sell_lots": 5,
+      "net_lots": 0,
+      "types": {
+        "現股買進": 3,
+        "現股賣出": 1
+      }
+    },
+    "2324": {
+      "name": "仁寶(2324)",
+      "buy_lots": 14,
+      "sell_lots": 14,
+      "net_lots": 0,
+      "types": {
+        "現股買進": 7,
+        "現股賣出": 5
+      }
+    },
+    "2382": {
+      "name": "廣達(2382)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "types": {
+        "現股賣出": 1,
+        "現股買進": 1
+      }
+    },
+    "2454": {
+      "name": "聯發科(2454)",
+      "buy_lots": 0,
+      "sell_lots": 1,
+      "net_lots": -1,
+      "types": {
+        "融資賣出": 1
+      }
+    },
+    "3026": {
+      "name": "禾伸堂(3026)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "types": {
+        "現股賣出": 1,
+        "現股買進": 1
+      }
+    },
+    "3231": {
+      "name": "緯創(3231)",
+      "buy_lots": 2,
+      "sell_lots": 3,
+      "net_lots": -1,
+      "types": {
+        "現股買進": 2,
+        "現股賣出": 1,
+        "現沖賣出": 1,
+        "融資賣出": 1
+      }
+    },
+    "3406": {
+      "name": "玉晶光(3406)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "types": {
+        "融券賣出": 1,
+        "融資買進": 1
+      }
+    },
+    "3441": {
+      "name": "聯一光(3441)",
+      "buy_lots": 2,
+      "sell_lots": 0,
+      "net_lots": 2,
+      "types": {
+        "融資買進": 2
+      }
+    },
+    "4979": {
+      "name": "華星光(4979)",
+      "buy_lots": 1,
+      "sell_lots": 0,
+      "net_lots": 1,
+      "types": {
+        "現股買進": 1
+      }
+    },
+    "7828": {
+      "name": "創新服務(7828)",
+      "buy_lots": 1,
+      "sell_lots": 0,
+      "net_lots": 1,
+      "types": {
+        "現股買進": 1
+      }
+    }
+  },
+  "homework": {
+    "date": "2026-09-04",
+    "market_light": "黃",
+    "market_note": "價強量弱黃燈：TAIEX +1.22%，成交約8558億≈0.90×MA20",
+    "per_stock": [
+      {
+        "stock_id": "2324",
+        "name": "仁寶",
+        "chg_pct": 7.35,
+        "ret_intraday_pct": 6.67,
+        "foreign_net": 69366284.0,
+        "trust_net": -21000.0,
+        "dealer_net": 1671047.0,
+        "inst_net_total": 71016331.0,
+        "inst_5d_total": 33988514.0,
+        "margin_purchase_chg_lots": -3080.0,
+        "short_sale_chg_lots": 346.0,
+        "margin_note": null,
+        "user_net_lots": 0,
+        "alignment": "資金用途平倉 vs 法人續買(錯失續抱)",
+        "bias_tomorrow": "隔日沖觀察；開高強勢可跟、弱則避開"
+      },
+      {
+        "stock_id": "2303",
+        "name": "聯電",
+        "chg_pct": 4.0,
+        "ret_intraday_pct": 1.17,
+        "foreign_net": 26550699.0,
+        "trust_net": 2474000.0,
+        "dealer_net": -838039.0,
+        "inst_net_total": 28186660.0,
+        "inst_5d_total": -24306400.0,
+        "margin_purchase_chg_lots": 2892.0,
+        "short_sale_chg_lots": 929.0,
+        "margin_note": null,
+        "user_net_lots": 0,
+        "alignment": "資金用途平倉 vs 法人續買(錯失續抱)",
+        "bias_tomorrow": "強籌碼但已漲多；隔日沖短打、不追"
+      },
+      {
+        "stock_id": "3231",
+        "name": "緯創",
+        "chg_pct": 5.04,
+        "ret_intraday_pct": 1.28,
+        "foreign_net": 23925305.0,
+        "trust_net": 3435000.0,
+        "dealer_net": 366699.0,
+        "inst_net_total": 27727004.0,
+        "inst_5d_total": 62070478.0,
+        "margin_purchase_chg_lots": -746.0,
+        "short_sale_chg_lots": 447.0,
+        "margin_note": null,
+        "user_net_lots": -1,
+        "alignment": "逆向/資金用途(賣給強籌碼)",
+        "bias_tomorrow": "強籌碼但已漲多；隔日沖短打、不追"
+      },
+      {
+        "stock_id": "2382",
+        "name": "廣達",
+        "chg_pct": 2.99,
+        "ret_intraday_pct": 1.32,
+        "foreign_net": 12836784.0,
+        "trust_net": 242000.0,
+        "dealer_net": 85397.0,
+        "inst_net_total": 13164181.0,
+        "inst_5d_total": 21227823.0,
+        "margin_purchase_chg_lots": 240.0,
+        "short_sale_chg_lots": 26.0,
+        "margin_note": null,
+        "user_net_lots": 0,
+        "alignment": "資金用途平倉 vs 法人續買(錯失續抱)",
+        "bias_tomorrow": "強籌碼但已漲多；隔日沖短打、不追"
+      },
+      {
+        "stock_id": "2881",
+        "name": "富邦金",
+        "chg_pct": 2.38,
+        "ret_intraday_pct": 2.03,
+        "foreign_net": 3294593.0,
+        "trust_net": -36000.0,
+        "dealer_net": 149819.0,
+        "inst_net_total": 3408412.0,
+        "inst_5d_total": 4578104.0,
+        "margin_purchase_chg_lots": null,
+        "short_sale_chg_lots": null,
+        "margin_note": null,
+        "user_net_lots": null,
+        "alignment": "無交易",
+        "bias_tomorrow": "觀望"
+      },
+      {
+        "stock_id": "3026",
+        "name": "禾伸堂",
+        "chg_pct": 9.87,
+        "ret_intraday_pct": 1.3,
+        "foreign_net": 1429482.0,
+        "trust_net": 98000.0,
+        "dealer_net": -56100.0,
+        "inst_net_total": 1471382.0,
+        "inst_5d_total": -219529.0,
+        "margin_purchase_chg_lots": 364.0,
+        "short_sale_chg_lots": 106.0,
+        "margin_note": null,
+        "user_net_lots": 0,
+        "alignment": "資金用途平倉 vs 法人續買(錯失續抱)",
+        "bias_tomorrow": "漲停附近；避開追價"
+      },
+      {
+        "stock_id": "5314",
+        "name": "世紀",
+        "chg_pct": 3.23,
+        "ret_intraday_pct": 0.0,
+        "foreign_net": 1174080.0,
+        "trust_net": 0.0,
+        "dealer_net": -572287.0,
+        "inst_net_total": 601793.0,
+        "inst_5d_total": -500645.0,
+        "margin_purchase_chg_lots": null,
+        "short_sale_chg_lots": null,
+        "margin_note": null,
+        "user_net_lots": null,
+        "alignment": "無交易",
+        "bias_tomorrow": "觀望"
+      },
+      {
+        "stock_id": "4979",
+        "name": "華星光",
+        "chg_pct": 9.97,
+        "ret_intraday_pct": 2.28,
+        "foreign_net": 1118430.0,
+        "trust_net": 671000.0,
+        "dealer_net": -207977.0,
+        "inst_net_total": 1581453.0,
+        "inst_5d_total": 512307.0,
+        "margin_purchase_chg_lots": 832.0,
+        "short_sale_chg_lots": 76.0,
+        "margin_note": "11   A C",
+        "user_net_lots": 1,
+        "alignment": "同向(續抱/加碼對齊法人買超)",
+        "bias_tomorrow": "續抱優先；高檔勿追新倉"
+      },
+      {
+        "stock_id": "2454",
+        "name": "聯發科",
+        "chg_pct": 1.73,
+        "ret_intraday_pct": -0.45,
+        "foreign_net": 534504.0,
+        "trust_net": 339361.0,
+        "dealer_net": 103292.0,
+        "inst_net_total": 977157.0,
+        "inst_5d_total": 2261720.0,
+        "margin_purchase_chg_lots": -16.0,
+        "short_sale_chg_lots": -5.0,
+        "margin_note": null,
+        "user_net_lots": -1,
+        "alignment": "逆向/資金用途(賣給強籌碼)",
+        "bias_tomorrow": "觀望"
+      },
+      {
+        "stock_id": "3406",
+        "name": "玉晶光",
+        "chg_pct": 6.46,
+        "ret_intraday_pct": 3.43,
+        "foreign_net": 264779.0,
+        "trust_net": -17000.0,
+        "dealer_net": 43534.0,
+        "inst_net_total": 291313.0,
+        "inst_5d_total": 3388582.0,
+        "margin_purchase_chg_lots": 159.0,
+        "short_sale_chg_lots": -25.0,
+        "margin_note": null,
+        "user_net_lots": 0,
+        "alignment": "資金用途平倉 vs 法人續買(錯失續抱)",
+        "bias_tomorrow": "當沖即可；不隔夜"
+      },
+      {
+        "stock_id": "3441",
+        "name": "聯一光",
+        "chg_pct": 10.0,
+        "ret_intraday_pct": 6.72,
+        "foreign_net": 88874.0,
+        "trust_net": 0.0,
+        "dealer_net": 0.0,
+        "inst_net_total": 88874.0,
+        "inst_5d_total": 418417.0,
+        "margin_purchase_chg_lots": 885.0,
+        "short_sale_chg_lots": 57.0,
+        "margin_note": "11   A C",
+        "user_net_lots": 2,
+        "alignment": "同向(續抱/加碼對齊法人買超)",
+        "bias_tomorrow": "續抱優先；高檔勿追新倉"
+      },
+      {
+        "stock_id": "7828",
+        "name": "創新服務",
+        "chg_pct": 9.97,
+        "ret_intraday_pct": 6.63,
+        "foreign_net": 78923.0,
+        "trust_net": 17000.0,
+        "dealer_net": 37645.0,
+        "inst_net_total": 133568.0,
+        "inst_5d_total": 204322.0,
+        "margin_purchase_chg_lots": null,
+        "short_sale_chg_lots": null,
+        "margin_note": "無資券資料",
+        "user_net_lots": 1,
+        "alignment": "同向(續抱/加碼對齊法人買超)",
+        "bias_tomorrow": "續抱優先；高檔勿追新倉"
+      }
+    ],
+    "hold_next_day": [
+      {
+        "id": "7828",
+        "reason": "法人合計買超、漲停收、你續抱同向；現金股先鎖利潤再談加減碼"
+      },
+      {
+        "id": "3441",
+        "reason": "漲停+外資買超+融資增；隔日開盤守漲停可續，破開盤價減碼"
+      },
+      {
+        "id": "4979",
+        "reason": "外資+投信同買、近漲停；注意融資增與Note 11 A C，開高可部分停利"
+      }
+    ],
+    "daytrade_ok": [
+      {
+        "id": "2324",
+        "reason": "外資暴買+強漲；隔日開盤強可短打，弱則不追"
+      },
+      {
+        "id": "3231",
+        "reason": "外資投信同買強；你昨淨賣，明日只做隔日沖不隔夜"
+      },
+      {
+        "id": "2303",
+        "reason": "外資大買但5日累計仍負；短打順勢，不追高"
+      }
+    ],
+    "avoid": [
+      {
+        "id": "3026",
+        "reason": "近漲停追價風險高，籌碼雖買但價位已滿"
+      },
+      {
+        "id": "3406",
+        "reason": "波動大、當沖可、不隔夜；融資增需戒"
+      },
+      {
+        "id": "2454",
+        "reason": "法人買超不大、日內偏弱；不優先"
+      }
+    ],
+    "alignment_verdict": {
+      "aligned": [
+        "7828續抱",
+        "3441/4979隔夜"
+      ],
+      "funding_vs_chips": [
+        "2324/2303/2382/3231當日平倉或淨賣，籌碼偏強→為交割資金換7828，非看空"
+      ],
+      "mixed": [
+        "3406當沖對齊短線波動",
+        "2454融資賣出 vs 法人小買超"
+      ]
+    },
+    "watchlist_tomorrow": [
+      {
+        "id": "7828",
+        "name": "創新服務",
+        "trigger": "開盤≥昨收1930且未立刻破1800→續抱/不加碼；若開低破昨開1810→減半",
+        "action": "續抱管理"
+      },
+      {
+        "id": "2324",
+        "name": "仁寶",
+        "trigger": "開盤≥41.6且量能開紅→隔日沖多；開低破40→觀望",
+        "action": "隔日沖"
+      },
+      {
+        "id": "3231",
+        "name": "緯創",
+        "trigger": "開盤守198附近、不破195→短多；跌破193→避開",
+        "action": "隔日沖"
+      },
+      {
+        "id": "3441",
+        "name": "聯一光",
+        "trigger": "開盤漲停或接近143→續抱；開盤破開盤價區/失守135→減碼",
+        "action": "續抱/減碼"
+      },
+      {
+        "id": "4979",
+        "name": "華星光",
+        "trigger": "開高守615以上可部分續抱；開盤破590→停利出場",
+        "action": "續抱/停利"
+      }
+    ],
+    "rules_reminder": [
+      "黃燈：新開倉≤3檔",
+      "先留交割現金，再買不可融資標的（7828類）",
+      "已漲停/近漲停不追；只做開盤強弱確認後的隔日沖"
+    ]
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "date": "2026-09-04",
+  "market": {
+    "open": 45991.28,
+    "close": 46551.13,
+    "high": 46620.96,
+    "low": 45966.86,
+    "ret_pct": 1.22,
+    "range_pct": 1.42,
+    "amt_yi": 8557.6,
+    "vol_yi": 92.6,
+    "ma20_amt_yi": 9457.5,
+    "green_115": 10876.0,
+    "yellow_low_085": 8039.0,
+    "yellow_high_110": 10403.0,
+    "light": "黃",
+    "vs_ma20": 0.9
+  },
+  "orders": {
+    "total": 61,
+    "filled": 32,
+    "cancelled": 28,
+    "pending": 0,
+    "failed": 1,
+    "unique_stocks": 12,
+    "market_orders": 2,
+    "limit_up": 8,
+    "limit_down": 4,
+    "types": {
+      "現股賣出": 24,
+      "現股買進": 17,
+      "融資買進": 14,
+      "融資賣出": 4,
+      "融券賣出": 1,
+      "現沖賣出": 1
+    },
+    "stock_orders": {
+      "仁寶(2324)": 22,
+      "玉晶光(3406)": 12,
+      "聯電(2303)": 8,
+      "緯創(3231)": 6,
+      "聯發科(2454)": 3,
+      "廣達(2382)": 2,
+      "禾伸堂(3026)": 2,
+      "聯一光(3441)": 2,
+      "富邦金(2881)": 1,
+      "華星光(4979)": 1,
+      "創新服務(7828)": 1,
+      "世紀*(5314)": 1
+    }
+  },
+  "fills": {
+    "n": 28,
+    "notional_m": 12.01,
+    "buy_n": 15,
+    "sell_n": 13,
+    "buy_avg_range_pos": 0.753,
+    "sell_avg_range_pos": 0.451,
+    "by_hour": {
+      "8": 2,
+      "9": 5,
+      "11": 9,
+      "12": 6,
+      "13": 6
+    },
+    "market_fills": 1,
+    "limit_down_fills": 4
+  },
+  "roundtrips": [
+    {
+      "stock_id": "2324",
+      "name": "仁寶(2324)",
+      "matched_shares": 14000,
+      "avg_buy": 41.31,
+      "avg_sell": 39.82,
+      "pnl": -20950.0,
+      "pnl_pct": -3.62,
+      "buy_lots": 14,
+      "sell_lots": 14
+    },
+    {
+      "stock_id": "3406",
+      "name": "玉晶光(3406)",
+      "matched_shares": 1000,
+      "avg_buy": 1070.0,
+      "avg_sell": 1050.0,
+      "pnl": -20000.0,
+      "pnl_pct": -1.87,
+      "buy_lots": 1,
+      "sell_lots": 1
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電(2303)",
+      "matched_shares": 5000,
+      "avg_buy": 129.4,
+      "avg_sell": 126.5,
+      "pnl": -14500.0,
+      "pnl_pct": -2.24,
+      "buy_lots": 5,
+      "sell_lots": 5
+    },
+    {
+      "stock_id": "3231",
+      "name": "緯創(3231)",
+      "matched_shares": 2000,
+      "avg_buy": 197.0,
+      "avg_sell": 192.67,
+      "pnl": -8667.0,
+      "pnl_pct": -2.2,
+      "buy_lots": 2,
+      "sell_lots": 3
+    },
+    {
+      "stock_id": "2382",
+      "name": "廣達(2382)",
+      "matched_shares": 1000,
+      "avg_buy": 346.5,
+      "avg_sell": 340.5,
+      "pnl": -6000.0,
+      "pnl_pct": -1.73,
+      "buy_lots": 1,
+      "sell_lots": 1
+    },
+    {
+      "stock_id": "3026",
+      "name": "禾伸堂(3026)",
+      "matched_shares": 1000,
+      "avg_buy": 701.0,
+      "avg_sell": 701.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "buy_lots": 1,
+      "sell_lots": 1
+    }
+  ],
+  "roundtrip_total_pnl": -70117.0,
+  "roundtrip_win_rate": 0.0,
+  "net_positions": [
+    {
+      "stock_id": "2454",
+      "name": "聯發科(2454)",
+      "buy_lots": 0,
+      "sell_lots": 1,
+      "net_lots": -1,
+      "day_ret": -0.45,
+      "close": 4415.0,
+      "open": 4435.0,
+      "high": 4490.0,
+      "low": 4340.0
+    },
+    {
+      "stock_id": "3231",
+      "name": "緯創(3231)",
+      "buy_lots": 2,
+      "sell_lots": 3,
+      "net_lots": -1,
+      "day_ret": 1.28,
+      "close": 198.0,
+      "open": 195.5,
+      "high": 200.0,
+      "low": 193.0
+    },
+    {
+      "stock_id": "2324",
+      "name": "仁寶(2324)",
+      "buy_lots": 14,
+      "sell_lots": 14,
+      "net_lots": 0,
+      "day_ret": 6.67,
+      "close": 41.6,
+      "open": 39.0,
+      "high": 42.1,
+      "low": 39.0
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電(2303)",
+      "buy_lots": 5,
+      "sell_lots": 5,
+      "net_lots": 0,
+      "day_ret": 1.17,
+      "close": 130.0,
+      "open": 128.5,
+      "high": 131.0,
+      "low": 126.5
+    },
+    {
+      "stock_id": "2382",
+      "name": "廣達(2382)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "day_ret": 1.32,
+      "close": 345.0,
+      "open": 340.5,
+      "high": 347.0,
+      "low": 340.5
+    },
+    {
+      "stock_id": "3026",
+      "name": "禾伸堂(3026)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "day_ret": 1.3,
+      "close": 701.0,
+      "open": 692.0,
+      "high": 701.0,
+      "low": 683.0
+    },
+    {
+      "stock_id": "3406",
+      "name": "玉晶光(3406)",
+      "buy_lots": 1,
+      "sell_lots": 1,
+      "net_lots": 0,
+      "day_ret": 3.43,
+      "close": 1055.0,
+      "open": 1020.0,
+      "high": 1070.0,
+      "low": 962.0
+    }
+  ],
+  "stock_day": {
+    "2303": {
+      "open": 128.5,
+      "high": 131.0,
+      "low": 126.5,
+      "close": 130.0,
+      "amt_yi": 184.6,
+      "ret": 1.17
+    },
+    "2324": {
+      "open": 39.0,
+      "high": 42.1,
+      "low": 39.0,
+      "close": 41.6,
+      "amt_yi": 57.8,
+      "ret": 6.67
+    },
+    "2382": {
+      "open": 340.5,
+      "high": 347.0,
+      "low": 340.5,
+      "close": 345.0,
+      "amt_yi": 71.0,
+      "ret": 1.32
+    },
+    "2454": {
+      "open": 4435.0,
+      "high": 4490.0,
+      "low": 4340.0,
+      "close": 4415.0,
+      "amt_yi": 399.0,
+      "ret": -0.45
+    },
+    "2881": {
+      "open": 147.5,
+      "high": 151.5,
+      "low": 147.0,
+      "close": 150.5,
+      "amt_yi": 28.7,
+      "ret": 2.03
+    },
+    "3026": {
+      "open": 692.0,
+      "high": 701.0,
+      "low": 683.0,
+      "close": 701.0,
+      "amt_yi": 50.9,
+      "ret": 1.3
+    },
+    "3231": {
+      "open": 195.5,
+      "high": 200.0,
+      "low": 193.0,
+      "close": 198.0,
+      "amt_yi": 162.9,
+      "ret": 1.28
+    },
+    "3406": {
+      "open": 1020.0,
+      "high": 1070.0,
+      "low": 962.0,
+      "close": 1055.0,
+      "amt_yi": 26.7,
+      "ret": 3.43
+    }
+  },
+  "timeline": [
+    {
+      "time": "08:38:40",
+      "name": "緯創(3231)",
+      "side": "sell",
+      "type": "融資賣出",
+      "price": 190.5,
+      "lots": 1,
+      "range_pos": -0.357
+    },
+    {
+      "time": "08:58:38",
+      "name": "聯發科(2454)",
+      "side": "sell",
+      "type": "融資賣出",
+      "price": 4415.0,
+      "lots": 1,
+      "range_pos": 0.5
+    },
+    {
+      "time": "09:21:08",
+      "name": "緯創(3231)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 196.5,
+      "lots": 1,
+      "range_pos": 0.5
+    },
+    {
+      "time": "09:25:40",
+      "name": "禾伸堂(3026)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 701.0,
+      "lots": 1,
+      "range_pos": 1.0
+    },
+    {
+      "time": "09:25:56",
+      "name": "禾伸堂(3026)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 701.0,
+      "lots": 1,
+      "range_pos": 1.0
+    },
+    {
+      "time": "09:29:12",
+      "name": "緯創(3231)",
+      "side": "sell",
+      "type": "現沖賣出",
+      "price": 194.5,
+      "lots": 1,
+      "range_pos": 0.214
+    },
+    {
+      "time": "09:59:55",
+      "name": "聯電(2303)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 128.5,
+      "lots": 2,
+      "range_pos": 0.444
+    },
+    {
+      "time": "11:07:46",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 40.9,
+      "lots": 2,
+      "range_pos": 0.613
+    },
+    {
+      "time": "11:09:47",
+      "name": "聯電(2303)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 130.0,
+      "lots": 2,
+      "range_pos": 0.778
+    },
+    {
+      "time": "11:10:50",
+      "name": "廣達(2382)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 346.5,
+      "lots": 1,
+      "range_pos": 0.923
+    },
+    {
+      "time": "11:18:35",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 41.1,
+      "lots": 2,
+      "range_pos": 0.677
+    },
+    {
+      "time": "11:21:09",
+      "name": "仁寶(2324)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 41.7,
+      "lots": 1,
+      "range_pos": 0.871
+    },
+    {
+      "time": "11:21:11",
+      "name": "仁寶(2324)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 41.8,
+      "lots": 1,
+      "range_pos": 0.903
+    },
+    {
+      "time": "11:21:13",
+      "name": "仁寶(2324)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 41.9,
+      "lots": 1,
+      "range_pos": 0.935
+    },
+    {
+      "time": "11:21:16",
+      "name": "仁寶(2324)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 42.05,
+      "lots": 1,
+      "range_pos": 0.984
+    },
+    {
+      "time": "11:27:03",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 40.95,
+      "lots": 2,
+      "range_pos": 0.629
+    },
+    {
+      "time": "12:02:21",
+      "name": "玉晶光(3406)",
+      "side": "buy",
+      "type": "融資買進",
+      "price": 1070.0,
+      "lots": 1,
+      "range_pos": 1.0
+    },
+    {
+      "time": "12:16:32",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 41.3,
+      "lots": 2,
+      "range_pos": 0.742
+    },
+    {
+      "time": "12:20:29",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 41.4,
+      "lots": 2,
+      "range_pos": 0.774
+    },
+    {
+      "time": "12:23:17",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 41.7,
+      "lots": 2,
+      "range_pos": 0.871
+    },
+    {
+      "time": "12:28:33",
+      "name": "仁寶(2324)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 41.85,
+      "lots": 2,
+      "range_pos": 0.919
+    },
+    {
+      "time": "12:32:02",
+      "name": "緯創(3231)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 197.5,
+      "lots": 1,
+      "range_pos": 0.643
+    },
+    {
+      "time": "13:22:47",
+      "name": "聯電(2303)",
+      "side": "buy",
+      "type": "現股買進",
+      "price": 130.0,
+      "lots": 1,
+      "range_pos": 0.778
+    },
+    {
+      "time": "13:25:11",
+      "name": "聯電(2303)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 126.5,
+      "lots": 5,
+      "range_pos": 0.0
+    },
+    {
+      "time": "13:25:14",
+      "name": "緯創(3231)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 193.0,
+      "lots": 1,
+      "range_pos": 0.0
+    },
+    {
+      "time": "13:25:25",
+      "name": "仁寶(2324)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 39.0,
+      "lots": 10,
+      "range_pos": 0.0
+    },
+    {
+      "time": "13:25:32",
+      "name": "廣達(2382)",
+      "side": "sell",
+      "type": "現股賣出",
+      "price": 340.5,
+      "lots": 1,
+      "range_pos": 0.0
+    },
+    {
+      "time": "13:25:44",
+      "name": "玉晶光(3406)",
+      "side": "sell",
+      "type": "融券賣出",
+      "price": 1050.0,
+      "lots": 1,
+      "range_pos": 0.815
+    }
+  ],
+  "pending": [],
+  "vs_yesterday": {
+    "sep3_market_orders": 1,
+    "sep4_market_orders": 2,
+    "sep3_stocks": 14,
+    "sep4_stocks": 12,
+    "sep3_orders": 80,
+    "sep4_orders": 61
+  },
+  "fifo_pnl_corrected": {
+    "fifo_by_stock": [
+      {
+        "stock_id": "2303",
+        "name": "聯電(2303)",
+        "day_ret": 1.17,
+        "buy_lots": 5,
+        "sell_lots": 5,
+        "fifo_pnl": 3000.0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "2324",
+        "name": "仁寶(2324)",
+        "day_ret": 6.67,
+        "buy_lots": 14,
+        "sell_lots": 14,
+        "fifo_pnl": 5050.0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "2382",
+        "name": "廣達(2382)",
+        "day_ret": 1.32,
+        "buy_lots": 1,
+        "sell_lots": 1,
+        "fifo_pnl": -1500.0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "2454",
+        "name": "聯發科(2454)",
+        "day_ret": -0.45,
+        "buy_lots": 0,
+        "sell_lots": 1,
+        "fifo_pnl": 0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "3026",
+        "name": "禾伸堂(3026)",
+        "day_ret": 1.3,
+        "buy_lots": 1,
+        "sell_lots": 1,
+        "fifo_pnl": 0.0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "3231",
+        "name": "緯創(3231)",
+        "day_ret": 1.28,
+        "buy_lots": 2,
+        "sell_lots": 3,
+        "fifo_pnl": -1500.0,
+        "remain_lots": 0
+      },
+      {
+        "stock_id": "3406",
+        "name": "玉晶光(3406)",
+        "day_ret": 3.43,
+        "buy_lots": 1,
+        "sell_lots": 1,
+        "fifo_pnl": -20000.0,
+        "remain_lots": 0
+      }
+    ],
+    "fifo_total": -14950.0,
+    "renbao_alt_hold_to_close": 5050.0
+  },
+  "note_fill_price": "尾盤跌停價賣出視為積極賣單，成交價以收盤價近似（非跌停價）"
+}

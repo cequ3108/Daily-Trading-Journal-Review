@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-23",
+  "asof": "~13:30",
+  "realized": -22530.0,
+  "overnight_exit": -17342.0,
+  "intraday_realized": -5188.0,
+  "open_cost_notional": 6371850,
+  "open_pct_capital": 212.4,
+  "open_names": 4,
+  "opens": [
+    {"sid": "2454", "name": "聯發科(2454)", "lots": 1.0, "avg": 5200.0, "cost": 5200000},
+    {"sid": "2408", "name": "南亞科(2408)", "lots": 1.0, "avg": 523.0, "cost": 523000},
+    {"sid": "2409", "name": "友達(2409)", "lots": 10.0, "avg": 35.325, "cost": 353250},
+    {"sid": "6770", "name": "力積電(6770)", "lots": 4.0, "avg": 73.9, "cost": 295600}
+  ],
+  "live_orders": [
+    {"sid": "2454", "side": "現股賣出", "lots": 1, "price": 5220, "note": "too far from risk control; cut nearer"}
+  ],
+  "flags": [
+    "ignored_yesterday_2454_cancel_warning",
+    "2454_520万_single_name_catastrophe",
+    "book_212pct_capital",
+    "2409_same_name_rebuy_after_exit",
+    "overnight_green_exit_small_loss_ok"
+  ]
+}

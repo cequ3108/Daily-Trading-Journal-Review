@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-17",
+  "asof": "~13:33",
+  "realized": 52912.0,
+  "overnight_realized": 66383.0,
+  "intraday_realized": -13471.0,
+  "open_mtm": -16050,
+  "open_notional": 2275400,
+  "open_pct_capital": 75.8,
+  "opens": [
+    {
+      "sid": "1303",
+      "name": "南亞(1303)",
+      "lots": 1.0,
+      "avg": 237.5,
+      "close": 236.0,
+      "mtm": -1500,
+      "notional": 236000
+    },
+    {
+      "sid": "2303",
+      "name": "聯電(2303)",
+      "lots": 6.0,
+      "avg": 148.33333333333334,
+      "close": 147.5,
+      "mtm": -5000,
+      "notional": 885000
+    },
+    {
+      "sid": "2409",
+      "name": "友達(2409)",
+      "lots": 10.0,
+      "avg": 30.275,
+      "close": 30.0,
+      "mtm": -2750,
+      "notional": 300000
+    },
+    {
+      "sid": "6770",
+      "name": "力積電(6770)",
+      "lots": 12.0,
+      "avg": 71.76666666666667,
+      "close": 71.2,
+      "mtm": -6800,
+      "notional": 854400
+    }
+  ]
+}

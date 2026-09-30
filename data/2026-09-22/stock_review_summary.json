@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-22",
+  "asof": "~13:30",
+  "realized": 110338.0,
+  "overnight_margin_exit": 110158.0,
+  "other_cash_exit": 4481.0,
+  "intraday_realized": -4301.0,
+  "open_cost_notional": 1000600,
+  "open_pct_capital": 33.4,
+  "open_names": 2,
+  "opens": [
+    {"sid": "2327", "name": "國巨*(2327)", "lots": 1.0, "avg": 585.0, "cost": 585000},
+    {"sid": "3481", "name": "群創(3481)", "lots": 8.0, "avg": 51.95, "cost": 415600, "note": "statement 現股買進 cost"}
+  ],
+  "live_orders": [
+    {"sid": "2454", "side": "融資買進", "lots": 1, "price": 5050, "notional": 5050000, "action": "CANCEL_NOW"}
+  ],
+  "flags": [
+    "overnight_exit_excellent_plus110k",
+    "2455_overnight_loss_tuition",
+    "book_back_in_green_band",
+    "2454_5050_margin_buy_must_cancel",
+    "2327_and_3481_over_single_30万"
+  ]
+}

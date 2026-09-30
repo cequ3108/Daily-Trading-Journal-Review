@@ -1,0 +1,3300 @@
+{
+  "date": "2026-09-11",
+  "source": "tw-broker-chip-data",
+  "stock_ids": [
+    "1303",
+    "2303",
+    "2409",
+    "3006",
+    "3026",
+    "3406",
+    "3711",
+    "6770"
+  ],
+  "per_stock": [
+    {
+      "stock_id": "1303",
+      "close": 234.5,
+      "total_buy_lots": 48646.2,
+      "total_sell_lots": 48646.2,
+      "broker_count": 813,
+      "top5_turnover_share": 0.3,
+      "top_net_buy": [
+        {
+          "broker": "國泰綜合",
+          "broker_id": "8880",
+          "buy_lots": 2027.9,
+          "sell_lots": 199.4,
+          "net_lots": 1828.5,
+          "avg_buy": 234.88,
+          "avg_sell": 236.17,
+          "est_pnl": -433535.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "統一南京",
+          "broker_id": "585U",
+          "buy_lots": 435.9,
+          "sell_lots": 17.4,
+          "net_lots": 418.5,
+          "avg_buy": 235.74,
+          "avg_sell": 235.06,
+          "est_pnl": -528682.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 1529.6,
+          "sell_lots": 1129.1,
+          "net_lots": 400.5,
+          "avg_buy": 236.41,
+          "avg_sell": 236.22,
+          "est_pnl": -976796.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "元大復北",
+          "broker_id": "9872",
+          "buy_lots": 348.4,
+          "sell_lots": 47.0,
+          "net_lots": 301.4,
+          "avg_buy": 236.67,
+          "avg_sell": 238.23,
+          "est_pnl": -579034.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "凱基",
+          "broker_id": "9200",
+          "buy_lots": 376.8,
+          "sell_lots": 123.0,
+          "net_lots": 253.8,
+          "avg_buy": 236.99,
+          "avg_sell": 235.66,
+          "est_pnl": -795615.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "臺銀",
+          "broker_id": "1040",
+          "buy_lots": 245.2,
+          "sell_lots": 24.4,
+          "net_lots": 220.7,
+          "avg_buy": 236.99,
+          "avg_sell": 236.12,
+          "est_pnl": -571124.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "群益",
+          "broker_id": "9100",
+          "buy_lots": 477.4,
+          "sell_lots": 263.5,
+          "net_lots": 214.0,
+          "avg_buy": 234.9,
+          "avg_sell": 236.35,
+          "est_pnl": 295302.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "台新證券",
+          "broker_id": "9B00",
+          "buy_lots": 671.1,
+          "sell_lots": 480.4,
+          "net_lots": 190.7,
+          "avg_buy": 236.4,
+          "avg_sell": 235.37,
+          "est_pnl": -853138.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 1935.4,
+          "sell_lots": 5716.0,
+          "net_lots": -3780.6,
+          "avg_buy": 235.84,
+          "avg_sell": 235.96,
+          "est_pnl": 5737313.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 703.0,
+          "sell_lots": 3950.3,
+          "net_lots": -3247.3,
+          "avg_buy": 236.3,
+          "avg_sell": 235.83,
+          "est_pnl": 3974205.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 1957.6,
+          "sell_lots": 4145.1,
+          "net_lots": -2187.5,
+          "avg_buy": 236.4,
+          "avg_sell": 236.16,
+          "est_pnl": 3159997.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 586.2,
+          "sell_lots": 2527.9,
+          "net_lots": -1941.7,
+          "avg_buy": 234.97,
+          "avg_sell": 236.56,
+          "est_pnl": 4938104.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 557.5,
+          "sell_lots": 2377.3,
+          "net_lots": -1819.8,
+          "avg_buy": 237.65,
+          "avg_sell": 235.79,
+          "est_pnl": 1299786.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 326.5,
+          "sell_lots": 2124.9,
+          "net_lots": -1798.4,
+          "avg_buy": 236.75,
+          "avg_sell": 236.25,
+          "est_pnl": 2983204.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 3421.6,
+          "sell_lots": 4249.4,
+          "net_lots": -827.8,
+          "avg_buy": 236.47,
+          "avg_sell": 236.44,
+          "est_pnl": 1525521.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 124.5,
+          "sell_lots": 319.5,
+          "net_lots": -195.0,
+          "avg_buy": 237.04,
+          "avg_sell": 235.86,
+          "est_pnl": 117888.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 1935.4,
+          "sell_lots": 5716.0,
+          "net_lots": -3780.6,
+          "avg_buy": 235.84,
+          "avg_sell": 235.96,
+          "est_pnl": 5737313.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 586.2,
+          "sell_lots": 2527.9,
+          "net_lots": -1941.7,
+          "avg_buy": 234.97,
+          "avg_sell": 236.56,
+          "est_pnl": 4938104.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 703.0,
+          "sell_lots": 3950.3,
+          "net_lots": -3247.3,
+          "avg_buy": 236.3,
+          "avg_sell": 235.83,
+          "est_pnl": 3974205.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 1957.6,
+          "sell_lots": 4145.1,
+          "net_lots": -2187.5,
+          "avg_buy": 236.4,
+          "avg_sell": 236.16,
+          "est_pnl": 3159997.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 326.5,
+          "sell_lots": 2124.9,
+          "net_lots": -1798.4,
+          "avg_buy": 236.75,
+          "avg_sell": 236.25,
+          "est_pnl": 2983204.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 3421.6,
+          "sell_lots": 4249.4,
+          "net_lots": -827.8,
+          "avg_buy": 236.47,
+          "avg_sell": 236.44,
+          "est_pnl": 1525521.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "兆豐桃園",
+          "broker_id": "700M",
+          "buy_lots": 566.5,
+          "sell_lots": 538.0,
+          "net_lots": 28.5,
+          "avg_buy": 235.01,
+          "avg_sell": 237.56,
+          "est_pnl": 1356805.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 557.5,
+          "sell_lots": 2377.3,
+          "net_lots": -1819.8,
+          "avg_buy": 237.65,
+          "avg_sell": 235.79,
+          "est_pnl": 1299786.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 1529.6,
+          "sell_lots": 1129.1,
+          "net_lots": 400.5,
+          "avg_buy": 236.41,
+          "avg_sell": 236.22,
+          "est_pnl": -976796.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "台新證券",
+          "broker_id": "9B00",
+          "buy_lots": 671.1,
+          "sell_lots": 480.4,
+          "net_lots": 190.7,
+          "avg_buy": 236.4,
+          "avg_sell": 235.37,
+          "est_pnl": -853138.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "凱基",
+          "broker_id": "9200",
+          "buy_lots": 376.8,
+          "sell_lots": 123.0,
+          "net_lots": 253.8,
+          "avg_buy": 236.99,
+          "avg_sell": 235.66,
+          "est_pnl": -795615.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "元大復北",
+          "broker_id": "9872",
+          "buy_lots": 348.4,
+          "sell_lots": 47.0,
+          "net_lots": 301.4,
+          "avg_buy": 236.67,
+          "avg_sell": 238.23,
+          "est_pnl": -579034.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "臺銀",
+          "broker_id": "1040",
+          "buy_lots": 245.2,
+          "sell_lots": 24.4,
+          "net_lots": 220.7,
+          "avg_buy": 236.99,
+          "avg_sell": 236.12,
+          "est_pnl": -571124.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "玉山",
+          "broker_id": "8840",
+          "buy_lots": 278.2,
+          "sell_lots": 138.4,
+          "net_lots": 139.8,
+          "avg_buy": 236.79,
+          "avg_sell": 235.12,
+          "est_pnl": -549780.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "統一南京",
+          "broker_id": "585U",
+          "buy_lots": 435.9,
+          "sell_lots": 17.4,
+          "net_lots": 418.5,
+          "avg_buy": 235.74,
+          "avg_sell": 235.06,
+          "est_pnl": -528682.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "台新建北",
+          "broker_id": "9B18",
+          "buy_lots": 160.1,
+          "sell_lots": 22.1,
+          "net_lots": 138.0,
+          "avg_buy": 237.63,
+          "avg_sell": 235.37,
+          "est_pnl": -481209.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／低賣高買偏賠": 228,
+        "當沖對敲／高賣低買偏賺": 214,
+        "當沖對敲／高賣低買偏賺／偏向單邊": 145,
+        "當沖對敲／低賣高買偏賠／偏向單邊": 120,
+        "當沖對敲／低賣高買偏賠／追高吃貨": 33
+      },
+      "read": "1303 收234.5；主力偏買：國泰綜合、統一南京、國泰敦南；主力偏賣：美商高盛、台灣摩根、凱基台北；估計當日賺最多：美商高盛、摩根大通；賠最多：國泰敦南、台新證券；分點集中（前5分點成交占比 30%）。"
+    },
+    {
+      "stock_id": "2303",
+      "close": 140.5,
+      "total_buy_lots": 120877.0,
+      "total_sell_lots": 120877.0,
+      "broker_count": 817,
+      "top5_turnover_share": 0.301,
+      "top_net_buy": [
+        {
+          "broker": "法銀巴黎",
+          "broker_id": "8900",
+          "buy_lots": 5143.0,
+          "sell_lots": 0.0,
+          "net_lots": 5143.0,
+          "avg_buy": 139.43,
+          "avg_sell": null,
+          "est_pnl": 5527000.0,
+          "logic": "純買進鎖碼"
+        },
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 5087.0,
+          "sell_lots": 503.0,
+          "net_lots": 4584.0,
+          "avg_buy": 140.46,
+          "avg_sell": 139.55,
+          "est_pnl": -291500.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "兆豐",
+          "broker_id": "7000",
+          "buy_lots": 3819.8,
+          "sell_lots": 334.0,
+          "net_lots": 3485.8,
+          "avg_buy": 139.55,
+          "avg_sell": 140.45,
+          "est_pnl": 3592076.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "永豐松山",
+          "broker_id": "9A91",
+          "buy_lots": 1386.3,
+          "sell_lots": 103.8,
+          "net_lots": 1282.5,
+          "avg_buy": 140.6,
+          "avg_sell": 139.39,
+          "est_pnl": -258651.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 5618.6,
+          "sell_lots": 4689.5,
+          "net_lots": 929.1,
+          "avg_buy": 140.03,
+          "avg_sell": 139.4,
+          "est_pnl": -2506920.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 1584.5,
+          "sell_lots": 825.7,
+          "net_lots": 758.7,
+          "avg_buy": 139.83,
+          "avg_sell": 139.94,
+          "est_pnl": 603094.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "群益",
+          "broker_id": "9100",
+          "buy_lots": 1089.3,
+          "sell_lots": 451.5,
+          "net_lots": 637.9,
+          "avg_buy": 139.25,
+          "avg_sell": 139.02,
+          "est_pnl": 692506.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "中銀豐原",
+          "broker_id": "611A",
+          "buy_lots": 576.4,
+          "sell_lots": 41.2,
+          "net_lots": 535.3,
+          "avg_buy": 139.36,
+          "avg_sell": 139.78,
+          "est_pnl": 626942.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 5718.0,
+          "sell_lots": 14053.8,
+          "net_lots": -8335.8,
+          "avg_buy": 139.97,
+          "avg_sell": 139.63,
+          "est_pnl": -9241309.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 3344.6,
+          "sell_lots": 5151.3,
+          "net_lots": -1806.6,
+          "avg_buy": 139.62,
+          "avg_sell": 139.72,
+          "est_pnl": -1066072.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 2240.9,
+          "sell_lots": 4024.0,
+          "net_lots": -1783.1,
+          "avg_buy": 140.21,
+          "avg_sell": 139.42,
+          "est_pnl": -3706610.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "華南南京",
+          "broker_id": "9326",
+          "buy_lots": 149.9,
+          "sell_lots": 1801.9,
+          "net_lots": -1652.0,
+          "avg_buy": 139.28,
+          "avg_sell": 138.26,
+          "est_pnl": -3845748.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "港麥格理",
+          "broker_id": "1360",
+          "buy_lots": 104.0,
+          "sell_lots": 1391.5,
+          "net_lots": -1287.5,
+          "avg_buy": 140.04,
+          "avg_sell": 140.32,
+          "est_pnl": -204548.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 1445.5,
+          "sell_lots": 2605.4,
+          "net_lots": -1159.9,
+          "avg_buy": 140.1,
+          "avg_sell": 139.71,
+          "est_pnl": -1470900.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "宏遠",
+          "broker_id": "1260",
+          "buy_lots": 111.1,
+          "sell_lots": 1180.0,
+          "net_lots": -1068.9,
+          "avg_buy": 139.48,
+          "avg_sell": 139.42,
+          "est_pnl": -1164822.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "花旗環球",
+          "broker_id": "1590",
+          "buy_lots": 7.0,
+          "sell_lots": 970.2,
+          "net_lots": -963.2,
+          "avg_buy": 139.93,
+          "avg_sell": 139.9,
+          "est_pnl": -580441.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "法銀巴黎",
+          "broker_id": "8900",
+          "buy_lots": 5143.0,
+          "sell_lots": 0.0,
+          "net_lots": 5143.0,
+          "avg_buy": 139.43,
+          "avg_sell": null,
+          "est_pnl": 5527000.0,
+          "logic": "純買進鎖碼"
+        },
+        {
+          "broker": "兆豐",
+          "broker_id": "7000",
+          "buy_lots": 3819.8,
+          "sell_lots": 334.0,
+          "net_lots": 3485.8,
+          "avg_buy": 139.55,
+          "avg_sell": 140.45,
+          "est_pnl": 3592076.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "第一自由",
+          "broker_id": "538E",
+          "buy_lots": 1358.1,
+          "sell_lots": 1340.9,
+          "net_lots": 17.2,
+          "avg_buy": 139.02,
+          "avg_sell": 140.48,
+          "est_pnl": 1994393.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "元大蘆洲",
+          "broker_id": "9857",
+          "buy_lots": 650.4,
+          "sell_lots": 558.6,
+          "net_lots": 91.8,
+          "avg_buy": 138.94,
+          "avg_sell": 141.06,
+          "est_pnl": 1322759.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 1961.6,
+          "sell_lots": 1972.3,
+          "net_lots": -10.6,
+          "avg_buy": 139.34,
+          "avg_sell": 139.91,
+          "est_pnl": 1110218.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "群益大安",
+          "broker_id": "918e",
+          "buy_lots": 778.0,
+          "sell_lots": 762.0,
+          "net_lots": 16.0,
+          "avg_buy": 138.71,
+          "avg_sell": 139.74,
+          "est_pnl": 811000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "元大新莊",
+          "broker_id": "9898",
+          "buy_lots": 1313.2,
+          "sell_lots": 1264.5,
+          "net_lots": 48.7,
+          "avg_buy": 139.81,
+          "avg_sell": 140.4,
+          "est_pnl": 787497.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "國票長城",
+          "broker_id": "779u",
+          "buy_lots": 515.0,
+          "sell_lots": 15.1,
+          "net_lots": 500.0,
+          "avg_buy": 139.02,
+          "avg_sell": 139.7,
+          "est_pnl": 752650.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 5718.0,
+          "sell_lots": 14053.8,
+          "net_lots": -8335.8,
+          "avg_buy": 139.97,
+          "avg_sell": 139.63,
+          "est_pnl": -9241309.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 10781.4,
+          "sell_lots": 10514.7,
+          "net_lots": 266.7,
+          "avg_buy": 139.85,
+          "avg_sell": 139.45,
+          "est_pnl": -3970118.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "華南南京",
+          "broker_id": "9326",
+          "buy_lots": 149.9,
+          "sell_lots": 1801.9,
+          "net_lots": -1652.0,
+          "avg_buy": 139.28,
+          "avg_sell": 138.26,
+          "est_pnl": -3845748.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 2240.9,
+          "sell_lots": 4024.0,
+          "net_lots": -1783.1,
+          "avg_buy": 140.21,
+          "avg_sell": 139.42,
+          "est_pnl": -3706610.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 5618.6,
+          "sell_lots": 4689.5,
+          "net_lots": 929.1,
+          "avg_buy": 140.03,
+          "avg_sell": 139.4,
+          "est_pnl": -2506920.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "凱基",
+          "broker_id": "9200",
+          "buy_lots": 326.2,
+          "sell_lots": 1128.0,
+          "net_lots": -801.8,
+          "avg_buy": 140.86,
+          "avg_sell": 138.52,
+          "est_pnl": -2349817.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 5994.1,
+          "sell_lots": 6842.0,
+          "net_lots": -847.9,
+          "avg_buy": 139.78,
+          "avg_sell": 139.54,
+          "est_pnl": -2232385.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "永豐忠孝",
+          "broker_id": "9A9D",
+          "buy_lots": 159.0,
+          "sell_lots": 913.9,
+          "net_lots": -754.9,
+          "avg_buy": 139.92,
+          "avg_sell": 137.99,
+          "est_pnl": -2205302.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／高賣低買偏賺": 471,
+        "當沖對敲／低賣高買偏賠": 98,
+        "當沖對敲／高賣低買偏賺／偏向單邊": 88,
+        "當沖對敲／高賣低買偏賺／偏低價吃貨": 82,
+        "當沖對敲／低賣高買偏賠／偏向單邊": 31
+      },
+      "read": "2303 收140.5；主力偏買：法銀巴黎、港商野村、兆豐；主力偏賣：台灣摩根、凱基台北、摩根大通；估計當日賺最多：法銀巴黎、兆豐；賠最多：台灣摩根、元大；分點集中（前5分點成交占比 30%）。"
+    },
+    {
+      "stock_id": "2409",
+      "close": 30.2,
+      "total_buy_lots": 519203.1,
+      "total_sell_lots": 519203.1,
+      "broker_count": 815,
+      "top5_turnover_share": 0.268,
+      "top_net_buy": [
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 10724.3,
+          "sell_lots": 7164.5,
+          "net_lots": 3559.8,
+          "avg_buy": 30.0,
+          "avg_sell": 29.86,
+          "est_pnl": -295739.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "兆豐東門",
+          "broker_id": "700H",
+          "buy_lots": 2950.2,
+          "sell_lots": 52.4,
+          "net_lots": 2897.8,
+          "avg_buy": 29.84,
+          "avg_sell": 30.35,
+          "est_pnl": 1055685.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 14001.3,
+          "sell_lots": 11281.8,
+          "net_lots": 2719.5,
+          "avg_buy": 29.74,
+          "avg_sell": 29.93,
+          "est_pnl": 3284959.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 9113.3,
+          "sell_lots": 7047.5,
+          "net_lots": 2065.7,
+          "avg_buy": 30.02,
+          "avg_sell": 29.63,
+          "est_pnl": -2454129.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "元大南京",
+          "broker_id": "9862",
+          "buy_lots": 2330.7,
+          "sell_lots": 533.8,
+          "net_lots": 1796.9,
+          "avg_buy": 30.04,
+          "avg_sell": 30.26,
+          "est_pnl": 412850.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 3060.9,
+          "sell_lots": 1338.3,
+          "net_lots": 1722.6,
+          "avg_buy": 30.29,
+          "avg_sell": 29.76,
+          "est_pnl": -866509.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "兆豐台中",
+          "broker_id": "7003",
+          "buy_lots": 1546.6,
+          "sell_lots": 76.9,
+          "net_lots": 1469.7,
+          "avg_buy": 30.24,
+          "avg_sell": 30.11,
+          "est_pnl": -65870.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "德信",
+          "broker_id": "6910",
+          "buy_lots": 1663.0,
+          "sell_lots": 552.3,
+          "net_lots": 1110.7,
+          "avg_buy": 29.93,
+          "avg_sell": 30.47,
+          "est_pnl": 593529.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 5078.0,
+          "sell_lots": 36630.0,
+          "net_lots": -31552.0,
+          "avg_buy": 30.0,
+          "avg_sell": 29.69,
+          "est_pnl": -17709350.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 16874.0,
+          "sell_lots": 37838.0,
+          "net_lots": -20964.0,
+          "avg_buy": 30.21,
+          "avg_sell": 29.72,
+          "est_pnl": -18273950.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 1479.0,
+          "sell_lots": 14615.0,
+          "net_lots": -13136.0,
+          "avg_buy": 30.17,
+          "avg_sell": 29.85,
+          "est_pnl": -5059000.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 16726.5,
+          "sell_lots": 29612.0,
+          "net_lots": -12885.4,
+          "avg_buy": 30.18,
+          "avg_sell": 29.63,
+          "est_pnl": -16484839.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 27435.7,
+          "sell_lots": 36734.5,
+          "net_lots": -9298.9,
+          "avg_buy": 30.02,
+          "avg_sell": 29.76,
+          "est_pnl": -11148913.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 32873.5,
+          "sell_lots": 38703.6,
+          "net_lots": -5830.0,
+          "avg_buy": 29.9,
+          "avg_sell": 29.86,
+          "est_pnl": -3381445.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 10255.2,
+          "sell_lots": 13814.0,
+          "net_lots": -3558.8,
+          "avg_buy": 30.33,
+          "avg_sell": 29.68,
+          "est_pnl": -8533602.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "台新台北",
+          "broker_id": "9B20",
+          "buy_lots": 365.0,
+          "sell_lots": 3501.0,
+          "net_lots": -3136.0,
+          "avg_buy": 29.81,
+          "avg_sell": 29.75,
+          "est_pnl": -1416800.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 14001.3,
+          "sell_lots": 11281.8,
+          "net_lots": 2719.5,
+          "avg_buy": 29.74,
+          "avg_sell": 29.93,
+          "est_pnl": 3284959.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "新光",
+          "broker_id": "8560",
+          "buy_lots": 4361.2,
+          "sell_lots": 4035.0,
+          "net_lots": 326.2,
+          "avg_buy": 29.7,
+          "avg_sell": 29.98,
+          "est_pnl": 1271338.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "群益大安",
+          "broker_id": "918e",
+          "buy_lots": 3775.2,
+          "sell_lots": 2745.0,
+          "net_lots": 1030.2,
+          "avg_buy": 30.0,
+          "avg_sell": 30.37,
+          "est_pnl": 1220730.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "兆豐東門",
+          "broker_id": "700H",
+          "buy_lots": 2950.2,
+          "sell_lots": 52.4,
+          "net_lots": 2897.8,
+          "avg_buy": 29.84,
+          "avg_sell": 30.35,
+          "est_pnl": 1055685.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        },
+        {
+          "broker": "富邦南港",
+          "broker_id": "962A",
+          "buy_lots": 3122.2,
+          "sell_lots": 3591.0,
+          "net_lots": -468.8,
+          "avg_buy": 30.11,
+          "avg_sell": 30.37,
+          "est_pnl": 891838.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "華南豐原",
+          "broker_id": "9366",
+          "buy_lots": 1125.4,
+          "sell_lots": 162.1,
+          "net_lots": 963.3,
+          "avg_buy": 29.44,
+          "avg_sell": 29.99,
+          "est_pnl": 819165.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        },
+        {
+          "broker": "國泰高雄",
+          "broker_id": "8881",
+          "buy_lots": 2294.4,
+          "sell_lots": 1869.6,
+          "net_lots": 424.8,
+          "avg_buy": 29.67,
+          "avg_sell": 29.95,
+          "est_pnl": 759902.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "國泰館前",
+          "broker_id": "888A",
+          "buy_lots": 2038.7,
+          "sell_lots": 1182.3,
+          "net_lots": 856.4,
+          "avg_buy": 29.76,
+          "avg_sell": 30.07,
+          "est_pnl": 735818.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 16874.0,
+          "sell_lots": 37838.0,
+          "net_lots": -20964.0,
+          "avg_buy": 30.21,
+          "avg_sell": 29.72,
+          "est_pnl": -18273950.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 5078.0,
+          "sell_lots": 36630.0,
+          "net_lots": -31552.0,
+          "avg_buy": 30.0,
+          "avg_sell": 29.69,
+          "est_pnl": -17709350.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 16726.5,
+          "sell_lots": 29612.0,
+          "net_lots": -12885.4,
+          "avg_buy": 30.18,
+          "avg_sell": 29.63,
+          "est_pnl": -16484839.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 27435.7,
+          "sell_lots": 36734.5,
+          "net_lots": -9298.9,
+          "avg_buy": 30.02,
+          "avg_sell": 29.76,
+          "est_pnl": -11148913.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 10255.2,
+          "sell_lots": 13814.0,
+          "net_lots": -3558.8,
+          "avg_buy": 30.33,
+          "avg_sell": 29.68,
+          "est_pnl": -8533602.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 1479.0,
+          "sell_lots": 14615.0,
+          "net_lots": -13136.0,
+          "avg_buy": 30.17,
+          "avg_sell": 29.85,
+          "est_pnl": -5059000.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "群益",
+          "broker_id": "9100",
+          "buy_lots": 6050.0,
+          "sell_lots": 7906.5,
+          "net_lots": -1856.5,
+          "avg_buy": 30.29,
+          "avg_sell": 29.77,
+          "est_pnl": -3911644.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 32873.5,
+          "sell_lots": 38703.6,
+          "net_lots": -5830.0,
+          "avg_buy": 29.9,
+          "avg_sell": 29.86,
+          "est_pnl": -3381445.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／高賣低買偏賺／偏低價吃貨": 524,
+        "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊": 75,
+        "當沖對敲／高賣低買偏賺": 72,
+        "當沖對敲／低賣高買偏賠／偏低價吃貨": 35,
+        "當沖對敲／低賣高買偏賠／壓低出貨": 33
+      },
+      "read": "2409 收30.2；主力偏買：永豐金、兆豐東門、國泰敦南；主力偏賣：台灣摩根、瑞銀、美林；估計當日賺最多：國泰敦南、新光；賠最多：瑞銀、台灣摩根；分點集中（前5分點成交占比 27%）。"
+    },
+    {
+      "stock_id": "3006",
+      "close": 290.5,
+      "total_buy_lots": 20614.7,
+      "total_sell_lots": 20612.7,
+      "broker_count": 809,
+      "top5_turnover_share": 0.313,
+      "top_net_buy": [
+        {
+          "broker": "元大雙和",
+          "broker_id": "9874",
+          "buy_lots": 317.7,
+          "sell_lots": 7.4,
+          "net_lots": 310.3,
+          "avg_buy": 294.25,
+          "avg_sell": 290.46,
+          "est_pnl": -1190918.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "元大新盛",
+          "broker_id": "9869",
+          "buy_lots": 222.2,
+          "sell_lots": 4.0,
+          "net_lots": 218.2,
+          "avg_buy": 289.13,
+          "avg_sell": 284.25,
+          "est_pnl": 279102.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "合庫台中",
+          "broker_id": "1021",
+          "buy_lots": 213.3,
+          "sell_lots": 10.1,
+          "net_lots": 203.2,
+          "avg_buy": 289.83,
+          "avg_sell": 290.6,
+          "est_pnl": 144312.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "元大莒光",
+          "broker_id": "981L",
+          "buy_lots": 218.5,
+          "sell_lots": 16.0,
+          "net_lots": 202.4,
+          "avg_buy": 287.53,
+          "avg_sell": 289.23,
+          "est_pnl": 628955.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 469.7,
+          "sell_lots": 281.8,
+          "net_lots": 187.9,
+          "avg_buy": 290.13,
+          "avg_sell": 289.69,
+          "est_pnl": -54390.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "聯邦",
+          "broker_id": "8580",
+          "buy_lots": 188.3,
+          "sell_lots": 17.0,
+          "net_lots": 171.3,
+          "avg_buy": 289.18,
+          "avg_sell": 290.85,
+          "est_pnl": 254856.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "元大大同",
+          "broker_id": "989G",
+          "buy_lots": 186.1,
+          "sell_lots": 80.2,
+          "net_lots": 105.9,
+          "avg_buy": 285.83,
+          "avg_sell": 291.58,
+          "est_pnl": 956055.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "新光",
+          "broker_id": "8560",
+          "buy_lots": 181.0,
+          "sell_lots": 89.2,
+          "net_lots": 91.9,
+          "avg_buy": 290.15,
+          "avg_sell": 290.38,
+          "est_pnl": 52960.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 372.0,
+          "sell_lots": 2460.0,
+          "net_lots": -2088.0,
+          "avg_buy": 290.96,
+          "avg_sell": 291.11,
+          "est_pnl": 1323000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 128.0,
+          "sell_lots": 1369.0,
+          "net_lots": -1241.0,
+          "avg_buy": 290.23,
+          "avg_sell": 288.85,
+          "est_pnl": -2228000.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 1310.4,
+          "sell_lots": 2464.1,
+          "net_lots": -1153.7,
+          "avg_buy": 289.95,
+          "avg_sell": 290.05,
+          "est_pnl": -393264.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1570.7,
+          "sell_lots": 2377.0,
+          "net_lots": -806.3,
+          "avg_buy": 289.76,
+          "avg_sell": 290.95,
+          "est_pnl": 2226357.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 3.0,
+          "sell_lots": 760.0,
+          "net_lots": -757.0,
+          "avg_buy": 290.5,
+          "avg_sell": 288.89,
+          "est_pnl": -1224500.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "上海匯豐",
+          "broker_id": "8960",
+          "buy_lots": 0.0,
+          "sell_lots": 376.0,
+          "net_lots": -376.0,
+          "avg_buy": null,
+          "avg_sell": 288.91,
+          "est_pnl": -597000.0,
+          "logic": "純賣出出貨"
+        },
+        {
+          "broker": "永豐竹北",
+          "broker_id": "9A9P",
+          "buy_lots": 15.0,
+          "sell_lots": 307.6,
+          "net_lots": -292.6,
+          "avg_buy": 291.94,
+          "avg_sell": 294.4,
+          "est_pnl": 1179148.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "港麥格理",
+          "broker_id": "1360",
+          "buy_lots": 0.0,
+          "sell_lots": 214.0,
+          "net_lots": -214.0,
+          "avg_buy": null,
+          "avg_sell": 290.5,
+          "est_pnl": 0.0,
+          "logic": "純賣出出貨"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1570.7,
+          "sell_lots": 2377.0,
+          "net_lots": -806.3,
+          "avg_buy": 289.76,
+          "avg_sell": 290.95,
+          "est_pnl": 2226357.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 319.9,
+          "sell_lots": 393.0,
+          "net_lots": -73.1,
+          "avg_buy": 288.17,
+          "avg_sell": 292.55,
+          "est_pnl": 1551263.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 372.0,
+          "sell_lots": 2460.0,
+          "net_lots": -2088.0,
+          "avg_buy": 290.96,
+          "avg_sell": 291.11,
+          "est_pnl": 1323000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "永豐竹北",
+          "broker_id": "9A9P",
+          "buy_lots": 15.0,
+          "sell_lots": 307.6,
+          "net_lots": -292.6,
+          "avg_buy": 291.94,
+          "avg_sell": 294.4,
+          "est_pnl": 1179148.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 274.0,
+          "sell_lots": 362.0,
+          "net_lots": -88.0,
+          "avg_buy": 288.67,
+          "avg_sell": 291.78,
+          "est_pnl": 966000.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "元大大同",
+          "broker_id": "989G",
+          "buy_lots": 186.1,
+          "sell_lots": 80.2,
+          "net_lots": 105.9,
+          "avg_buy": 285.83,
+          "avg_sell": 291.58,
+          "est_pnl": 956055.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "元大土城",
+          "broker_id": "9897",
+          "buy_lots": 192.2,
+          "sell_lots": 241.0,
+          "net_lots": -48.8,
+          "avg_buy": 290.72,
+          "avg_sell": 293.59,
+          "est_pnl": 702012.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "元大莒光",
+          "broker_id": "981L",
+          "buy_lots": 218.5,
+          "sell_lots": 16.0,
+          "net_lots": 202.4,
+          "avg_buy": 287.53,
+          "avg_sell": 289.23,
+          "est_pnl": 628955.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 128.0,
+          "sell_lots": 1369.0,
+          "net_lots": -1241.0,
+          "avg_buy": 290.23,
+          "avg_sell": 288.85,
+          "est_pnl": -2228000.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 3.0,
+          "sell_lots": 760.0,
+          "net_lots": -757.0,
+          "avg_buy": 290.5,
+          "avg_sell": 288.89,
+          "est_pnl": -1224500.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "元大雙和",
+          "broker_id": "9874",
+          "buy_lots": 317.7,
+          "sell_lots": 7.4,
+          "net_lots": 310.3,
+          "avg_buy": 294.25,
+          "avg_sell": 290.46,
+          "est_pnl": -1190918.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "上海匯豐",
+          "broker_id": "8960",
+          "buy_lots": 0.0,
+          "sell_lots": 376.0,
+          "net_lots": -376.0,
+          "avg_buy": null,
+          "avg_sell": 288.91,
+          "est_pnl": -597000.0,
+          "logic": "純賣出出貨"
+        },
+        {
+          "broker": "凱基新莊",
+          "broker_id": "921S",
+          "buy_lots": 19.3,
+          "sell_lots": 86.0,
+          "net_lots": -66.7,
+          "avg_buy": 295.81,
+          "avg_sell": 285.05,
+          "est_pnl": -571450.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "新光台南",
+          "broker_id": "8564",
+          "buy_lots": 70.3,
+          "sell_lots": 62.4,
+          "net_lots": 7.9,
+          "avg_buy": 292.99,
+          "avg_sell": 285.45,
+          "est_pnl": -489984.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "國泰桃園",
+          "broker_id": "8885",
+          "buy_lots": 71.7,
+          "sell_lots": 65.0,
+          "net_lots": 6.7,
+          "avg_buy": 294.67,
+          "avg_sell": 288.42,
+          "est_pnl": -433883.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "元大汐止",
+          "broker_id": "989Q",
+          "buy_lots": 63.6,
+          "sell_lots": 10.5,
+          "net_lots": 53.1,
+          "avg_buy": 296.57,
+          "avg_sell": 288.72,
+          "est_pnl": -404968.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／低賣高買偏賠": 199,
+        "當沖對敲／高賣低買偏賺": 155,
+        "當沖對敲／低賣高買偏賠／偏向單邊": 141,
+        "當沖對敲／高賣低買偏賺／偏向單邊": 109,
+        "純買進鎖碼": 38
+      },
+      "read": "3006 收290.5；主力偏買：元大雙和、元大新盛、合庫台中；主力偏賣：瑞銀、摩根大通、凱基台北；估計當日賺最多：元大、永豐金；賠最多：摩根大通、台灣摩根；分點集中（前5分點成交占比 31%）。"
+    },
+    {
+      "stock_id": "3026",
+      "close": 744.0,
+      "total_buy_lots": 14914.7,
+      "total_sell_lots": 14914.7,
+      "broker_count": 793,
+      "top5_turnover_share": 0.275,
+      "top_net_buy": [
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 414.7,
+          "sell_lots": 103.6,
+          "net_lots": 311.1,
+          "avg_buy": 788.68,
+          "avg_sell": 772.58,
+          "est_pnl": -15566014.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "國泰綜合",
+          "broker_id": "8880",
+          "buy_lots": 167.3,
+          "sell_lots": 46.3,
+          "net_lots": 121.0,
+          "avg_buy": 794.08,
+          "avg_sell": 778.47,
+          "est_pnl": -6780315.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 303.0,
+          "sell_lots": 208.0,
+          "net_lots": 95.0,
+          "avg_buy": 759.76,
+          "avg_sell": 788.09,
+          "est_pnl": 4395000.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 573.8,
+          "sell_lots": 479.8,
+          "net_lots": 94.0,
+          "avg_buy": 784.6,
+          "avg_sell": 776.11,
+          "est_pnl": -7887628.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "中國信託",
+          "broker_id": "6160",
+          "buy_lots": 145.2,
+          "sell_lots": 58.0,
+          "net_lots": 87.2,
+          "avg_buy": 784.5,
+          "avg_sell": 771.97,
+          "est_pnl": -4258246.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 457.0,
+          "sell_lots": 389.0,
+          "net_lots": 68.0,
+          "avg_buy": 772.65,
+          "avg_sell": 784.15,
+          "est_pnl": 2528000.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "群益大安",
+          "broker_id": "918e",
+          "buy_lots": 53.0,
+          "sell_lots": 8.0,
+          "net_lots": 45.0,
+          "avg_buy": 789.83,
+          "avg_sell": 786.49,
+          "est_pnl": -2089672.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "第一華江",
+          "broker_id": "538W",
+          "buy_lots": 39.4,
+          "sell_lots": 2.1,
+          "net_lots": 37.2,
+          "avg_buy": 755.82,
+          "avg_sell": 781.11,
+          "est_pnl": -386688.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 445.0,
+          "sell_lots": 1173.0,
+          "net_lots": -728.0,
+          "avg_buy": 758.1,
+          "avg_sell": 785.53,
+          "est_pnl": 42433000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 870.4,
+          "sell_lots": 1083.6,
+          "net_lots": -213.2,
+          "avg_buy": 778.43,
+          "avg_sell": 783.31,
+          "est_pnl": 12624443.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "兆豐忠孝",
+          "broker_id": "700a",
+          "buy_lots": 38.1,
+          "sell_lots": 217.2,
+          "net_lots": -179.1,
+          "avg_buy": 790.84,
+          "avg_sell": 759.97,
+          "est_pnl": 1683540.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1262.0,
+          "sell_lots": 1434.6,
+          "net_lots": -172.5,
+          "avg_buy": 780.31,
+          "avg_sell": 788.56,
+          "est_pnl": 18097264.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 59.0,
+          "sell_lots": 196.0,
+          "net_lots": -137.0,
+          "avg_buy": 767.98,
+          "avg_sell": 789.41,
+          "est_pnl": 7485000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "兆豐天母",
+          "broker_id": "700L",
+          "buy_lots": 4.2,
+          "sell_lots": 85.0,
+          "net_lots": -80.8,
+          "avg_buy": 785.24,
+          "avg_sell": 784.52,
+          "est_pnl": 3270800.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 405.9,
+          "sell_lots": 475.5,
+          "net_lots": -69.6,
+          "avg_buy": 785.71,
+          "avg_sell": 784.48,
+          "est_pnl": 2317439.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏高價倒貨"
+        },
+        {
+          "broker": "永豐敦北",
+          "broker_id": "9A89",
+          "buy_lots": 13.2,
+          "sell_lots": 81.2,
+          "net_lots": -68.0,
+          "avg_buy": 779.51,
+          "avg_sell": 792.88,
+          "est_pnl": 3500093.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 445.0,
+          "sell_lots": 1173.0,
+          "net_lots": -728.0,
+          "avg_buy": 758.1,
+          "avg_sell": 785.53,
+          "est_pnl": 42433000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1262.0,
+          "sell_lots": 1434.6,
+          "net_lots": -172.5,
+          "avg_buy": 780.31,
+          "avg_sell": 788.56,
+          "est_pnl": 18097264.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 870.4,
+          "sell_lots": 1083.6,
+          "net_lots": -213.2,
+          "avg_buy": 778.43,
+          "avg_sell": 783.31,
+          "est_pnl": 12624443.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 59.0,
+          "sell_lots": 196.0,
+          "net_lots": -137.0,
+          "avg_buy": 767.98,
+          "avg_sell": 789.41,
+          "est_pnl": 7485000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "群益",
+          "broker_id": "9100",
+          "buy_lots": 218.1,
+          "sell_lots": 232.7,
+          "net_lots": -14.6,
+          "avg_buy": 759.55,
+          "avg_sell": 784.34,
+          "est_pnl": 5994078.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 110.0,
+          "sell_lots": 136.0,
+          "net_lots": -26.0,
+          "avg_buy": 749.47,
+          "avg_sell": 788.35,
+          "est_pnl": 5429000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 303.0,
+          "sell_lots": 208.0,
+          "net_lots": 95.0,
+          "avg_buy": 759.76,
+          "avg_sell": 788.09,
+          "est_pnl": 4395000.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "永豐敦北",
+          "broker_id": "9A89",
+          "buy_lots": 13.2,
+          "sell_lots": 81.2,
+          "net_lots": -68.0,
+          "avg_buy": 779.51,
+          "avg_sell": 792.88,
+          "est_pnl": 3500093.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 414.7,
+          "sell_lots": 103.6,
+          "net_lots": 311.1,
+          "avg_buy": 788.68,
+          "avg_sell": 772.58,
+          "est_pnl": -15566014.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 573.8,
+          "sell_lots": 479.8,
+          "net_lots": 94.0,
+          "avg_buy": 784.6,
+          "avg_sell": 776.11,
+          "est_pnl": -7887628.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "國泰綜合",
+          "broker_id": "8880",
+          "buy_lots": 167.3,
+          "sell_lots": 46.3,
+          "net_lots": 121.0,
+          "avg_buy": 794.08,
+          "avg_sell": 778.47,
+          "est_pnl": -6780315.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "中國信託",
+          "broker_id": "6160",
+          "buy_lots": 145.2,
+          "sell_lots": 58.0,
+          "net_lots": 87.2,
+          "avg_buy": 784.5,
+          "avg_sell": 771.97,
+          "est_pnl": -4258246.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "台新證券",
+          "broker_id": "9B00",
+          "buy_lots": 181.8,
+          "sell_lots": 172.5,
+          "net_lots": 9.3,
+          "avg_buy": 783.5,
+          "avg_sell": 771.75,
+          "est_pnl": -2393001.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "群益大安",
+          "broker_id": "918e",
+          "buy_lots": 53.0,
+          "sell_lots": 8.0,
+          "net_lots": 45.0,
+          "avg_buy": 789.83,
+          "avg_sell": 786.49,
+          "est_pnl": -2089672.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "第一彰化",
+          "broker_id": "5386",
+          "buy_lots": 43.1,
+          "sell_lots": 43.0,
+          "net_lots": 0.1,
+          "avg_buy": 787.32,
+          "avg_sell": 745.77,
+          "est_pnl": -1789509.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "華南永昌",
+          "broker_id": "9300",
+          "buy_lots": 73.2,
+          "sell_lots": 39.3,
+          "net_lots": 33.9,
+          "avg_buy": 784.8,
+          "avg_sell": 777.42,
+          "est_pnl": -1672524.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／低賣高買偏賠／追高吃貨": 300,
+        "當沖對敲／高賣低買偏賺／追高吃貨": 139,
+        "當沖對敲／低賣高買偏賠／偏高價倒貨": 103,
+        "純買進鎖碼／追高吃貨": 49,
+        "當沖對敲／高賣低買偏賺／偏高價倒貨": 47
+      },
+      "read": "3026 收744.0；主力偏買：永豐金、國泰綜合、瑞銀；主力偏賣：摩根大通、凱基台北、兆豐忠孝；估計當日賺最多：摩根大通、元大；賠最多：永豐金、國泰敦南；分點集中（前5分點成交占比 28%）。"
+    },
+    {
+      "stock_id": "3406",
+      "close": 1060.0,
+      "total_buy_lots": 10703.9,
+      "total_sell_lots": 10711.9,
+      "broker_count": 754,
+      "top5_turnover_share": 0.312,
+      "top_net_buy": [
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 598.5,
+          "sell_lots": 286.7,
+          "net_lots": 311.8,
+          "avg_buy": 1087.62,
+          "avg_sell": 1091.05,
+          "est_pnl": -7627440.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 314.1,
+          "sell_lots": 75.6,
+          "net_lots": 238.4,
+          "avg_buy": 1082.39,
+          "avg_sell": 1076.85,
+          "est_pnl": -5757175.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 595.0,
+          "sell_lots": 425.2,
+          "net_lots": 169.8,
+          "avg_buy": 1072.08,
+          "avg_sell": 1087.42,
+          "est_pnl": 4472800.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "華南永昌",
+          "broker_id": "9300",
+          "buy_lots": 188.5,
+          "sell_lots": 26.1,
+          "net_lots": 162.4,
+          "avg_buy": 1108.29,
+          "avg_sell": 1111.74,
+          "est_pnl": -7750535.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "兆豐",
+          "broker_id": "7000",
+          "buy_lots": 125.0,
+          "sell_lots": 6.0,
+          "net_lots": 119.0,
+          "avg_buy": 1086.44,
+          "avg_sell": 1087.5,
+          "est_pnl": -3140000.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "群益台北",
+          "broker_id": "918X",
+          "buy_lots": 99.0,
+          "sell_lots": 0.0,
+          "net_lots": 99.0,
+          "avg_buy": 1019.04,
+          "avg_sell": null,
+          "est_pnl": 4055000.0,
+          "logic": "純買進鎖碼／偏低價吃貨"
+        },
+        {
+          "broker": "福邦",
+          "broker_id": "6480",
+          "buy_lots": 85.0,
+          "sell_lots": 0.0,
+          "net_lots": 85.0,
+          "avg_buy": 1108.71,
+          "avg_sell": null,
+          "est_pnl": -4140000.0,
+          "logic": "純買進鎖碼／追高吃貨"
+        },
+        {
+          "broker": "宏遠",
+          "broker_id": "1260",
+          "buy_lots": 89.0,
+          "sell_lots": 18.0,
+          "net_lots": 71.0,
+          "avg_buy": 1102.53,
+          "avg_sell": 1094.44,
+          "est_pnl": -3165000.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 656.4,
+          "sell_lots": 1160.2,
+          "net_lots": -503.8,
+          "avg_buy": 1084.23,
+          "avg_sell": 1091.94,
+          "est_pnl": 21155900.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 304.8,
+          "sell_lots": 681.0,
+          "net_lots": -376.2,
+          "avg_buy": 1080.42,
+          "avg_sell": 1080.59,
+          "est_pnl": 7792955.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 132.0,
+          "sell_lots": 343.0,
+          "net_lots": -211.0,
+          "avg_buy": 1070.27,
+          "avg_sell": 1091.31,
+          "est_pnl": 9385000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 693.4,
+          "sell_lots": 866.5,
+          "net_lots": -173.2,
+          "avg_buy": 1066.5,
+          "avg_sell": 1094.97,
+          "est_pnl": 25791780.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "永豐忠孝",
+          "broker_id": "9A9D",
+          "buy_lots": 10.1,
+          "sell_lots": 115.1,
+          "net_lots": -105.0,
+          "avg_buy": 1097.23,
+          "avg_sell": 1023.22,
+          "est_pnl": -4608160.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "群益松山",
+          "broker_id": "9103",
+          "buy_lots": 8.0,
+          "sell_lots": 87.0,
+          "net_lots": -79.0,
+          "avg_buy": 1051.88,
+          "avg_sell": 1032.47,
+          "est_pnl": -2330000.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "台新城東",
+          "broker_id": "9B2r",
+          "buy_lots": 9.1,
+          "sell_lots": 85.2,
+          "net_lots": -76.1,
+          "avg_buy": 1079.37,
+          "avg_sell": 1047.11,
+          "est_pnl": -1274700.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "華南南京",
+          "broker_id": "9326",
+          "buy_lots": 7.0,
+          "sell_lots": 80.1,
+          "net_lots": -73.1,
+          "avg_buy": 1090.71,
+          "avg_sell": 1009.93,
+          "est_pnl": -4226005.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 693.4,
+          "sell_lots": 866.5,
+          "net_lots": -173.2,
+          "avg_buy": 1066.5,
+          "avg_sell": 1094.97,
+          "est_pnl": 25791780.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 656.4,
+          "sell_lots": 1160.2,
+          "net_lots": -503.8,
+          "avg_buy": 1084.23,
+          "avg_sell": 1091.94,
+          "est_pnl": 21155900.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 132.0,
+          "sell_lots": 343.0,
+          "net_lots": -211.0,
+          "avg_buy": 1070.27,
+          "avg_sell": 1091.31,
+          "est_pnl": 9385000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨／偏向單邊"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 304.8,
+          "sell_lots": 681.0,
+          "net_lots": -376.2,
+          "avg_buy": 1080.42,
+          "avg_sell": 1080.59,
+          "est_pnl": 7792955.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 595.0,
+          "sell_lots": 425.2,
+          "net_lots": 169.8,
+          "avg_buy": 1072.08,
+          "avg_sell": 1087.42,
+          "est_pnl": 4472800.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "群益台北",
+          "broker_id": "918X",
+          "buy_lots": 99.0,
+          "sell_lots": 0.0,
+          "net_lots": 99.0,
+          "avg_buy": 1019.04,
+          "avg_sell": null,
+          "est_pnl": 4055000.0,
+          "logic": "純買進鎖碼／偏低價吃貨"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 404.0,
+          "sell_lots": 335.0,
+          "net_lots": 69.0,
+          "avg_buy": 1056.6,
+          "avg_sell": 1067.9,
+          "est_pnl": 4023000.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 79.0,
+          "sell_lots": 86.0,
+          "net_lots": -7.0,
+          "avg_buy": 1038.04,
+          "avg_sell": 1079.07,
+          "est_pnl": 3375000.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏高價倒貨"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "台新西松",
+          "broker_id": "9B2n",
+          "buy_lots": 153.0,
+          "sell_lots": 104.0,
+          "net_lots": 49.0,
+          "avg_buy": 1094.28,
+          "avg_sell": 1011.35,
+          "est_pnl": -10304940.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨"
+        },
+        {
+          "broker": "華南永昌",
+          "broker_id": "9300",
+          "buy_lots": 188.5,
+          "sell_lots": 26.1,
+          "net_lots": 162.4,
+          "avg_buy": 1108.29,
+          "avg_sell": 1111.74,
+          "est_pnl": -7750535.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 598.5,
+          "sell_lots": 286.7,
+          "net_lots": 311.8,
+          "avg_buy": 1087.62,
+          "avg_sell": 1091.05,
+          "est_pnl": -7627440.0,
+          "logic": "當沖對敲／高賣低買偏賺／追高吃貨"
+        },
+        {
+          "broker": "富邦嘉義",
+          "broker_id": "9692",
+          "buy_lots": 210.0,
+          "sell_lots": 210.1,
+          "net_lots": -0.1,
+          "avg_buy": 1106.17,
+          "avg_sell": 1078.51,
+          "est_pnl": -5806800.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏高價倒貨"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 314.1,
+          "sell_lots": 75.6,
+          "net_lots": 238.4,
+          "avg_buy": 1082.39,
+          "avg_sell": 1076.85,
+          "est_pnl": -5757175.0,
+          "logic": "當沖對敲／低賣高買偏賠／追高吃貨／偏向單邊"
+        },
+        {
+          "broker": "永豐忠孝",
+          "broker_id": "9A9D",
+          "buy_lots": 10.1,
+          "sell_lots": 115.1,
+          "net_lots": -105.0,
+          "avg_buy": 1097.23,
+          "avg_sell": 1023.22,
+          "est_pnl": -4608160.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 96.0,
+          "sell_lots": 101.0,
+          "net_lots": -4.9,
+          "avg_buy": 1109.84,
+          "avg_sell": 1063.78,
+          "est_pnl": -4404300.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "華南南京",
+          "broker_id": "9326",
+          "buy_lots": 7.0,
+          "sell_lots": 80.1,
+          "net_lots": -73.1,
+          "avg_buy": 1090.71,
+          "avg_sell": 1009.93,
+          "est_pnl": -4226005.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／低賣高買偏賠／追高吃貨": 147,
+        "當沖對敲／高賣低買偏賺／偏高價倒貨": 102,
+        "當沖對敲／高賣低買偏賺／追高吃貨": 96,
+        "當沖對敲／高賣低買偏賺": 82,
+        "當沖對敲／低賣高買偏賠／偏高價倒貨": 69
+      },
+      "read": "3406 收1060.0；主力偏買：永豐金、統一、瑞銀；主力偏賣：美商高盛、摩根大通、美林；估計當日賺最多：凱基台北、美商高盛；賠最多：台新西松、華南永昌；分點集中（前5分點成交占比 31%）。"
+    },
+    {
+      "stock_id": "3711",
+      "close": 618.0,
+      "total_buy_lots": 22695.7,
+      "total_sell_lots": 22695.7,
+      "broker_count": 815,
+      "top5_turnover_share": 0.281,
+      "top_net_buy": [
+        {
+          "broker": "群益",
+          "broker_id": "9100",
+          "buy_lots": 1206.4,
+          "sell_lots": 239.9,
+          "net_lots": 966.5,
+          "avg_buy": 615.88,
+          "avg_sell": 610.69,
+          "est_pnl": 797557.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "大和國泰",
+          "broker_id": "8890",
+          "buy_lots": 615.0,
+          "sell_lots": 0.0,
+          "net_lots": 615.0,
+          "avg_buy": 616.98,
+          "avg_sell": null,
+          "est_pnl": 626000.0,
+          "logic": "純買進鎖碼"
+        },
+        {
+          "broker": "凱基",
+          "broker_id": "9200",
+          "buy_lots": 477.2,
+          "sell_lots": 20.0,
+          "net_lots": 457.2,
+          "avg_buy": 613.58,
+          "avg_sell": 606.35,
+          "est_pnl": 1876934.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "上海匯豐",
+          "broker_id": "8960",
+          "buy_lots": 449.0,
+          "sell_lots": 46.0,
+          "net_lots": 403.0,
+          "avg_buy": 616.99,
+          "avg_sell": 617.78,
+          "est_pnl": 444960.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 485.6,
+          "sell_lots": 150.7,
+          "net_lots": 335.0,
+          "avg_buy": 615.28,
+          "avg_sell": 614.63,
+          "est_pnl": 814135.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "港麥格理",
+          "broker_id": "1360",
+          "buy_lots": 350.0,
+          "sell_lots": 46.8,
+          "net_lots": 303.2,
+          "avg_buy": 617.87,
+          "avg_sell": 613.82,
+          "est_pnl": -149938.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 453.5,
+          "sell_lots": 235.4,
+          "net_lots": 218.0,
+          "avg_buy": 611.57,
+          "avg_sell": 614.91,
+          "est_pnl": 2187046.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "宏遠",
+          "broker_id": "1260",
+          "buy_lots": 181.1,
+          "sell_lots": 1.0,
+          "net_lots": 180.1,
+          "avg_buy": 612.67,
+          "avg_sell": 618.0,
+          "est_pnl": 964427.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 209.6,
+          "sell_lots": 2609.0,
+          "net_lots": -2399.3,
+          "avg_buy": 613.93,
+          "avg_sell": 613.13,
+          "est_pnl": -11851927.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 235.4,
+          "sell_lots": 1861.5,
+          "net_lots": -1626.0,
+          "avg_buy": 614.11,
+          "avg_sell": 613.98,
+          "est_pnl": -6559684.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "花旗環球",
+          "broker_id": "1590",
+          "buy_lots": 229.0,
+          "sell_lots": 1509.0,
+          "net_lots": -1280.0,
+          "avg_buy": 613.48,
+          "avg_sell": 609.61,
+          "est_pnl": -11627000.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 853.0,
+          "sell_lots": 1999.0,
+          "net_lots": -1146.0,
+          "avg_buy": 614.88,
+          "avg_sell": 613.22,
+          "est_pnl": -6898000.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 473.8,
+          "sell_lots": 1402.6,
+          "net_lots": -928.8,
+          "avg_buy": 615.05,
+          "avg_sell": 607.25,
+          "est_pnl": -13687892.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "國泰綜合",
+          "broker_id": "8880",
+          "buy_lots": 130.8,
+          "sell_lots": 954.5,
+          "net_lots": -823.7,
+          "avg_buy": 610.66,
+          "avg_sell": 607.17,
+          "est_pnl": -9377978.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1199.0,
+          "sell_lots": 1894.8,
+          "net_lots": -695.9,
+          "avg_buy": 612.16,
+          "avg_sell": 614.94,
+          "est_pnl": 1208945.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 344.1,
+          "sell_lots": 822.0,
+          "net_lots": -477.9,
+          "avg_buy": 615.99,
+          "avg_sell": 613.36,
+          "est_pnl": -3127644.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 453.5,
+          "sell_lots": 235.4,
+          "net_lots": 218.0,
+          "avg_buy": 611.57,
+          "avg_sell": 614.91,
+          "est_pnl": 2187046.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "凱基",
+          "broker_id": "9200",
+          "buy_lots": 477.2,
+          "sell_lots": 20.0,
+          "net_lots": 457.2,
+          "avg_buy": 613.58,
+          "avg_sell": 606.35,
+          "est_pnl": 1876934.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 1199.0,
+          "sell_lots": 1894.8,
+          "net_lots": -695.9,
+          "avg_buy": 612.16,
+          "avg_sell": 614.94,
+          "est_pnl": 1208945.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "新光",
+          "broker_id": "8560",
+          "buy_lots": 170.0,
+          "sell_lots": 94.7,
+          "net_lots": 75.4,
+          "avg_buy": 610.27,
+          "avg_sell": 614.76,
+          "est_pnl": 1006980.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏低價吃貨"
+        },
+        {
+          "broker": "宏遠",
+          "broker_id": "1260",
+          "buy_lots": 181.1,
+          "sell_lots": 1.0,
+          "net_lots": 180.1,
+          "avg_buy": 612.67,
+          "avg_sell": 618.0,
+          "est_pnl": 964427.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 388.7,
+          "sell_lots": 575.0,
+          "net_lots": -186.3,
+          "avg_buy": 612.75,
+          "avg_sell": 615.96,
+          "est_pnl": 870718.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 709.0,
+          "sell_lots": 599.0,
+          "net_lots": 110.0,
+          "avg_buy": 614.55,
+          "avg_sell": 615.34,
+          "est_pnl": 858000.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "永豐匯立",
+          "broker_id": "9A81",
+          "buy_lots": 125.0,
+          "sell_lots": 511.5,
+          "net_lots": -386.5,
+          "avg_buy": 622.34,
+          "avg_sell": 620.73,
+          "est_pnl": 853500.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "統一",
+          "broker_id": "5850",
+          "buy_lots": 473.8,
+          "sell_lots": 1402.6,
+          "net_lots": -928.8,
+          "avg_buy": 615.05,
+          "avg_sell": 607.25,
+          "est_pnl": -13687892.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 209.6,
+          "sell_lots": 2609.0,
+          "net_lots": -2399.3,
+          "avg_buy": 613.93,
+          "avg_sell": 613.13,
+          "est_pnl": -11851927.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "花旗環球",
+          "broker_id": "1590",
+          "buy_lots": 229.0,
+          "sell_lots": 1509.0,
+          "net_lots": -1280.0,
+          "avg_buy": 613.48,
+          "avg_sell": 609.61,
+          "est_pnl": -11627000.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "國泰綜合",
+          "broker_id": "8880",
+          "buy_lots": 130.8,
+          "sell_lots": 954.5,
+          "net_lots": -823.7,
+          "avg_buy": 610.66,
+          "avg_sell": 607.17,
+          "est_pnl": -9377978.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 853.0,
+          "sell_lots": 1999.0,
+          "net_lots": -1146.0,
+          "avg_buy": 614.88,
+          "avg_sell": 613.22,
+          "est_pnl": -6898000.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 235.4,
+          "sell_lots": 1861.5,
+          "net_lots": -1626.0,
+          "avg_buy": 614.11,
+          "avg_sell": 613.98,
+          "est_pnl": -6559684.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 344.1,
+          "sell_lots": 822.0,
+          "net_lots": -477.9,
+          "avg_buy": 615.99,
+          "avg_sell": 613.36,
+          "est_pnl": -3127644.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 265.0,
+          "sell_lots": 351.3,
+          "net_lots": -86.3,
+          "avg_buy": 612.69,
+          "avg_sell": 610.94,
+          "est_pnl": -1073290.0,
+          "logic": "當沖對敲／低賣高買偏賠／壓低出貨"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／高賣低買偏賺／偏向單邊": 155,
+        "當沖對敲／高賣低買偏賺／偏低價吃貨": 147,
+        "當沖對敲／高賣低買偏賺": 141,
+        "當沖對敲／高賣低買偏賺／偏低價吃貨／偏向單邊": 137,
+        "當沖對敲／低賣高買偏賠／偏向單邊": 69
+      },
+      "read": "3711 收618.0；主力偏買：群益、大和國泰、凱基；主力偏賣：美商高盛、美林、花旗環球；估計當日賺最多：國泰敦南、凱基；賠最多：統一、美商高盛；分點集中（前5分點成交占比 28%）。"
+    },
+    {
+      "stock_id": "6770",
+      "close": 70.7,
+      "total_buy_lots": 131561.2,
+      "total_sell_lots": 131541.2,
+      "broker_count": 814,
+      "top5_turnover_share": 0.327,
+      "top_net_buy": [
+        {
+          "broker": "港商野村",
+          "broker_id": "1560",
+          "buy_lots": 2868.0,
+          "sell_lots": 20.0,
+          "net_lots": 2848.0,
+          "avg_buy": 70.74,
+          "avg_sell": 70.87,
+          "est_pnl": -100400.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 3341.3,
+          "sell_lots": 2014.1,
+          "net_lots": 1327.2,
+          "avg_buy": 70.66,
+          "avg_sell": 70.77,
+          "est_pnl": 262101.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "富邦台北",
+          "broker_id": "9623",
+          "buy_lots": 1491.5,
+          "sell_lots": 327.3,
+          "net_lots": 1164.2,
+          "avg_buy": 70.7,
+          "avg_sell": 71.22,
+          "est_pnl": 168189.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦永和",
+          "broker_id": "9654",
+          "buy_lots": 1192.2,
+          "sell_lots": 250.1,
+          "net_lots": 942.1,
+          "avg_buy": 70.53,
+          "avg_sell": 70.74,
+          "est_pnl": 214188.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "新光",
+          "broker_id": "8560",
+          "buy_lots": 990.6,
+          "sell_lots": 499.7,
+          "net_lots": 491.0,
+          "avg_buy": 70.59,
+          "avg_sell": 70.72,
+          "est_pnl": 117185.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "華南永昌",
+          "broker_id": "9300",
+          "buy_lots": 564.9,
+          "sell_lots": 170.3,
+          "net_lots": 394.6,
+          "avg_buy": 70.5,
+          "avg_sell": 70.63,
+          "est_pnl": 97856.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "永豐市政",
+          "broker_id": "9A9W",
+          "buy_lots": 565.8,
+          "sell_lots": 176.2,
+          "net_lots": 389.6,
+          "avg_buy": 70.6,
+          "avg_sell": 70.68,
+          "est_pnl": 52056.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "玉山左營",
+          "broker_id": "884D",
+          "buy_lots": 486.7,
+          "sell_lots": 136.1,
+          "net_lots": 350.6,
+          "avg_buy": 70.59,
+          "avg_sell": 70.84,
+          "est_pnl": 71409.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        }
+      ],
+      "top_net_sell": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 6091.6,
+          "sell_lots": 21245.1,
+          "net_lots": -15153.5,
+          "avg_buy": 70.82,
+          "avg_sell": 70.5,
+          "est_pnl": -4920591.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 2357.0,
+          "sell_lots": 10426.0,
+          "net_lots": -8069.0,
+          "avg_buy": 70.8,
+          "avg_sell": 70.59,
+          "est_pnl": -1328200.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 3525.0,
+          "sell_lots": 10085.1,
+          "net_lots": -6560.1,
+          "avg_buy": 70.87,
+          "avg_sell": 70.48,
+          "est_pnl": -2849982.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "凱基台北",
+          "broker_id": "9268",
+          "buy_lots": 3275.1,
+          "sell_lots": 9406.1,
+          "net_lots": -6131.0,
+          "avg_buy": 70.63,
+          "avg_sell": 70.67,
+          "est_pnl": -25445.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 7702.0,
+          "sell_lots": 11920.0,
+          "net_lots": -4218.0,
+          "avg_buy": 70.73,
+          "avg_sell": 70.57,
+          "est_pnl": -1766028.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "凱基站前",
+          "broker_id": "920F",
+          "buy_lots": 155.6,
+          "sell_lots": 4178.9,
+          "net_lots": -4023.3,
+          "avg_buy": 70.49,
+          "avg_sell": 70.85,
+          "est_pnl": 672971.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 1124.2,
+          "sell_lots": 4698.0,
+          "net_lots": -3573.8,
+          "avg_buy": 70.91,
+          "avg_sell": 70.68,
+          "est_pnl": -320834.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 1281.9,
+          "sell_lots": 3955.1,
+          "net_lots": -2673.2,
+          "avg_buy": 70.67,
+          "avg_sell": 70.74,
+          "est_pnl": 186602.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        }
+      ],
+      "top_winners": [
+        {
+          "broker": "凱基站前",
+          "broker_id": "920F",
+          "buy_lots": 155.6,
+          "sell_lots": 4178.9,
+          "net_lots": -4023.3,
+          "avg_buy": 70.49,
+          "avg_sell": 70.85,
+          "est_pnl": 672971.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦高雄",
+          "broker_id": "9659",
+          "buy_lots": 505.7,
+          "sell_lots": 437.2,
+          "net_lots": 68.5,
+          "avg_buy": 70.52,
+          "avg_sell": 71.48,
+          "est_pnl": 433236.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "國泰敦南",
+          "broker_id": "8888",
+          "buy_lots": 3341.3,
+          "sell_lots": 2014.1,
+          "net_lots": 1327.2,
+          "avg_buy": 70.66,
+          "avg_sell": 70.77,
+          "est_pnl": 262101.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "富邦永和",
+          "broker_id": "9654",
+          "buy_lots": 1192.2,
+          "sell_lots": 250.1,
+          "net_lots": 942.1,
+          "avg_buy": 70.53,
+          "avg_sell": 70.74,
+          "est_pnl": 214188.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦",
+          "broker_id": "9600",
+          "buy_lots": 1281.9,
+          "sell_lots": 3955.1,
+          "net_lots": -2673.2,
+          "avg_buy": 70.67,
+          "avg_sell": 70.74,
+          "est_pnl": 186602.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "富邦台北",
+          "broker_id": "9623",
+          "buy_lots": 1491.5,
+          "sell_lots": 327.3,
+          "net_lots": 1164.2,
+          "avg_buy": 70.7,
+          "avg_sell": 71.22,
+          "est_pnl": 168189.0,
+          "logic": "當沖對敲／高賣低買偏賺／偏向單邊"
+        },
+        {
+          "broker": "玉山新竹",
+          "broker_id": "884H",
+          "buy_lots": 296.2,
+          "sell_lots": 133.0,
+          "net_lots": 163.2,
+          "avg_buy": 70.19,
+          "avg_sell": 70.78,
+          "est_pnl": 162772.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        },
+        {
+          "broker": "台新三重",
+          "broker_id": "9B23",
+          "buy_lots": 328.7,
+          "sell_lots": 225.1,
+          "net_lots": 103.6,
+          "avg_buy": 70.33,
+          "avg_sell": 70.84,
+          "est_pnl": 152332.0,
+          "logic": "當沖對敲／高賣低買偏賺"
+        }
+      ],
+      "top_losers": [
+        {
+          "broker": "美商高盛",
+          "broker_id": "1480",
+          "buy_lots": 6091.6,
+          "sell_lots": 21245.1,
+          "net_lots": -15153.5,
+          "avg_buy": 70.82,
+          "avg_sell": 70.5,
+          "est_pnl": -4920591.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "台灣摩根",
+          "broker_id": "1470",
+          "buy_lots": 3525.0,
+          "sell_lots": 10085.1,
+          "net_lots": -6560.1,
+          "avg_buy": 70.87,
+          "avg_sell": 70.48,
+          "est_pnl": -2849982.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "元大",
+          "broker_id": "9800",
+          "buy_lots": 7702.0,
+          "sell_lots": 11920.0,
+          "net_lots": -4218.0,
+          "avg_buy": 70.73,
+          "avg_sell": 70.57,
+          "est_pnl": -1766028.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "瑞銀",
+          "broker_id": "1650",
+          "buy_lots": 2357.0,
+          "sell_lots": 10426.0,
+          "net_lots": -8069.0,
+          "avg_buy": 70.8,
+          "avg_sell": 70.59,
+          "est_pnl": -1328200.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "美林",
+          "broker_id": "1440",
+          "buy_lots": 587.0,
+          "sell_lots": 1850.0,
+          "net_lots": -1263.0,
+          "avg_buy": 70.75,
+          "avg_sell": 70.32,
+          "est_pnl": -737800.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "永豐金",
+          "broker_id": "9A00",
+          "buy_lots": 1180.1,
+          "sell_lots": 1598.9,
+          "net_lots": -418.8,
+          "avg_buy": 70.91,
+          "avg_sell": 70.65,
+          "est_pnl": -332217.0,
+          "logic": "當沖對敲／低賣高買偏賠"
+        },
+        {
+          "broker": "摩根大通",
+          "broker_id": "8440",
+          "buy_lots": 1124.2,
+          "sell_lots": 4698.0,
+          "net_lots": -3573.8,
+          "avg_buy": 70.91,
+          "avg_sell": 70.68,
+          "est_pnl": -320834.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        },
+        {
+          "broker": "美好苗栗",
+          "broker_id": "5265",
+          "buy_lots": 33.1,
+          "sell_lots": 816.0,
+          "net_lots": -782.9,
+          "avg_buy": 70.66,
+          "avg_sell": 70.44,
+          "est_pnl": -209230.0,
+          "logic": "當沖對敲／低賣高買偏賠／偏向單邊"
+        }
+      ],
+      "logic_styles": {
+        "當沖對敲／高賣低買偏賺": 347,
+        "當沖對敲／高賣低買偏賺／偏向單邊": 288,
+        "當沖對敲／低賣高買偏賠": 86,
+        "當沖對敲／低賣高買偏賠／偏向單邊": 75,
+        "純買進鎖碼": 17
+      },
+      "read": "6770 收70.7；主力偏買：港商野村、國泰敦南、富邦台北；主力偏賣：美商高盛、瑞銀、台灣摩根；估計當日賺最多：凱基站前、富邦高雄；賠最多：美商高盛、台灣摩根；分點集中（前5分點成交占比 33%）。"
+    }
+  ],
+  "cross_broker_board": [
+    {
+      "broker": "摩根大通",
+      "broker_id": "8440",
+      "est_pnl": 41082524.0,
+      "net_lots": -13503.5,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "凱基台北",
+      "broker_id": "9268",
+      "est_pnl": 29813244.0,
+      "net_lots": -21150.4,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "元大",
+      "broker_id": "9800",
+      "est_pnl": 15673461.0,
+      "net_lots": -12254.8,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "港商野村",
+      "broker_id": "1560",
+      "est_pnl": 7721100.0,
+      "net_lots": 5188.0,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "群益台北",
+      "broker_id": "918X",
+      "est_pnl": 5796152.0,
+      "net_lots": 76.0,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "法銀巴黎",
+      "broker_id": "8900",
+      "est_pnl": 4973000.0,
+      "net_lots": 5049.6,
+      "stocks": "1303,2303,2409,3006,3406,3711,6770"
+    },
+    {
+      "broker": "群益",
+      "broker_id": "9100",
+      "est_pnl": 4708710.0,
+      "net_lots": 59.7,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "美林",
+      "broker_id": "1440",
+      "est_pnl": 3763516.0,
+      "net_lots": -16785.0,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "兆豐天母",
+      "broker_id": "700L",
+      "est_pnl": 3322136.0,
+      "net_lots": -70.2,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "永豐敦北",
+      "broker_id": "9A89",
+      "est_pnl": 2980058.0,
+      "net_lots": -28.2,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "凱基",
+      "broker_id": "9200",
+      "est_pnl": -7749031.0,
+      "net_lots": -2406.3,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "華南南京",
+      "broker_id": "9326",
+      "est_pnl": -8400086.0,
+      "net_lots": -1328.7,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "華南永昌",
+      "broker_id": "9300",
+      "est_pnl": -9124823.0,
+      "net_lots": 1984.0,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "台新西松",
+      "broker_id": "9B2n",
+      "est_pnl": -10431861.0,
+      "net_lots": -69.8,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "花旗環球",
+      "broker_id": "1590",
+      "est_pnl": -11010785.0,
+      "net_lots": -2443.4,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "瑞銀",
+      "broker_id": "1650",
+      "est_pnl": -11026690.0,
+      "net_lots": -34292.3,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "國泰綜合",
+      "broker_id": "8880",
+      "est_pnl": -17969994.0,
+      "net_lots": 448.7,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "統一",
+      "broker_id": "5850",
+      "est_pnl": -20330558.0,
+      "net_lots": 1407.0,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "永豐金",
+      "broker_id": "9A00",
+      "est_pnl": -24555504.0,
+      "net_lots": 3190.1,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    },
+    {
+      "broker": "台灣摩根",
+      "broker_id": "1470",
+      "est_pnl": -27397936.0,
+      "net_lots": -51461.2,
+      "stocks": "1303,2303,2409,3006,3026,3406,3711,6770"
+    }
+  ],
+  "notes": [
+    "est_pnl 為「賣出收入−買進成本+淨庫存×收盤」之當日估計，非真實帳戶損益。",
+    "同公司多分點（如元大各分公司）未合併；解讀時可再按券商品牌加總。",
+    "優先資料源：tw-broker-chip-data（main／data/daily/*.parquet + Git LFS）；失敗時改用 FinMind 分點。",
+    "完整日檔 tw-broker-chip-data data/daily/2026-09-11.parquet",
+    "紅燈日：隔夜預算 0–15 萬；你今日以出清隔夜為主，與多數分點偏賣同向。"
+  ],
+  "user_alignment": [
+    {
+      "stock_id": "1303",
+      "user_net_lots": -2.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "國泰綜合,統一南京,國泰敦南",
+      "top_sell": "美商高盛,台灣摩根,凱基台北",
+      "read": "1303 收234.5；主力偏買：國泰綜合、統一南京、國泰敦南；主力偏賣：美商高盛、台灣摩根、凱基台北；估計當日賺最多：美商高盛、摩根大通；賠最多：國泰敦南、台新證券；分點集中（前5分點成交占比 30%）。",
+      "winner": "美商高盛",
+      "loser": "國泰敦南"
+    },
+    {
+      "stock_id": "2303",
+      "user_net_lots": -3.0,
+      "broker_bias": "偏買",
+      "alignment": "逆向（你賣、分點偏買）",
+      "top_buy": "法銀巴黎,港商野村,兆豐",
+      "top_sell": "台灣摩根,凱基台北,摩根大通",
+      "read": "2303 收140.5；主力偏買：法銀巴黎、港商野村、兆豐；主力偏賣：台灣摩根、凱基台北、摩根大通；估計當日賺最多：法銀巴黎、兆豐；賠最多：台灣摩根、元大；分點集中（前5分點成交占比 30%）。",
+      "winner": "法銀巴黎",
+      "loser": "台灣摩根"
+    },
+    {
+      "stock_id": "2409",
+      "user_net_lots": -20.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "永豐金,兆豐東門,國泰敦南",
+      "top_sell": "台灣摩根,瑞銀,美林",
+      "read": "2409 收30.2；主力偏買：永豐金、兆豐東門、國泰敦南；主力偏賣：台灣摩根、瑞銀、美林；估計當日賺最多：國泰敦南、新光；賠最多：瑞銀、台灣摩根；分點集中（前5分點成交占比 27%）。",
+      "winner": "國泰敦南",
+      "loser": "瑞銀"
+    },
+    {
+      "stock_id": "3006",
+      "user_net_lots": -1.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "元大雙和,元大新盛,合庫台中",
+      "top_sell": "瑞銀,摩根大通,凱基台北",
+      "read": "3006 收290.5；主力偏買：元大雙和、元大新盛、合庫台中；主力偏賣：瑞銀、摩根大通、凱基台北；估計當日賺最多：元大、永豐金；賠最多：摩根大通、台灣摩根；分點集中（前5分點成交占比 31%）。",
+      "winner": "元大",
+      "loser": "摩根大通"
+    },
+    {
+      "stock_id": "3026",
+      "user_net_lots": -1.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "永豐金,國泰綜合,瑞銀",
+      "top_sell": "摩根大通,凱基台北,兆豐忠孝",
+      "read": "3026 收744.0；主力偏買：永豐金、國泰綜合、瑞銀；主力偏賣：摩根大通、凱基台北、兆豐忠孝；估計當日賺最多：摩根大通、元大；賠最多：永豐金、國泰敦南；分點集中（前5分點成交占比 28%）。",
+      "winner": "摩根大通",
+      "loser": "永豐金"
+    },
+    {
+      "stock_id": "3406",
+      "user_net_lots": 0.0,
+      "broker_bias": "偏賣",
+      "alignment": "中性",
+      "top_buy": "永豐金,統一,瑞銀",
+      "top_sell": "美商高盛,摩根大通,美林",
+      "read": "3406 收1060.0；主力偏買：永豐金、統一、瑞銀；主力偏賣：美商高盛、摩根大通、美林；估計當日賺最多：凱基台北、美商高盛；賠最多：台新西松、華南永昌；分點集中（前5分點成交占比 31%）。",
+      "winner": "凱基台北",
+      "loser": "台新西松"
+    },
+    {
+      "stock_id": "3711",
+      "user_net_lots": -1.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "群益,大和國泰,凱基",
+      "top_sell": "美商高盛,美林,花旗環球",
+      "read": "3711 收618.0；主力偏買：群益、大和國泰、凱基；主力偏賣：美商高盛、美林、花旗環球；估計當日賺最多：國泰敦南、凱基；賠最多：統一、美商高盛；分點集中（前5分點成交占比 28%）。",
+      "winner": "國泰敦南",
+      "loser": "統一"
+    },
+    {
+      "stock_id": "6770",
+      "user_net_lots": -17.0,
+      "broker_bias": "偏賣",
+      "alignment": "同向偏空/出貨",
+      "top_buy": "港商野村,國泰敦南,富邦台北",
+      "top_sell": "美商高盛,瑞銀,台灣摩根",
+      "read": "6770 收70.7；主力偏買：港商野村、國泰敦南、富邦台北；主力偏賣：美商高盛、瑞銀、台灣摩根；估計當日賺最多：凱基站前、富邦高雄；賠最多：美商高盛、台灣摩根；分點集中（前5分點成交占比 33%）。",
+      "winner": "凱基站前",
+      "loser": "美商高盛"
+    }
+  ],
+  "tomorrow_watch": [
+    {
+      "stock_id": "3406",
+      "name": "玉晶光",
+      "plan": "觀察／可當沖",
+      "trigger": "開高量縮不追；回測支撐有量再短多",
+      "note": "今唯一獲利當沖，勿隔夜"
+    },
+    {
+      "stock_id": "2409",
+      "name": "友達",
+      "plan": "空手觀察",
+      "trigger": "分點轉明顯偏買+止跌K才試",
+      "note": "大賣同向，傷口大"
+    },
+    {
+      "stock_id": "6770",
+      "name": "力積電",
+      "plan": "空手",
+      "trigger": "弱反彈不接；量縮止跌+分點回補",
+      "note": "最大虧損源"
+    },
+    {
+      "stock_id": "3711",
+      "name": "日月光投控",
+      "plan": "空手",
+      "trigger": "外資分點止賣且站回五日",
+      "note": "跌深已出"
+    },
+    {
+      "stock_id": "3006",
+      "name": "晶豪科",
+      "plan": "空手",
+      "trigger": "不追跌深反彈",
+      "note": "報酬差"
+    }
+  ]
+}

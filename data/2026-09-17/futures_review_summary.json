@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-17",
+  "product": "微型台指 MTX",
+  "point_value": 10,
+  "rounds": 6,
+  "wins": 4,
+  "losses": 2,
+  "net_pnl": -682.0,
+  "gross_pnl": -430.0,
+  "fees_tax": 252.0,
+  "avg_win_pts": 21.5,
+  "avg_loss_pts": -64.5,
+  "total_pts": -43.0,
+  "cancel_orders": 25,
+  "fill_orders": 12
+}

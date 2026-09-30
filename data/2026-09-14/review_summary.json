@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-14",
+  "asof": "~13:34",
+  "realized": 8925,
+  "open_mtm_est": 1500,
+  "open_notional_est": 1625000,
+  "open_notional_pct_of_3m": 54.2,
+  "open_lots": {
+    "2303": 4,
+    "1303": 2,
+    "6173": 2
+  },
+  "verdict": "當沖小賺但留倉過重，尾盤需壓到隔夜預算內"
+}
