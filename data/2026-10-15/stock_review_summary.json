@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "asof": "~13:30",
+  "realized": -127098.0,
+  "overnight_margin_exit": -137034.0,
+  "intraday_realized": 9936.0,
+  "open_cost_notional": 1634500,
+  "open_pct_capital": 54.5,
+  "open_names": 4,
+  "opens": [
+    {"sid": "1303", "name": "南亞(1303)", "lots": 2.0, "avg": 314.5, "cost": 629000},
+    {"sid": "6415", "name": "矽力*-KY(6415)", "lots": 1.0, "avg": 474.0, "cost": 474000},
+    {"sid": "2492", "name": "華新科(2492)", "lots": 1.0, "avg": 417.5, "cost": 417500, "note": "margin"},
+    {"sid": "6505", "name": "台塑化(6505)", "lots": 1.0, "avg": 114.0, "cost": 114000}
+  ],
+  "live_orders": [
+    {"sid": "6213", "side": "融資買進", "lots": 1, "price": 786, "action": "CANCEL_NOW"}
+  ],
+  "flags": [
+    "overnight_oversize_tuition_minus137k",
+    "exit_execution_good",
+    "rebuilt_163万_still_over_green",
+    "6213_same_name_rebuy_must_cancel",
+    "2327_6213_3374_main_damage"
+  ]
+}

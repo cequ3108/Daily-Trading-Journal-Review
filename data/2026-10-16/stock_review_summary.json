@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-16",
+  "asof": "~12:50",
+  "weekday": "Friday",
+  "realized": -10915.0,
+  "overnight_margin_exit": -8633.0,
+  "intraday_realized": -2282.0,
+  "open_cost_notional": 1928000,
+  "open_pct_capital": 64.3,
+  "open_names": 3,
+  "opens": [
+    {"sid": "2317", "name": "鴻海(2317)", "lots": 3.0, "avg": 246.0, "cost": 738000},
+    {"sid": "2881", "name": "富邦金(2881)", "lots": 4.0, "avg": 163.75, "cost": 655000},
+    {"sid": "2603", "name": "長榮(2603)", "lots": 2.0, "avg": 267.5, "cost": 535000}
+  ],
+  "live_orders": [
+    {"sid": "2881", "side": "現股賣出", "lots": 2, "price": 164.0},
+    {"sid": "2881", "side": "現股賣出", "lots": 2, "price": 164.5}
+  ],
+  "flags": [
+    "overnight_exit_small_loss_ok",
+    "6213_rebuy_avoided",
+    "friday_weekend_risk",
+    "rebuilt_193万_over_green",
+    "all_three_names_over_single_30万",
+    "2881_exit_orders_good"
+  ]
+}
