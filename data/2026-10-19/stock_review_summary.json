@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "asof": "~12:49",
+  "weekday": "Monday",
+  "realized": -56733.0,
+  "overnight_margin_exit": -53503.0,
+  "intraday_realized": -3230.0,
+  "open_cost_notional": 1743950,
+  "open_pct_capital": 58.1,
+  "open_names": 3,
+  "opens": [
+    {"sid": "2368", "name": "金像電(2368)", "lots": 1.0, "avg": 1260.0, "cost": 1260000},
+    {"sid": "5314", "name": "世紀*(5314)", "lots": 10.0, "avg": 27.995, "cost": 279950},
+    {"sid": "1802", "name": "台玻(1802)", "lots": 3.0, "avg": 68.0, "cost": 204000}
+  ],
+  "live_orders": [
+    {"sid": "1815", "side": "現股買進", "lots": 2, "price": 154.0, "notional": 308000, "note": "day order; confirm expired after close"}
+  ],
+  "flags": [
+    "weekend_hold_tuition_minus54k",
+    "friday_book_exit_executed",
+    "2368_single_name_126万",
+    "rebuilt_174万_over_green",
+    "1815_buy_order_check_cancel"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "asof": "~13:30",
+  "realized": 22352.0,
+  "overnight_exit": -7062.0,
+  "intraday_cash_offset": 24455.0,
+  "margin_short_offset": 4959.0,
+  "open_cost_notional": 2607300,
+  "open_pct_capital": 86.9,
+  "open_names": 6,
+  "opens": [
+    {"sid": "6213", "name": "聯茂(6213)", "lots": 1.0, "avg": 847.0, "cost": 847000, "note": "margin"},
+    {"sid": "2327", "name": "國巨*(2327)", "lots": 1.0, "avg": 628.0, "cost": 628000},
+    {"sid": "3374", "name": "精材(3374)", "lots": 1.0, "avg": 499.5, "cost": 499500},
+    {"sid": "6147", "name": "頎邦(6147)", "lots": 1.0, "avg": 231.5, "cost": 231500},
+    {"sid": "6770", "name": "力積電(6770)", "lots": 3.0, "avg": 70.6, "cost": 211800},
+    {"sid": "4977", "name": "眾達-KY(4977)", "lots": 1.0, "avg": 189.5, "cost": 189500}
+  ],
+  "flags": [
+    "overnight_green_exit_small_loss_ok",
+    "daytrade_profit_main_win",
+    "rebuilt_to_261万_over_green",
+    "6213_2327_3374_single_name_oversize",
+    "4977_live_buy_cancel",
+    "6213_live_short_vs_margin_long_unclear"
+  ]
+}

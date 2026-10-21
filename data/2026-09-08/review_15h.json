@@ -1,0 +1,449 @@
+{
+  "date": "2026-09-08",
+  "market": {
+    "date": "2026-09-08",
+    "source": "daily",
+    "open": 47335.24,
+    "high": 47578.24,
+    "low": 47023.73,
+    "close": 47105.78,
+    "prev_close": 47326.27,
+    "spread": -220.49,
+    "ret_pct": -0.47,
+    "range_pct": 1.17,
+    "amt_yi": 9195.5,
+    "ma20_amt_yi": 9528.7,
+    "vs_ma20": 0.97,
+    "green_115": 10958.0,
+    "yellow_low_085": 8099.4,
+    "yellow_high_110": 10481.5,
+    "light": "黃",
+    "volume_ratio": 0.86,
+    "otc_change_rate": -0.52,
+    "otc_close": 407.19
+  },
+  "orders": {
+    "total": 72,
+    "by_status": {
+      "完全成交": 41,
+      "委託取消": 30,
+      "委託失敗": 1
+    },
+    "by_type": {
+      "融資賣出": 41,
+      "現股買進": 16,
+      "現股賣出": 9,
+      "現沖賣出": 4,
+      "融資買進": 1,
+      "融券賣出": 1
+    },
+    "unique_stocks": 10,
+    "by_hour": {
+      "08": 42,
+      "09": 17,
+      "10": 3,
+      "11": 9,
+      "12": 1
+    },
+    "market_price_orders": 1,
+    "cancel_rate": 0.0
+  },
+  "fills": {
+    "n": 48,
+    "by_type": {
+      "融資賣出": 24,
+      "現股買進": 14,
+      "現股賣出": 6,
+      "現沖賣出": 4
+    },
+    "by_hour": {
+      "09": 32,
+      "10": 4,
+      "11": 10,
+      "12": 2
+    },
+    "unique_stocks": 8,
+    "notional_m": 10.41
+  },
+  "realized_pnl": {
+    "total": -10522.0,
+    "items": [
+      {
+        "stock_id": "2408",
+        "name": "南亞科(2408)",
+        "type": "融資賣出",
+        "shares": 1000,
+        "pnl": 5188.0,
+        "ret": "1.99%"
+      },
+      {
+        "stock_id": "6770",
+        "name": "力積電(6770)",
+        "type": "融資賣出",
+        "shares": 10000,
+        "pnl": 4871.0,
+        "ret": "1.64%"
+      },
+      {
+        "stock_id": "2409",
+        "name": "友達(2409)",
+        "type": "融資賣出",
+        "shares": 50000,
+        "pnl": -8739.0,
+        "ret": "-1.50%"
+      },
+      {
+        "stock_id": "2408",
+        "name": "南亞科(2408)",
+        "type": "現股互抵賣出",
+        "shares": 2000,
+        "pnl": 976.0,
+        "ret": "0.09%"
+      },
+      {
+        "stock_id": "2344",
+        "name": "華邦電(2344)",
+        "type": "現股互抵賣出",
+        "shares": 5000,
+        "pnl": -5289.0,
+        "ret": "-0.56%"
+      },
+      {
+        "stock_id": "3441",
+        "name": "聯一光(3441)",
+        "type": "現股互抵賣出",
+        "shares": 1000,
+        "pnl": -1746.0,
+        "ret": "-1.32%"
+      },
+      {
+        "stock_id": "2426",
+        "name": "鼎元(2426)",
+        "type": "現股互抵賣出",
+        "shares": 1000,
+        "pnl": -1188.0,
+        "ret": "-1.17%"
+      },
+      {
+        "stock_id": "2409",
+        "name": "友達(2409)",
+        "type": "現股互抵賣出",
+        "shares": 15000,
+        "pnl": -4595.0,
+        "ret": "-1.02%"
+      }
+    ],
+    "winner_sum": 11035.0,
+    "loser_sum": -21557.0
+  },
+  "positions_from_fills": [
+    {
+      "stock_id": "1303",
+      "name": "南亞(1303)",
+      "buy_lots": 1.0,
+      "sell_lots": 0.0,
+      "net_lots": 1.0,
+      "avg_buy": 236.5,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": -1500.0,
+      "market_chg_pct": 1.95,
+      "close": 235.0,
+      "types": {
+        "現股買進": 1
+      }
+    },
+    {
+      "stock_id": "2344",
+      "name": "華邦電(2344)",
+      "buy_lots": 5.0,
+      "sell_lots": 5.0,
+      "net_lots": 0.0,
+      "avg_buy": 190.2,
+      "avg_sell": 189.5,
+      "matched_day_pnl_est": -3500.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": 4.44,
+      "close": 188.0,
+      "types": {
+        "現沖賣出": 1,
+        "現股買進": 5
+      }
+    },
+    {
+      "stock_id": "2408",
+      "name": "南亞科(2408)",
+      "buy_lots": 2.0,
+      "sell_lots": 3.0,
+      "net_lots": -1.0,
+      "avg_buy": 535.0,
+      "avg_sell": 533.33,
+      "matched_day_pnl_est": -3333.0,
+      "mtm_leftover_est": 2333.0,
+      "market_chg_pct": 2.71,
+      "close": 531.0,
+      "types": {
+        "現沖賣出": 2,
+        "現股買進": 2,
+        "融資賣出": 1
+      }
+    },
+    {
+      "stock_id": "2409",
+      "name": "友達(2409)",
+      "buy_lots": 15.0,
+      "sell_lots": 65.0,
+      "net_lots": -50.0,
+      "avg_buy": 30.1,
+      "avg_sell": 29.15,
+      "matched_day_pnl_est": -14250.0,
+      "mtm_leftover_est": -22500.0,
+      "market_chg_pct": 3.14,
+      "close": 29.6,
+      "types": {
+        "現股賣出": 5,
+        "現股買進": 3,
+        "融資賣出": 13
+      }
+    },
+    {
+      "stock_id": "2426",
+      "name": "鼎元(2426)",
+      "buy_lots": 1.0,
+      "sell_lots": 1.0,
+      "net_lots": 0.0,
+      "avg_buy": 101.5,
+      "avg_sell": 100.5,
+      "matched_day_pnl_est": -1000.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": -1.61,
+      "close": 97.5,
+      "types": {
+        "現股賣出": 1,
+        "現股買進": 1
+      }
+    },
+    {
+      "stock_id": "3441",
+      "name": "聯一光(3441)",
+      "buy_lots": 1.0,
+      "sell_lots": 1.0,
+      "net_lots": 0.0,
+      "avg_buy": 132.5,
+      "avg_sell": 131.0,
+      "matched_day_pnl_est": -1500.0,
+      "mtm_leftover_est": 0.0,
+      "market_chg_pct": 0.76,
+      "close": 132.0,
+      "types": {
+        "現沖賣出": 1,
+        "現股買進": 1
+      }
+    },
+    {
+      "stock_id": "6770",
+      "name": "力積電(6770)",
+      "buy_lots": 0.0,
+      "sell_lots": 10.0,
+      "net_lots": -10.0,
+      "avg_buy": null,
+      "avg_sell": 73.48,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": 10800.0,
+      "market_chg_pct": -0.69,
+      "close": 72.4,
+      "types": {
+        "融資賣出": 10
+      }
+    },
+    {
+      "stock_id": "7828",
+      "name": "創新服務(7828)",
+      "buy_lots": 1.0,
+      "sell_lots": 0.0,
+      "net_lots": 1.0,
+      "avg_buy": 2055.0,
+      "avg_sell": null,
+      "matched_day_pnl_est": null,
+      "mtm_leftover_est": -20000.0,
+      "market_chg_pct": 8.82,
+      "close": 2035.0,
+      "types": {
+        "現股買進": 1
+      }
+    }
+  ],
+  "stock_day": {
+    "1303": {
+      "open": 236.0,
+      "high": 239.5,
+      "low": 229.0,
+      "close": 235.0,
+      "prev_close": 230.5,
+      "chg_pct": 1.95,
+      "amt_yi": 153.07,
+      "source": "daily"
+    },
+    "2344": {
+      "open": 185.0,
+      "high": 192.0,
+      "low": 183.5,
+      "close": 188.0,
+      "prev_close": 180.0,
+      "chg_pct": 4.44,
+      "amt_yi": 419.28,
+      "source": "daily"
+    },
+    "2408": {
+      "open": 527.0,
+      "high": 540.0,
+      "low": 524.0,
+      "close": 531.0,
+      "prev_close": 517.0,
+      "chg_pct": 2.71,
+      "amt_yi": 406.95,
+      "source": "daily"
+    },
+    "2409": {
+      "open": 28.8,
+      "high": 30.7,
+      "low": 28.2,
+      "close": 29.6,
+      "prev_close": 28.7,
+      "chg_pct": 3.14,
+      "amt_yi": 184.52,
+      "source": "daily"
+    },
+    "2426": {
+      "open": 100.5,
+      "high": 102.5,
+      "low": 97.1,
+      "close": 97.5,
+      "prev_close": 99.1,
+      "chg_pct": -1.61,
+      "amt_yi": 39.93,
+      "source": "daily"
+    },
+    "2454": {
+      "open": 4800.0,
+      "high": 4830.0,
+      "low": 4685.0,
+      "close": 4710.0,
+      "prev_close": 4760.0,
+      "chg_pct": -1.05,
+      "amt_yi": 309.48,
+      "source": "daily"
+    },
+    "2455": {
+      "open": 528.0,
+      "high": 535.0,
+      "low": 506.0,
+      "close": 515.0,
+      "prev_close": 500.0,
+      "chg_pct": 3.0,
+      "amt_yi": 24.31,
+      "source": "daily"
+    },
+    "3441": {
+      "open": 130.0,
+      "high": 134.0,
+      "low": 123.5,
+      "close": 132.0,
+      "prev_close": 131.0,
+      "chg_pct": 0.76,
+      "amt_yi": 16.6,
+      "source": "daily"
+    },
+    "6770": {
+      "open": 73.2,
+      "high": 75.3,
+      "low": 71.9,
+      "close": 72.4,
+      "prev_close": 72.9,
+      "chg_pct": -0.69,
+      "amt_yi": 126.58,
+      "source": "daily"
+    },
+    "7828": {
+      "open": 1890.0,
+      "high": 2055.0,
+      "low": 1890.0,
+      "close": 2035.0,
+      "prev_close": 1870.0,
+      "chg_pct": 8.82,
+      "amt_yi": 16.17,
+      "source": "daily"
+    }
+  },
+  "verdict": {
+    "market_one_liner": "黃燈偏弱：加權 47106（-0.47%），成交 9196 億≈0.97×MA20；櫃買 -0.52%。",
+    "score_one_liner": "已實現損益約 -10,522 元（賺 11,035／賠 -21,557）；委託 72／成交 48／取消 30。",
+    "good": [
+      "力積電(6770) 開盤融資賣出 10 張（均賣約 73.48），收盤 72.4 偏弱；隔夜部位早出，已實現 +4,871，執行正確。",
+      "南亞科(2408) 隔夜／短打合計已實現約 +6,164，偏強股上有賺錢出場。",
+      "友達(2409) 開盤先把昨淨多約 50 張賣掉，符合昨日「破弱／風控減碼」方向（雖均賣偏低仍先停損隔夜）。"
+    ],
+    "bad": [
+      "友達後又在 11:20 附近回補均價約 30.1，11:40 再賣約 29.15，當沖段估虧；同一檔「早出又追回」抵銷風控成果。帳面 2409 相關已實現約 -13,334。",
+      "創新服務(7828) 12:35 市價／高價買進 1 張均價 2055.0（當日高 2055），收 2035.0，浮虧估 -20,000——直接違反昨日「不追高回補 7828」。",
+      "華邦電(2344)、鼎元(2426)、聯一光(3441) 互抵／短打合計約 -8,223；黃燈偏弱日邊緣股摩擦重演。"
+    ],
+    "funding_note": "早盤出清 2409/6770/2408 隔夜後，資金又做 2344/2426/3441 短打，午後追 7828；風控有做，選股與追價又把優勢吐回去。",
+    "vs_yesterday_rules": {
+      "2409_risk_control": "部分做到（開盤減碼），但回補再虧",
+      "no_chase_7828": "違規（高價回補）",
+      "no_fringe_daytrade": "違規（2344/2426/3441）",
+      "no_late_big_add": "7828 午後追價屬同類錯誤"
+    },
+    "hold_next": [
+      "7828 創新服務（浮虧，先風控）",
+      "1303 南亞（小倉）"
+    ],
+    "daytrade_ok": [
+      "2408 南亞科（已驗證可短）",
+      "2344 僅在強勢確認後、限額短打"
+    ],
+    "avoid": [
+      "再追 7828",
+      "2409 反覆進出",
+      "黃燈日邊緣互抵"
+    ],
+    "watchlist_tomorrow": [
+      {
+        "id": "7828",
+        "name": "創新服務",
+        "action": "減碼／停損管理",
+        "trigger": "開盤不守 2035／破 1890 區→減半或清；未站穩不回補"
+      },
+      {
+        "id": "2408",
+        "name": "南亞科",
+        "action": "隔日沖優先",
+        "trigger": "開盤守昨收上可短；弱則空手"
+      },
+      {
+        "id": "2409",
+        "name": "友達",
+        "action": "觀察不主動",
+        "trigger": "若要做須開盤強且只短打，禁止隔夜反覆"
+      },
+      {
+        "id": "6770",
+        "name": "力積電",
+        "action": "觀望",
+        "trigger": "站回 73.5 上才考慮短；否則不做"
+      },
+      {
+        "id": "1303",
+        "name": "南亞",
+        "action": "小倉管理",
+        "trigger": "破買價 236.5 減碼"
+      }
+    ],
+    "rules_reminder": [
+      "黃燈偏弱：新開≤3檔，禁邊緣互抵",
+      "隔夜出清後，同日禁止回補同一檔（2409教訓）",
+      "7828類強勢回檔才接，禁止高價市價追"
+    ]
+  }
+}

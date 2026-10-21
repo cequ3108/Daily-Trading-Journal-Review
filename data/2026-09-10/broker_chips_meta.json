@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-10",
+  "source": "tw-broker-chip-data-partial+finmind",
+  "repo_dir": "vendor/tw-broker-chip-data",
+  "branch": "main",
+  "daily_parquet": "vendor/tw-broker-chip-data/state/partial_2026-09-10.parquet",
+  "note": "2026-09-10 完整日檔尚未入庫（FinMind quota/ban demoted）；以 partial 覆蓋已抓標的，缺檔改 FinMind。",
+  "partial_stocks": [
+    "1303",
+    "2303",
+    "2330",
+    "2382",
+    "2409",
+    "3006"
+  ],
+  "finmind_stocks": [
+    "3026",
+    "3711",
+    "6173",
+    "6770"
+  ],
+  "finmind_fail": [],
+  "stock_ids": [
+    "1303",
+    "2303",
+    "2330",
+    "2382",
+    "2409",
+    "3006",
+    "3026",
+    "3711",
+    "6173",
+    "6770"
+  ],
+  "rows": 57406,
+  "closes": {
+    "1303": 244.0,
+    "2303": 142.5,
+    "2330": 2450.0,
+    "2382": 336.0,
+    "2409": 31.2,
+    "3006": 312.0,
+    "3026": 803.0,
+    "3711": 650.0,
+    "6173": 295.0,
+    "6770": 73.5
+  },
+  "raw_csv": "data/2026-09-10/broker_chips_raw.csv"
+}

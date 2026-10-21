@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-21",
+  "asof": "~13:26",
+  "note": "2026-10-20 data missing; opens from today statement 現股買進 only; 10/19 2368/5314 status unknown",
+  "realized": -2172.0,
+  "overnight_cash_exit": 5484.0,
+  "intraday_realized": -7656.0,
+  "open_cost_notional": 2670300,
+  "open_pct_capital": 89.0,
+  "open_names": 5,
+  "opens": [
+    {"sid": "2409", "name": "友達(2409)", "lots": 20.0, "avg": 36.975, "cost": 739500},
+    {"sid": "1303", "name": "南亞(1303)", "lots": 2.0, "avg": 322.5, "cost": 645000},
+    {"sid": "2303", "name": "聯電(2303)", "lots": 4.0, "avg": 130.0, "cost": 520000},
+    {"sid": "2317", "name": "鴻海(2317)", "lots": 2.0, "avg": 249.5, "cost": 499000},
+    {"sid": "1802", "name": "台玻(1802)", "lots": 4.0, "avg": 66.7, "cost": 266800}
+  ],
+  "live_orders": [
+    {"sid": "2330", "side": "融資賣出", "lots": 3, "price": 2445, "notional_if_held": 7335000, "action": "VERIFY_INVENTORY_THEN_CUT_OR_CANCEL"}
+  ],
+  "flags": [
+    "almost_flat_daytrade_day",
+    "rebuilt_267万_over_green",
+    "2409_20_lots_after_daytrade",
+    "2330_margin_sell_3_critical",
+    "1019_2368_status_unknown"
+  ]
+}

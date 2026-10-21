@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-24",
+  "asof": "~13:20",
+  "realized": -29977.0,
+  "overnight_margin_exit": -3648.0,
+  "intraday_realized": -26329.0,
+  "open_cost_notional": 4353000,
+  "open_pct_capital": 145.1,
+  "open_names": 8,
+  "opens": [
+    {"sid": "3189", "name": "景碩(3189)", "lots": 1.0, "avg": 989.0, "cost": 989000},
+    {"sid": "1303", "name": "南亞(1303)", "lots": 4.0, "avg": 235.75, "cost": 943000},
+    {"sid": "3026", "name": "禾伸堂(3026)", "lots": 1.0, "avg": 808.0, "cost": 808000},
+    {"sid": "3105", "name": "穩懋(3105)", "lots": 1.0, "avg": 503.0, "cost": 503000},
+    {"sid": "2409", "name": "友達(2409)", "lots": 10.0, "avg": 34.4, "cost": 344000},
+    {"sid": "2492", "name": "華新科(2492)", "lots": 1.0, "avg": 312.0, "cost": 312000},
+    {"sid": "6173", "name": "信昌電(6173)", "lots": 1.0, "avg": 310.0, "cost": 310000},
+    {"sid": "3624", "name": "光頡(3624)", "lots": 1.0, "avg": 144.0, "cost": 144000}
+  ],
+  "flags": [
+    "2454_overnight_exit_followed_advice_plus42k",
+    "2454_same_name_daytrade_rebuy_minus30k",
+    "2408_6770_overnight_tuition",
+    "rebuilt_book_145pct_8_names",
+    "2409_same_name_rebuy"
+  ]
+}

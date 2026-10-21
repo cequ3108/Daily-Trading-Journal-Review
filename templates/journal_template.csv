@@ -1,0 +1,3 @@
+date,stock_id,side,price,shares,note
+2026-08-05,2330,buy,1180,1000,突破均線進場
+2026-08-12,2330,sell,1210,1000,停利出場

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "asof": "~13:30",
+  "realized": 1190.0,
+  "intraday_cash_offset": -5117.0,
+  "margin_short_offset": 6307.0,
+  "overnight_exit": 0.0,
+  "open_cost_notional": 466500,
+  "open_pct_capital": 15.6,
+  "open_names": 2,
+  "opens": [
+    {"sid": "2881", "name": "富邦金(2881)", "lots": 2.0, "avg": 160.75, "cost": 321500},
+    {"sid": "8042", "name": "金山電(8042)", "lots": 1.0, "avg": 145.0, "cost": 145000}
+  ],
+  "live_orders": [
+    {"sid": "2881", "side": "現股賣出", "lots": 2, "price": 160.5},
+    {"sid": "8042", "side": "現股賣出", "lots": 1, "price": 144.0}
+  ],
+  "flags": [
+    "book_back_in_green_comfortable",
+    "pure_daytrade_day_no_overnight_exit_rows",
+    "2330_2lot_daytrade_main_drag",
+    "6213_margin_short_offset_worked_but_complex",
+    "near_price_exit_orders_good"
+  ]
+}
